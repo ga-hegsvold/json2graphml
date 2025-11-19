@@ -58,6 +58,12 @@ def create_graph(source, name):
                         from_node = re.split(' ', s)[0] # skip dataset aliases
                         g.add_edge(from_node, to_node)
 
+                elif node["source"]["type"] == "union_datasets":
+                    sources = node["source"]["datasets"]
+                    for s in sources:
+                        from_node = s
+                        g.add_edge(from_node, to_node)
+
                 if "sink" in node:
                     if "system" in node["sink"]:
                         from_node = node_id

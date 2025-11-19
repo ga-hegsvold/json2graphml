@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:graphml xmlns:ns0="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <ns0:key id="d1" for="node" attr.name="icon" attr.type="string" />
+  <ns0:key id="d0" for="node" attr.name="label" attr.type="string" />
+  <ns0:graph edgedefault="directed">
+    <ns0:node id="ifs-ref-custom-enumerations">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0"><y:SVGNode><y:NodeLabel>ifs-ref-custom-enumerations</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="ifs-receive-supplier-agreement">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0"><y:SVGNode><y:NodeLabel>ifs-receive-supplier-agreement</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="ifs-receive-supplier">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0"><y:SVGNode><y:NodeLabel>ifs-receive-supplier</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="ifs-receive-supplier-info-address">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0"><y:SVGNode><y:NodeLabel>ifs-receive-supplier-info-address</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="ifs-supplier">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0"><y:SVGNode><y:NodeLabel>ifs-supplier</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="ifs-supplier-addresses">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0"><y:SVGNode><y:NodeLabel>ifs-supplier-addresses</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="ifs-supplier-agreement">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0"><y:SVGNode><y:NodeLabel>ifs-supplier-agreement</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="global-vendor">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0"><y:SVGNode><y:NodeLabel>global-vendor</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="supplier-agreement-mfiles">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0"><y:SVGNode><y:NodeLabel>supplier-agreement-mfiles</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="ace">
+      <ns0:data key="d1">system</ns0:data>
+    <ns0:data key="d0"><y:SVGNode><y:NodeLabel>ace</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:edge source="ifs-receive-supplier-agreement" target="ifs-supplier-agreement" />
+    <ns0:edge source="ifs-receive-supplier" target="ifs-supplier" />
+    <ns0:edge source="ifs-receive-supplier-info-address" target="ifs-supplier-addresses" />
+    <ns0:edge source="ifs-supplier" target="global-vendor" />
+    <ns0:edge source="ifs-supplier-addresses" target="global-vendor" />
+    <ns0:edge source="ifs-supplier-agreement" target="global-vendor" />
+    <ns0:edge source="global-vendor" target="supplier-agreement-mfiles" />
+  </ns0:graph>
+<ns0:key id="d0" for="node" yfiles.type="nodegraphics" /></ns0:graphml>

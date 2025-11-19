@@ -101,9 +101,9 @@ def serialize_graph(g, filename="./graph.graphml"):
 
 
 if __name__ == "__main__":
-#    json_source = read_source("/home/geir.hegsvold/.config/JetBrains/PyCharmCE2024.3/scratches/scratch.json")
-    json_source = read_source("./celsio-prod-clean_no-config-groups.json")
+    json_source = read_source("/home/geir.hegsvold/.config/JetBrains/PyCharmCE2024.3/scratches/scratch.json")
+#    json_source = read_source("./celsio-prod-clean_no-config-groups.json")
 #    print(f"{json_source}")
-    graph = create_graph(json_source, "Celsio")
+    graph = create_graph(json_source, "Sample")
 #    show_graph(graph)
     serialize_graph(graph, filename="./graph.graphml")

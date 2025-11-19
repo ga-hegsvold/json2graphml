@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="node" attr.name="icon" attr.type="string" />
+  <key id="d0" for="node" attr.name="label" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="ifs-ref-custom-enumerations">
+      <data key="d0">ifs-ref-custom-enumerations</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="ifs-receive-supplier-agreement">
+      <data key="d0">ifs-receive-supplier-agreement</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="ifs-receive-supplier">
+      <data key="d0">ifs-receive-supplier</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="ifs-receive-supplier-info-address">
+      <data key="d0">ifs-receive-supplier-info-address</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="ifs-supplier">
+      <data key="d0">ifs-supplier</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="ifs-supplier-addresses">
+      <data key="d0">ifs-supplier-addresses</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="ifs-supplier-agreement">
+      <data key="d0">ifs-supplier-agreement</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="global-vendor">
+      <data key="d0">global-vendor</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="supplier-agreement-mfiles">
+      <data key="d0">supplier-agreement-mfiles</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="ace">
+      <data key="d0">ace</data>
+      <data key="d1">system</data>
+    </node>
+    <edge source="ifs-receive-supplier-agreement" target="ifs-supplier-agreement" />
+    <edge source="ifs-receive-supplier" target="ifs-supplier" />
+    <edge source="ifs-receive-supplier-info-address" target="ifs-supplier-addresses" />
+    <edge source="ifs-supplier" target="global-vendor" />
+    <edge source="ifs-supplier-addresses" target="global-vendor" />
+    <edge source="ifs-supplier-agreement" target="global-vendor" />
+    <edge source="global-vendor" target="supplier-agreement-mfiles" />
+  </graph>
+</graphml>

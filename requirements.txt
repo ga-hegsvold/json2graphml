@@ -1,0 +1,6 @@
+pygraphml==2.4.2
+networkx==3.1
+matplotlib==3.10.7
+numpy==1.26.4
+scipy==1.16.3
+#yfiles_jupyter_graphs

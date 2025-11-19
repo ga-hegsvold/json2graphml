@@ -1,0 +1,57 @@
+[
+  {
+    "_id": "node",
+    "type": "metadata",
+    "backup": {
+      "backup_interval": 21600,
+      "num_backups_to_keep": 2
+    },
+    "compaction": {
+      "time_threshold_hours": 48
+    },
+    "namespaced_identifiers": true,
+    "sesam-provisioner-temporary-deployment-trigger": "2023-02-02T23:01:47.170723+00:00"
+  },
+  {
+    "_id": "Astro-L62T1",
+    "type": "pipe",
+    "source": {
+      "type": "sql",
+      "system": "astro",
+      "primary_key": ["partno", "partrev", "divcode"],
+      "query": "select * from astrotest_ny.dbo.L62T1 where upddate >='2018-01-01'",
+      "table": "L62T1",
+      "updated_column": "upddate",
+      "updated_query": "select * from astrotest_ny.dbo.L62T1 where upddate >= :since"
+    },
+    "transform": {
+      "type": "dtl",
+      "rules": {
+        "default": [
+          ["comment", "Source pipe to get data from the L62T1 table in Astro Artikkel grunndata"],
+          ["comment", "Description: Artikkel grunndata"],
+          ["copy", "*"],
+          ["add", "rdf:type",
+            ["ni", "astro", "L62T1"]
+          ]
+        ]
+      }
+    },
+    "pump": {
+      "cron_expression": "17/30 * * * *"
+    },
+    "metadata": {
+      "tags": ["input"]
+    },
+    "namespaced_identifiers": true
+  },
+  {
+    "_id": "astro",
+    "type": "system:mssql",
+    "database": "$ENV(astro-db-name)",
+    "host": "$ENV(astro-db-host)",
+    "password": "$SECRET(astro-pwd)",
+    "port": 1433,
+    "username": "$ENV(astro-db-username)"
+  }
+]

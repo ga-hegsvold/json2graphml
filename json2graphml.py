@@ -41,73 +41,6 @@ def connect_to_sesam(api_key: str, base_url: str, endpoint: str = "/api"):
         print(f"Error connecting to Sesam API: {e}")
         return None
 
-# DEPRECATED
-# def create_graph_old(source, name):
-#     g = nx.DiGraph()
-#
-#     for node in source:
-#
-#         # add node to graph
-#         if node["type"] != "metadata":
-#             node_id = node["_id"]
-#             if node["type"] != "pipe":
-#                 icon = "system"
-#             else:
-#                 icon = "pipe"
-#
-#             g.add_node(node_id, label=node_id, icon=icon)
-#
-#             # create edges between pipes and systems
-#             if node["type"] == "pipe":
-#                 to_node = node_id
-#
-#                 if "system" in node["source"]:
-#                     from_node = node["source"]["system"]
-#                     g.add_edge(from_node, to_node)
-#
-#                 elif "alternatives" in node["source"]:
-#                     from_node = node["source"]["alternatives"]["prod"]["system"]
-#                     g.add_edge(from_node, to_node)
-#
-# #                elif node["source"]["type"] == "rest":
-# #                    from_node = node["source"]["system"]
-# #                    g.add_edge(from_node, to_node)
-#
-# #                if node["source"]["type"] == "http_endpoint":
-# #                    from_node = node["source"]["type"]
-# #                    g.add_edge(from_node, to_node)
-#
-#                 elif node["source"]["type"] == "dataset":
-#                     from_node = node["source"]["dataset"]
-#                     g.add_edge(from_node, to_node)
-#
-#                 elif node["source"]["type"] == "merge":
-#                     sources = node["source"]["datasets"]
-#                     for s in sources:
-#                         from_node = re.split(' ', s)[0] # skip dataset aliases
-#                         g.add_edge(from_node, to_node)
-#
-#                 elif node["source"]["type"] == "union_datasets":
-#                     sources = node["source"]["datasets"]
-#                     for s in sources:
-#                         from_node = s
-#                         g.add_edge(from_node, to_node)
-#
-#                 if "sink" in node:
-#                     if "system" in node["sink"]:
-#                         from_node = node_id
-#                         to_node = node["sink"]["system"]
-#                         g.add_edge(from_node, to_node)
-#
-#                 if "transform" in node:
-#                     if "rules" in node["transform"]:
-#                         default = node["transform"]["rules"]["default"]
-#                         item_to_find = "hops"
-# #                        print(default)
-# #                        item = find_in_nested_list(default, item_to_find)
-# #                        print(item)
-#
-#     return g
 
 def create_graph(source, name):
     g = nx.DiGraph()
@@ -145,6 +78,16 @@ def create_graph(source, name):
                 to_node = node_id
                 g.add_node(from_node, label=from_node, icon="system", type="source")
                 g.add_edge(from_node, to_node, type="main")
+
+            # FIXME: conditional sources
+            if ("alternatives" in config["source"]
+                    and "prod" in config["source"]["alternatives"]
+                    and "system" in config["source"]["alternatives"]["prod"]):
+                from_node = f"{config["source"]["alternatives"]["prod"]["system"]} (source)"
+                to_node = node_id
+                g.add_node(from_node, label=from_node, icon="system", type="source")
+                g.add_edge(from_node, to_node, type="main")
+
 
             # sink systems
             if (config["sink"]["type"] != "dataset"

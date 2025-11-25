@@ -105,7 +105,7 @@ def create_graph(source, name):
                     for t in transforms:
                         if "type" in t and t["type"] == "rest":
                             from_node = node_id
-                            to_node = t["system"]
+                            to_node = f"{t["system"]} (transform)"
                             g.add_node(to_node, label=to_node, icon="system")
                             g.add_edge(from_node, to_node, type="transform")
 

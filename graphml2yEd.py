@@ -12,7 +12,7 @@ tree = ET.parse(input_file)
 root = tree.getroot()
 
 # add key tag with yfiles.type="nodegraphics" to have yEd recognize node labels
-key = ET.SubElement(root, "{http://graphml.graphdrawing.org/xmlns}key", attrib={"id":"d0", "for":"node", "yfiles.type":"nodegraphics"})
+#key = ET.SubElement(root, "{http://graphml.graphdrawing.org/xmlns}key", attrib={"id":"d0", "for":"node", "yfiles.type":"nodegraphics"})
 
 # Find the key for node labels (usually attr.name="label")
 label_key = None
@@ -30,11 +30,12 @@ for node in root.findall(".//{http://graphml.graphdrawing.org/xmlns}node"):
         if data.attrib.get("key") == label_key:
             label = data.text
             break
+
     if label:
         # Remove old label data (optional)
         node.remove(data)
         # Add y:ShapeNode with y:NodeLabel
-        y_data = ET.SubElement(node, "{http://graphml.graphdrawing.org/xmlns}data", key=label_key)
+        y_data = ET.SubElement(node, "{http://graphml.graphdrawing.org/xmlns}data", key=label_key, id=label)
 #        y_data.set("yfiles.type", "nodegraphics")
         svg_node = ET.SubElement(y_data, "{%s}SVGNode" % yfiles_ns)
         node_label = ET.SubElement(svg_node, "{%s}NodeLabel" % yfiles_ns)

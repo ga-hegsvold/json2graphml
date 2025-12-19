@@ -43,7 +43,7 @@ def connect_to_sesam(api_key: str, base_url: str, endpoint: str = "/api"):
 
 
 def create_graph(source, name):
-    g = nx.DiGraph()
+    g = nx.MultiDiGraph()
 
     for node in source:
 
@@ -54,21 +54,27 @@ def create_graph(source, name):
         node_id = node["_id"]
         icon = config["type"]
 
+        # set "global" icon on globals
+        if "metadata" in config:
+            if "global" in config.get("metadata"):
+                icon = "global"
+
         g.add_node(node_id, label=node_id, icon=icon)
 
         # create edges between pipes and systems
         if config["type"] == "pipe":
             to_node = node_id
 
-            # main data flows
-            for p in graph["upstream_pipes"]:
-                from_node = p
-                g.add_edge(from_node, to_node, type="main")
-
+            #FIXME: main edge overwrites hops edge
             # hops
             for p in graph["upstream_dependent_pipes"]:
                 from_node = p
-                g.add_edge(from_node, to_node, type="hops")
+                g.add_edge(from_node, to_node, key=f"{from_node}_{to_node}_hops", type="hops")
+
+            # main data flows
+            for p in graph["upstream_pipes"]:
+                from_node = p
+                g.add_edge(from_node, to_node, key=f"{from_node}_{to_node}_main", type="main")
 
             # source systems
             if (config["source"]["type"] != "dataset"
@@ -77,7 +83,7 @@ def create_graph(source, name):
                 from_node = f"{config["source"]["system"]} (source)"
                 to_node = node_id
                 g.add_node(from_node, label=from_node, icon="system", type="source")
-                g.add_edge(from_node, to_node, type="main")
+                g.add_edge(from_node, to_node, key=f"{from_node}_{to_node}_main", type="main")
 
             # FIXME: conditional sources
             if ("alternatives" in config["source"]
@@ -86,7 +92,7 @@ def create_graph(source, name):
                 from_node = f"{config["source"]["alternatives"]["prod"]["system"]} (source)"
                 to_node = node_id
                 g.add_node(from_node, label=from_node, icon="system", type="source")
-                g.add_edge(from_node, to_node, type="main")
+                g.add_edge(from_node, to_node, key=f"{from_node}_{to_node}_main", type="main")
 
 
             # sink systems
@@ -96,7 +102,7 @@ def create_graph(source, name):
                 from_node = node_id
                 to_node = f"{config["sink"]["system"]} (target)"
                 g.add_node(to_node, label=to_node, icon="system", type="target")
-                g.add_edge(from_node, to_node, type="main")
+                g.add_edge(from_node, to_node, key=f"{from_node}_{to_node}_main", type="main")
 
             # rest transforms
             if "transform" in config:
@@ -107,7 +113,7 @@ def create_graph(source, name):
                             from_node = node_id
                             to_node = f"{t["system"]} (transform)"
                             g.add_node(to_node, label=to_node, icon="system")
-                            g.add_edge(from_node, to_node, type="transform")
+                            g.add_edge(from_node, to_node, key=f"{from_node}_{to_node}_transform", type="transform")
 
     return g
 

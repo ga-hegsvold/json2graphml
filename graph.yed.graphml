@@ -1,44 +1,2241 @@
 <?xml version='1.0' encoding='utf-8'?>
 <ns0:graphml xmlns:ns0="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <ns0:key id="d3" for="edge" attr.name="type" attr.type="string" />
+  <ns0:key id="d2" for="node" attr.name="type" attr.type="string" />
   <ns0:key id="d1" for="node" attr.name="icon" attr.type="string" />
   <ns0:key id="d0" for="node" attr.name="label" attr.type="string" />
   <ns0:graph edgedefault="directed">
-    <ns0:node id="ifs-ref-custom-enumerations">
+    <ns0:node id="contract-details-kundeportal-endpoint">
       <ns0:data key="d1">pipe</ns0:data>
-    <ns0:data key="d0"><y:SVGNode><y:NodeLabel>ifs-ref-custom-enumerations</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
-    <ns0:node id="ifs-receive-supplier-agreement">
+    <ns0:data key="d0" id="contract-details-kundeportal-endpoint"><y:SVGNode><y:NodeLabel>contract-details-kundeportal-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="contract-details-kundeportal">
       <ns0:data key="d1">pipe</ns0:data>
-    <ns0:data key="d0"><y:SVGNode><y:NodeLabel>ifs-receive-supplier-agreement</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
-    <ns0:node id="ifs-receive-supplier">
-      <ns0:data key="d1">pipe</ns0:data>
-    <ns0:data key="d0"><y:SVGNode><y:NodeLabel>ifs-receive-supplier</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
-    <ns0:node id="ifs-receive-supplier-info-address">
-      <ns0:data key="d1">pipe</ns0:data>
-    <ns0:data key="d0"><y:SVGNode><y:NodeLabel>ifs-receive-supplier-info-address</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
-    <ns0:node id="ifs-supplier">
-      <ns0:data key="d1">pipe</ns0:data>
-    <ns0:data key="d0"><y:SVGNode><y:NodeLabel>ifs-supplier</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
-    <ns0:node id="ifs-supplier-addresses">
-      <ns0:data key="d1">pipe</ns0:data>
-    <ns0:data key="d0"><y:SVGNode><y:NodeLabel>ifs-supplier-addresses</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
-    <ns0:node id="ifs-supplier-agreement">
-      <ns0:data key="d1">pipe</ns0:data>
-    <ns0:data key="d0"><y:SVGNode><y:NodeLabel>ifs-supplier-agreement</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
-    <ns0:node id="global-vendor">
-      <ns0:data key="d1">pipe</ns0:data>
-    <ns0:data key="d0"><y:SVGNode><y:NodeLabel>global-vendor</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
-    <ns0:node id="supplier-agreement-mfiles">
-      <ns0:data key="d1">pipe</ns0:data>
-    <ns0:data key="d0"><y:SVGNode><y:NodeLabel>supplier-agreement-mfiles</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
-    <ns0:node id="ace">
+    <ns0:data key="d0" id="contract-details-kundeportal"><y:SVGNode><y:NodeLabel>contract-details-kundeportal</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="kundeportal (target)">
       <ns0:data key="d1">system</ns0:data>
-    <ns0:data key="d0"><y:SVGNode><y:NodeLabel>ace</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
-    <ns0:edge source="ifs-receive-supplier-agreement" target="ifs-supplier-agreement" />
-    <ns0:edge source="ifs-receive-supplier" target="ifs-supplier" />
-    <ns0:edge source="ifs-receive-supplier-info-address" target="ifs-supplier-addresses" />
-    <ns0:edge source="ifs-supplier" target="global-vendor" />
-    <ns0:edge source="ifs-supplier-addresses" target="global-vendor" />
-    <ns0:edge source="ifs-supplier-agreement" target="global-vendor" />
-    <ns0:edge source="global-vendor" target="supplier-agreement-mfiles" />
+      <ns0:data key="d2">target</ns0:data>
+    <ns0:data key="d0" id="kundeportal (target)"><y:SVGNode><y:NodeLabel>kundeportal (target)</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="kunder-kundeportal-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="kunder-kundeportal-endpoint"><y:SVGNode><y:NodeLabel>kunder-kundeportal-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="kunder-kundeportal">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="kunder-kundeportal"><y:SVGNode><y:NodeLabel>kunder-kundeportal</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="bygg-kundeportal-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="bygg-kundeportal-endpoint"><y:SVGNode><y:NodeLabel>bygg-kundeportal-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="bygg-kundeportal">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="bygg-kundeportal"><y:SVGNode><y:NodeLabel>bygg-kundeportal</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="axapta-yearly-shared-costs">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="axapta-yearly-shared-costs"><y:SVGNode><y:NodeLabel>axapta-yearly-shared-costs</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="axapta-yearly-shared-costs-where-filter">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="axapta-yearly-shared-costs-where-filter"><y:SVGNode><y:NodeLabel>axapta-yearly-shared-costs-where-filter</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="contract-kundeportal-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="contract-kundeportal-endpoint"><y:SVGNode><y:NodeLabel>contract-kundeportal-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="contract-kundeportal">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="contract-kundeportal"><y:SVGNode><y:NodeLabel>contract-kundeportal</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="global-geography">
+      <ns0:data key="d1">global</ns0:data>
+    <ns0:data key="d0" id="global-geography"><y:SVGNode><y:NodeLabel>global-geography</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="axapta-geography">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="axapta-geography"><y:SVGNode><y:NodeLabel>axapta-geography</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="axapta-yearly-rent-where-filter">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="axapta-yearly-rent-where-filter"><y:SVGNode><y:NodeLabel>axapta-yearly-rent-where-filter</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="axapta-contract-line-price">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="axapta-contract-line-price"><y:SVGNode><y:NodeLabel>axapta-contract-line-price</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="axapta-yearly-property-tax-where-filter">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="axapta-yearly-property-tax-where-filter"><y:SVGNode><y:NodeLabel>axapta-yearly-property-tax-where-filter</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="personinterest-kundeportal-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="personinterest-kundeportal-endpoint"><y:SVGNode><y:NodeLabel>personinterest-kundeportal-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="personinterest-kundeportal">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="personinterest-kundeportal"><y:SVGNode><y:NodeLabel>personinterest-kundeportal</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="axapta-yearly-rent">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="axapta-yearly-rent"><y:SVGNode><y:NodeLabel>axapta-yearly-rent</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="axapta-yearly-property-tax">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="axapta-yearly-property-tax"><y:SVGNode><y:NodeLabel>axapta-yearly-property-tax</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="faktura-kundeportal-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="faktura-kundeportal-endpoint"><y:SVGNode><y:NodeLabel>faktura-kundeportal-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="faktura-kundeportal">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="faktura-kundeportal"><y:SVGNode><y:NodeLabel>faktura-kundeportal</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="global-personinterest">
+      <ns0:data key="d1">global</ns0:data>
+    <ns0:data key="d0" id="global-personinterest"><y:SVGNode><y:NodeLabel>global-personinterest</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="superoffice-personinterest">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="superoffice-personinterest"><y:SVGNode><y:NodeLabel>superoffice-personinterest</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="global-property-object">
+      <ns0:data key="d1">global</ns0:data>
+    <ns0:data key="d0" id="global-property-object"><y:SVGNode><y:NodeLabel>global-property-object</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="axapta-object">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="axapta-object"><y:SVGNode><y:NodeLabel>axapta-object</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="superoffice-ticketmessage">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="superoffice-ticketmessage"><y:SVGNode><y:NodeLabel>superoffice-ticketmessage</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="superoffice-ticket">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="superoffice-ticket"><y:SVGNode><y:NodeLabel>superoffice-ticket</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="ticketsupportcategory-kundeportal-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="ticketsupportcategory-kundeportal-endpoint"><y:SVGNode><y:NodeLabel>ticketsupportcategory-kundeportal-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="ticketsupportcategory-kundeportal">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="ticketsupportcategory-kundeportal"><y:SVGNode><y:NodeLabel>ticketsupportcategory-kundeportal</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="global-ticketcategory">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="global-ticketcategory"><y:SVGNode><y:NodeLabel>global-ticketcategory</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="superoffice-ticketcategory">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="superoffice-ticketcategory"><y:SVGNode><y:NodeLabel>superoffice-ticketcategory</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="superoffice-supportcategory">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="superoffice-supportcategory"><y:SVGNode><y:NodeLabel>superoffice-supportcategory</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="kundeportal-ticketcategory">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="kundeportal-ticketcategory"><y:SVGNode><y:NodeLabel>kundeportal-ticketcategory</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="global-ticket">
+      <ns0:data key="d1">global</ns0:data>
+    <ns0:data key="d0" id="global-ticket"><y:SVGNode><y:NodeLabel>global-ticket</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="ticketcategory-kundeportal">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="ticketcategory-kundeportal"><y:SVGNode><y:NodeLabel>ticketcategory-kundeportal</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="ticketmessageattachment-kundeportal">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="ticketmessageattachment-kundeportal"><y:SVGNode><y:NodeLabel>ticketmessageattachment-kundeportal</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="global-ticketmessageattachment">
+      <ns0:data key="d1">global</ns0:data>
+    <ns0:data key="d0" id="global-ticketmessageattachment"><y:SVGNode><y:NodeLabel>global-ticketmessageattachment</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="superoffice-ticketmessageattachment">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="superoffice-ticketmessageattachment"><y:SVGNode><y:NodeLabel>superoffice-ticketmessageattachment</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="d365-CustomerNumber">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="d365-CustomerNumber"><y:SVGNode><y:NodeLabel>d365-CustomerNumber</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="d365-map">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="d365-map"><y:SVGNode><y:NodeLabel>d365-map</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="sale-kundeportal">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="sale-kundeportal"><y:SVGNode><y:NodeLabel>sale-kundeportal</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="global-project">
+      <ns0:data key="d1">global</ns0:data>
+    <ns0:data key="d0" id="global-project"><y:SVGNode><y:NodeLabel>global-project</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="global-customer">
+      <ns0:data key="d1">global</ns0:data>
+    <ns0:data key="d0" id="global-customer"><y:SVGNode><y:NodeLabel>global-customer</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="global-sale">
+      <ns0:data key="d1">global</ns0:data>
+    <ns0:data key="d0" id="global-sale"><y:SVGNode><y:NodeLabel>global-sale</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="ticketstatus-kundeportal-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="ticketstatus-kundeportal-endpoint"><y:SVGNode><y:NodeLabel>ticketstatus-kundeportal-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="ticketstatus-kundeportal">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="ticketstatus-kundeportal"><y:SVGNode><y:NodeLabel>ticketstatus-kundeportal</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="global-ticketstatus">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="global-ticketstatus"><y:SVGNode><y:NodeLabel>global-ticketstatus</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="superoffice-sale">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="superoffice-sale"><y:SVGNode><y:NodeLabel>superoffice-sale</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="superoffice-salesimple">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="superoffice-salesimple"><y:SVGNode><y:NodeLabel>superoffice-salesimple</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="superoffice-project">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="superoffice-project"><y:SVGNode><y:NodeLabel>superoffice-project</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="superoffice-projectsimple">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="superoffice-projectsimple"><y:SVGNode><y:NodeLabel>superoffice-projectsimple</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="d365-ContractNumber">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="d365-ContractNumber"><y:SVGNode><y:NodeLabel>d365-ContractNumber</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="user-leko-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="user-leko-endpoint"><y:SVGNode><y:NodeLabel>user-leko-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="user-leko">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="user-leko"><y:SVGNode><y:NodeLabel>user-leko</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="axapta-contract-details">
+      <ns0:data key="d1">global</ns0:data>
+    <ns0:data key="d0" id="axapta-contract-details"><y:SVGNode><y:NodeLabel>axapta-contract-details</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="axapta-contract-line">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="axapta-contract-line"><y:SVGNode><y:NodeLabel>axapta-contract-line</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="d365-contract-line-number">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="d365-contract-line-number"><y:SVGNode><y:NodeLabel>d365-contract-line-number</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="axapta-contract-with-d365Id">
+      <ns0:data key="d1">global</ns0:data>
+    <ns0:data key="d0" id="axapta-contract-with-d365Id"><y:SVGNode><y:NodeLabel>axapta-contract-with-d365Id</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="axapta-contract">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="axapta-contract"><y:SVGNode><y:NodeLabel>axapta-contract</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="customer-leko-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="customer-leko-endpoint"><y:SVGNode><y:NodeLabel>customer-leko-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="customer-leko">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="customer-leko"><y:SVGNode><y:NodeLabel>customer-leko</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="global-contract">
+      <ns0:data key="d1">global</ns0:data>
+    <ns0:data key="d0" id="global-contract"><y:SVGNode><y:NodeLabel>global-contract</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="d365-kontrakt">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="d365-kontrakt"><y:SVGNode><y:NodeLabel>d365-kontrakt</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="global-contract-details">
+      <ns0:data key="d1">global</ns0:data>
+    <ns0:data key="d0" id="global-contract-details"><y:SVGNode><y:NodeLabel>global-contract-details</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="d365-contract-line">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="d365-contract-line"><y:SVGNode><y:NodeLabel>d365-contract-line</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="axapta-contract-details-with-d365Id">
+      <ns0:data key="d1">global</ns0:data>
+    <ns0:data key="d0" id="axapta-contract-details-with-d365Id"><y:SVGNode><y:NodeLabel>axapta-contract-details-with-d365Id</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="d365-buildingnumber">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="d365-buildingnumber"><y:SVGNode><y:NodeLabel>d365-buildingnumber</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="d365-selskap">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="d365-selskap"><y:SVGNode><y:NodeLabel>d365-selskap</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="ticketmessageattachment-kundeportal-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="ticketmessageattachment-kundeportal-endpoint"><y:SVGNode><y:NodeLabel>ticketmessageattachment-kundeportal-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="bygg-leko-rest-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="bygg-leko-rest-endpoint"><y:SVGNode><y:NodeLabel>bygg-leko-rest-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="bygg-leko-rest">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="bygg-leko-rest"><y:SVGNode><y:NodeLabel>bygg-leko-rest</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="leko (target)">
+      <ns0:data key="d1">system</ns0:data>
+      <ns0:data key="d2">target</ns0:data>
+    <ns0:data key="d0" id="leko (target)"><y:SVGNode><y:NodeLabel>leko (target)</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="bygg-forvalter-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="bygg-forvalter-endpoint"><y:SVGNode><y:NodeLabel>bygg-forvalter-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="bygg-forvalter">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="bygg-forvalter"><y:SVGNode><y:NodeLabel>bygg-forvalter</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="forvalter (target)">
+      <ns0:data key="d1">system</ns0:data>
+      <ns0:data key="d2">target</ns0:data>
+    <ns0:data key="d0" id="forvalter (target)"><y:SVGNode><y:NodeLabel>forvalter (target)</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="global-firma">
+      <ns0:data key="d1">global</ns0:data>
+    <ns0:data key="d0" id="global-firma"><y:SVGNode><y:NodeLabel>global-firma</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="d365-firma">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="d365-firma"><y:SVGNode><y:NodeLabel>d365-firma</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="ticketmessage-kundeportal-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="ticketmessage-kundeportal-endpoint"><y:SVGNode><y:NodeLabel>ticketmessage-kundeportal-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="ticketmessage-kundeportal">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="ticketmessage-kundeportal"><y:SVGNode><y:NodeLabel>ticketmessage-kundeportal</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="kundeportalCharsetUtf8mb4 (target)">
+      <ns0:data key="d1">system</ns0:data>
+      <ns0:data key="d2">target</ns0:data>
+    <ns0:data key="d0" id="kundeportalCharsetUtf8mb4 (target)"><y:SVGNode><y:NodeLabel>kundeportalCharsetUtf8mb4 (target)</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="customer-forvalter-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="customer-forvalter-endpoint"><y:SVGNode><y:NodeLabel>customer-forvalter-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="customer-forvalter">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="customer-forvalter"><y:SVGNode><y:NodeLabel>customer-forvalter</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="customer-leko-rest">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="customer-leko-rest"><y:SVGNode><y:NodeLabel>customer-leko-rest</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="user-leko-rest-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="user-leko-rest-endpoint"><y:SVGNode><y:NodeLabel>user-leko-rest-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="user-leko-rest">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="user-leko-rest"><y:SVGNode><y:NodeLabel>user-leko-rest</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="firma-forvalter-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="firma-forvalter-endpoint"><y:SVGNode><y:NodeLabel>firma-forvalter-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="firma-forvalter">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="firma-forvalter"><y:SVGNode><y:NodeLabel>firma-forvalter</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="sale-kundeportal-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="sale-kundeportal-endpoint"><y:SVGNode><y:NodeLabel>sale-kundeportal-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="bygg-leko">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="bygg-leko"><y:SVGNode><y:NodeLabel>bygg-leko</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="customer-leko-rest-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="customer-leko-rest-endpoint"><y:SVGNode><y:NodeLabel>customer-leko-rest-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="global-byggtegning">
+      <ns0:data key="d1">global</ns0:data>
+    <ns0:data key="d0" id="global-byggtegning"><y:SVGNode><y:NodeLabel>global-byggtegning</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="kundeportal-byggtegning">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="kundeportal-byggtegning"><y:SVGNode><y:NodeLabel>kundeportal-byggtegning</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="global-rentalobject">
+      <ns0:data key="d1">global</ns0:data>
+    <ns0:data key="d0" id="global-rentalobject"><y:SVGNode><y:NodeLabel>global-rentalobject</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="d365-leieobjekt">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="d365-leieobjekt"><y:SVGNode><y:NodeLabel>d365-leieobjekt</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="leieobjekt-forvalter-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="leieobjekt-forvalter-endpoint"><y:SVGNode><y:NodeLabel>leieobjekt-forvalter-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="leieobjekt-forvalter">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="leieobjekt-forvalter"><y:SVGNode><y:NodeLabel>leieobjekt-forvalter</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="d365-ledige-arealer-grouped">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="d365-ledige-arealer-grouped"><y:SVGNode><y:NodeLabel>d365-ledige-arealer-grouped</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="d365-ledige-arealer">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="d365-ledige-arealer"><y:SVGNode><y:NodeLabel>d365-ledige-arealer</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="d365-bygg-avdeling">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="d365-bygg-avdeling"><y:SVGNode><y:NodeLabel>d365-bygg-avdeling</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="d365-utleide-areal-grouped">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="d365-utleide-areal-grouped"><y:SVGNode><y:NodeLabel>d365-utleide-areal-grouped</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="d365-utleide-areal">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="d365-utleide-areal"><y:SVGNode><y:NodeLabel>d365-utleide-areal</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="d365-total-arealer-grouped">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="d365-total-arealer-grouped"><y:SVGNode><y:NodeLabel>d365-total-arealer-grouped</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="d365-areas">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="d365-areas"><y:SVGNode><y:NodeLabel>d365-areas</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="ledige-arealer-forvalter-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="ledige-arealer-forvalter-endpoint"><y:SVGNode><y:NodeLabel>ledige-arealer-forvalter-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="ledige-arealer-forvalter">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="ledige-arealer-forvalter"><y:SVGNode><y:NodeLabel>ledige-arealer-forvalter</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="user-forvalter-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="user-forvalter-endpoint"><y:SVGNode><y:NodeLabel>user-forvalter-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="user-forvalter">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="user-forvalter"><y:SVGNode><y:NodeLabel>user-forvalter</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="superoffice-ticketstatus">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="superoffice-ticketstatus"><y:SVGNode><y:NodeLabel>superoffice-ticketstatus</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="contract-details-forvalter-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="contract-details-forvalter-endpoint"><y:SVGNode><y:NodeLabel>contract-details-forvalter-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="contract-details-forvalter">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="contract-details-forvalter"><y:SVGNode><y:NodeLabel>contract-details-forvalter</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="faktura-forvalter-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="faktura-forvalter-endpoint"><y:SVGNode><y:NodeLabel>faktura-forvalter-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="faktura-forvalter">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="faktura-forvalter"><y:SVGNode><y:NodeLabel>faktura-forvalter</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="d365-faktura-detaljer-with-commonid">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="d365-faktura-detaljer-with-commonid"><y:SVGNode><y:NodeLabel>d365-faktura-detaljer-with-commonid</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="d365-faktura-detaljer">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="d365-faktura-detaljer"><y:SVGNode><y:NodeLabel>d365-faktura-detaljer</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="energyconsumption-kundeportal">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="energyconsumption-kundeportal"><y:SVGNode><y:NodeLabel>energyconsumption-kundeportal</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="energinet-energyconsumption">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="energinet-energyconsumption"><y:SVGNode><y:NodeLabel>energinet-energyconsumption</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="global-user">
+      <ns0:data key="d1">global</ns0:data>
+    <ns0:data key="d0" id="global-user"><y:SVGNode><y:NodeLabel>global-user</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="usercustomer-kundeportal-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="usercustomer-kundeportal-endpoint"><y:SVGNode><y:NodeLabel>usercustomer-kundeportal-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="usercustomer-kundeportal">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="usercustomer-kundeportal"><y:SVGNode><y:NodeLabel>usercustomer-kundeportal</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="ticketcategory-kundeportal-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="ticketcategory-kundeportal-endpoint"><y:SVGNode><y:NodeLabel>ticketcategory-kundeportal-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="personkonvolutt-forvalter-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="personkonvolutt-forvalter-endpoint"><y:SVGNode><y:NodeLabel>personkonvolutt-forvalter-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="personkonvolutt-forvalter">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="personkonvolutt-forvalter"><y:SVGNode><y:NodeLabel>personkonvolutt-forvalter</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="dokument-forvalter-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="dokument-forvalter-endpoint"><y:SVGNode><y:NodeLabel>dokument-forvalter-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="dokument-forvalter">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="dokument-forvalter"><y:SVGNode><y:NodeLabel>dokument-forvalter</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="konvolutt-forvalter-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="konvolutt-forvalter-endpoint"><y:SVGNode><y:NodeLabel>konvolutt-forvalter-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="konvolutt-forvalter">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="konvolutt-forvalter"><y:SVGNode><y:NodeLabel>konvolutt-forvalter</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="ticket-kundeportal-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="ticket-kundeportal-endpoint"><y:SVGNode><y:NodeLabel>ticket-kundeportal-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="ticket-kundeportal">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="ticket-kundeportal"><y:SVGNode><y:NodeLabel>ticket-kundeportal</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="global-ticketmessage">
+      <ns0:data key="d1">global</ns0:data>
+    <ns0:data key="d0" id="global-ticketmessage"><y:SVGNode><y:NodeLabel>global-ticketmessage</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="user-person-forvalter">
+      <ns0:data key="d1">global</ns0:data>
+    <ns0:data key="d0" id="user-person-forvalter"><y:SVGNode><y:NodeLabel>user-person-forvalter</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="kunde-leie-superoffice-rest-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="kunde-leie-superoffice-rest-endpoint"><y:SVGNode><y:NodeLabel>kunde-leie-superoffice-rest-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="kunde-leie-superoffice-rest">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="kunde-leie-superoffice-rest"><y:SVGNode><y:NodeLabel>kunde-leie-superoffice-rest</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="superoffice-rest-api (target)">
+      <ns0:data key="d1">system</ns0:data>
+      <ns0:data key="d2">target</ns0:data>
+    <ns0:data key="d0" id="superoffice-rest-api (target)"><y:SVGNode><y:NodeLabel>superoffice-rest-api (target)</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="user-person-forvalter-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="user-person-forvalter-endpoint"><y:SVGNode><y:NodeLabel>user-person-forvalter-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="user-kundeportal-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="user-kundeportal-endpoint"><y:SVGNode><y:NodeLabel>user-kundeportal-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="user-kundeportal">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="user-kundeportal"><y:SVGNode><y:NodeLabel>user-kundeportal</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="verified-envelope">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="verified-envelope"><y:SVGNode><y:NodeLabel>verified-envelope</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="d365-contract-line-area-countable">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="d365-contract-line-area-countable"><y:SVGNode><y:NodeLabel>d365-contract-line-area-countable</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="kunde-leie-superoffice-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="kunde-leie-superoffice-endpoint"><y:SVGNode><y:NodeLabel>kunde-leie-superoffice-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="d365-kunde-kontrakt-leie-grouped">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="d365-kunde-kontrakt-leie-grouped"><y:SVGNode><y:NodeLabel>d365-kunde-kontrakt-leie-grouped</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="verified-personkonvolutt">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="verified-personkonvolutt"><y:SVGNode><y:NodeLabel>verified-personkonvolutt</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="d365-kunde">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="d365-kunde"><y:SVGNode><y:NodeLabel>d365-kunde</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="superoffice-contactsimple">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="superoffice-contactsimple"><y:SVGNode><y:NodeLabel>superoffice-contactsimple</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="global-invoice">
+      <ns0:data key="d1">global</ns0:data>
+    <ns0:data key="d0" id="global-invoice"><y:SVGNode><y:NodeLabel>global-invoice</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="waterconsumption-kundeportal">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="waterconsumption-kundeportal"><y:SVGNode><y:NodeLabel>waterconsumption-kundeportal</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="energinet-waterconsumption">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="energinet-waterconsumption"><y:SVGNode><y:NodeLabel>energinet-waterconsumption</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="energinet-api (source)">
+      <ns0:data key="d1">system</ns0:data>
+      <ns0:data key="d2">source</ns0:data>
+    <ns0:data key="d0" id="energinet-api (source)"><y:SVGNode><y:NodeLabel>energinet-api (source)</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="dokumentkontraktslinjeavsjekk-kundeportal">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="dokumentkontraktslinjeavsjekk-kundeportal"><y:SVGNode><y:NodeLabel>dokumentkontraktslinjeavsjekk-kundeportal</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="global-dokumentkontraktslinjeavsjekk">
+      <ns0:data key="d1">global</ns0:data>
+    <ns0:data key="d0" id="global-dokumentkontraktslinjeavsjekk"><y:SVGNode><y:NodeLabel>global-dokumentkontraktslinjeavsjekk</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="dokumentkontraktslinjeavsjekk-kundeportal-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="dokumentkontraktslinjeavsjekk-kundeportal-endpoint"><y:SVGNode><y:NodeLabel>dokumentkontraktslinjeavsjekk-kundeportal-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="bygg-bqeos-rest-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="bygg-bqeos-rest-endpoint"><y:SVGNode><y:NodeLabel>bygg-bqeos-rest-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="bygg-bqeos-rest">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="bygg-bqeos-rest"><y:SVGNode><y:NodeLabel>bygg-bqeos-rest</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="bigquery-api (target)">
+      <ns0:data key="d1">system</ns0:data>
+      <ns0:data key="d2">target</ns0:data>
+    <ns0:data key="d0" id="bigquery-api (target)"><y:SVGNode><y:NodeLabel>bigquery-api (target)</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="bygg-bqeos">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="bygg-bqeos"><y:SVGNode><y:NodeLabel>bygg-bqeos</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="forvalter-dokumentkontraktslinjeavsjekk">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="forvalter-dokumentkontraktslinjeavsjekk"><y:SVGNode><y:NodeLabel>forvalter-dokumentkontraktslinjeavsjekk</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="forvalter (source)">
+      <ns0:data key="d1">system</ns0:data>
+      <ns0:data key="d2">source</ns0:data>
+    <ns0:data key="d0" id="forvalter (source)"><y:SVGNode><y:NodeLabel>forvalter (source)</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="global-property">
+      <ns0:data key="d1">global</ns0:data>
+    <ns0:data key="d0" id="global-property"><y:SVGNode><y:NodeLabel>global-property</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="superoffice-contact">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="superoffice-contact"><y:SVGNode><y:NodeLabel>superoffice-contact</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="kundeportal-customer">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="kundeportal-customer"><y:SVGNode><y:NodeLabel>kundeportal-customer</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="bygg-leko-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="bygg-leko-endpoint"><y:SVGNode><y:NodeLabel>bygg-leko-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="prosjekt-juridiskselskap-superoffice-rest-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="prosjekt-juridiskselskap-superoffice-rest-endpoint"><y:SVGNode><y:NodeLabel>prosjekt-juridiskselskap-superoffice-rest-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="prosjekt-juridiskselskap-superoffice-rest">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="prosjekt-juridiskselskap-superoffice-rest"><y:SVGNode><y:NodeLabel>prosjekt-juridiskselskap-superoffice-rest</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="prosjekt-juridiskselskap-superoffice">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="prosjekt-juridiskselskap-superoffice"><y:SVGNode><y:NodeLabel>prosjekt-juridiskselskap-superoffice</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="vault-secrets">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="vault-secrets"><y:SVGNode><y:NodeLabel>vault-secrets</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="eiendom-api (source)">
+      <ns0:data key="d1">system</ns0:data>
+      <ns0:data key="d2">source</ns0:data>
+    <ns0:data key="d0" id="eiendom-api (source)"><y:SVGNode><y:NodeLabel>eiendom-api (source)</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="kontrakt-leko-kdi">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="kontrakt-leko-kdi"><y:SVGNode><y:NodeLabel>kontrakt-leko-kdi</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="leko-kontrakt">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="leko-kontrakt"><y:SVGNode><y:NodeLabel>leko-kontrakt</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="kontrakt-leko-kdi-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="kontrakt-leko-kdi-endpoint"><y:SVGNode><y:NodeLabel>kontrakt-leko-kdi-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="leko-kdipubsub (target)">
+      <ns0:data key="d1">system</ns0:data>
+      <ns0:data key="d2">target</ns0:data>
+    <ns0:data key="d0" id="leko-kdipubsub (target)"><y:SVGNode><y:NodeLabel>leko-kdipubsub (target)</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="directlink-forvalter-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="directlink-forvalter-endpoint"><y:SVGNode><y:NodeLabel>directlink-forvalter-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="directlink-forvalter">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="directlink-forvalter"><y:SVGNode><y:NodeLabel>directlink-forvalter</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="lekoworker-directlink">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="lekoworker-directlink"><y:SVGNode><y:NodeLabel>lekoworker-directlink</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="fdvweb-helper-energy">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="fdvweb-helper-energy"><y:SVGNode><y:NodeLabel>fdvweb-helper-energy</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="fdvweb-building">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="fdvweb-building"><y:SVGNode><y:NodeLabel>fdvweb-building</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="fdvweb (source)">
+      <ns0:data key="d1">system</ns0:data>
+      <ns0:data key="d2">source</ns0:data>
+    <ns0:data key="d0" id="fdvweb (source)"><y:SVGNode><y:NodeLabel>fdvweb (source)</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="fdvweb-building-image">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="fdvweb-building-image"><y:SVGNode><y:NodeLabel>fdvweb-building-image</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="fdvweb-energy-categorization">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="fdvweb-energy-categorization"><y:SVGNode><y:NodeLabel>fdvweb-energy-categorization</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="kundeportal-building">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="kundeportal-building"><y:SVGNode><y:NodeLabel>kundeportal-building</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="kundeportal (source)">
+      <ns0:data key="d1">system</ns0:data>
+      <ns0:data key="d2">source</ns0:data>
+    <ns0:data key="d0" id="kundeportal (source)"><y:SVGNode><y:NodeLabel>kundeportal (source)</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="superoffice (source)">
+      <ns0:data key="d1">system</ns0:data>
+      <ns0:data key="d2">source</ns0:data>
+    <ns0:data key="d0" id="superoffice (source)"><y:SVGNode><y:NodeLabel>superoffice (source)</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="superoffice-api (source)">
+      <ns0:data key="d1">system</ns0:data>
+      <ns0:data key="d2">source</ns0:data>
+    <ns0:data key="d0" id="superoffice-api (source)"><y:SVGNode><y:NodeLabel>superoffice-api (source)</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="d365-grunneiendom">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="d365-grunneiendom"><y:SVGNode><y:NodeLabel>d365-grunneiendom</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="d365-api (source)">
+      <ns0:data key="d1">system</ns0:data>
+      <ns0:data key="d2">source</ns0:data>
+    <ns0:data key="d0" id="d365-api (source)"><y:SVGNode><y:NodeLabel>d365-api (source)</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="axapta (source)">
+      <ns0:data key="d1">system</ns0:data>
+      <ns0:data key="d2">source</ns0:data>
+    <ns0:data key="d0" id="axapta (source)"><y:SVGNode><y:NodeLabel>axapta (source)</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="energinet-wasteconsumption">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="energinet-wasteconsumption"><y:SVGNode><y:NodeLabel>energinet-wasteconsumption</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="axapta-building">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="axapta-building"><y:SVGNode><y:NodeLabel>axapta-building</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="axapta-customer">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="axapta-customer"><y:SVGNode><y:NodeLabel>axapta-customer</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="superoffice-csuser">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="superoffice-csuser"><y:SVGNode><y:NodeLabel>superoffice-csuser</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="d365-leverandoromsetning">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="d365-leverandoromsetning"><y:SVGNode><y:NodeLabel>d365-leverandoromsetning</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="leverandor-omsetning-superoffice-rest-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="leverandor-omsetning-superoffice-rest-endpoint"><y:SVGNode><y:NodeLabel>leverandor-omsetning-superoffice-rest-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="leverandor-omsetning-superoffice-rest">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="leverandor-omsetning-superoffice-rest"><y:SVGNode><y:NodeLabel>leverandor-omsetning-superoffice-rest</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="global-leverandor">
+      <ns0:data key="d1">global</ns0:data>
+    <ns0:data key="d0" id="global-leverandor"><y:SVGNode><y:NodeLabel>global-leverandor</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="d365-leverandor">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="d365-leverandor"><y:SVGNode><y:NodeLabel>d365-leverandor</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="superoffice-contactsimple-leverandor">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="superoffice-contactsimple-leverandor"><y:SVGNode><y:NodeLabel>superoffice-contactsimple-leverandor</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="leko-dokument">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="leko-dokument"><y:SVGNode><y:NodeLabel>leko-dokument</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="energiattest-bqeos-rest">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="energiattest-bqeos-rest"><y:SVGNode><y:NodeLabel>energiattest-bqeos-rest</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="energiattest-bqeos">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="energiattest-bqeos"><y:SVGNode><y:NodeLabel>energiattest-bqeos</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="energiattest-bqeos-rest-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="energiattest-bqeos-rest-endpoint"><y:SVGNode><y:NodeLabel>energiattest-bqeos-rest-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="d365-building">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="d365-building"><y:SVGNode><y:NodeLabel>d365-building</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="fdvweb-helper-energy-categorization">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="fdvweb-helper-energy-categorization"><y:SVGNode><y:NodeLabel>fdvweb-helper-energy-categorization</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="d365-bygg-firma">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="d365-bygg-firma"><y:SVGNode><y:NodeLabel>d365-bygg-firma</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="kunde-orgnummer-kundeportal">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="kunde-orgnummer-kundeportal"><y:SVGNode><y:NodeLabel>kunde-orgnummer-kundeportal</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="kunde-orgnummer-kundeportal-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="kunde-orgnummer-kundeportal-endpoint"><y:SVGNode><y:NodeLabel>kunde-orgnummer-kundeportal-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="superoffice-migrateduser">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="superoffice-migrateduser"><y:SVGNode><y:NodeLabel>superoffice-migrateduser</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="global-internaluser">
+      <ns0:data key="d1">global</ns0:data>
+    <ns0:data key="d0" id="global-internaluser"><y:SVGNode><y:NodeLabel>global-internaluser</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="d365-ansatt">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="d365-ansatt"><y:SVGNode><y:NodeLabel>d365-ansatt</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="superoffice-user">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="superoffice-user"><y:SVGNode><y:NodeLabel>superoffice-user</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="usercustomer-bq-rest-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="usercustomer-bq-rest-endpoint"><y:SVGNode><y:NodeLabel>usercustomer-bq-rest-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="usercustomer-bq-rest">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="usercustomer-bq-rest"><y:SVGNode><y:NodeLabel>usercustomer-bq-rest</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="usercustomer-bq">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="usercustomer-bq"><y:SVGNode><y:NodeLabel>usercustomer-bq</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="customer-bq-rest-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="customer-bq-rest-endpoint"><y:SVGNode><y:NodeLabel>customer-bq-rest-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="customer-bq-rest">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="customer-bq-rest"><y:SVGNode><y:NodeLabel>customer-bq-rest</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="customer-bq">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="customer-bq"><y:SVGNode><y:NodeLabel>customer-bq</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="leverandorvurdering-superoffice-rest-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="leverandorvurdering-superoffice-rest-endpoint"><y:SVGNode><y:NodeLabel>leverandorvurdering-superoffice-rest-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="leverandorvurdering-superoffice-rest">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="leverandorvurdering-superoffice-rest"><y:SVGNode><y:NodeLabel>leverandorvurdering-superoffice-rest</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="portalusage-sistaktiv-kundeportal-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="portalusage-sistaktiv-kundeportal-endpoint"><y:SVGNode><y:NodeLabel>portalusage-sistaktiv-kundeportal-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="portalusage-sistaktiv-kundeportal">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="portalusage-sistaktiv-kundeportal"><y:SVGNode><y:NodeLabel>portalusage-sistaktiv-kundeportal</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="influx-portalusage-sistaktiv">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="influx-portalusage-sistaktiv"><y:SVGNode><y:NodeLabel>influx-portalusage-sistaktiv</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="prosjekt-forvalter-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="prosjekt-forvalter-endpoint"><y:SVGNode><y:NodeLabel>prosjekt-forvalter-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="prosjekt-forvalter">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="prosjekt-forvalter"><y:SVGNode><y:NodeLabel>prosjekt-forvalter</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="sale-forvalter-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="sale-forvalter-endpoint"><y:SVGNode><y:NodeLabel>sale-forvalter-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="sale-forvalter">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="sale-forvalter"><y:SVGNode><y:NodeLabel>sale-forvalter</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="global-document">
+      <ns0:data key="d1">global</ns0:data>
+    <ns0:data key="d0" id="global-document"><y:SVGNode><y:NodeLabel>global-document</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="superoffice-document">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="superoffice-document"><y:SVGNode><y:NodeLabel>superoffice-document</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="verified-document">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="verified-document"><y:SVGNode><y:NodeLabel>verified-document</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="dokument-bq-rest">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="dokument-bq-rest"><y:SVGNode><y:NodeLabel>dokument-bq-rest</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="dokument-bq">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="dokument-bq"><y:SVGNode><y:NodeLabel>dokument-bq</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="d365-leverandor-omsetning-grouped">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="d365-leverandor-omsetning-grouped"><y:SVGNode><y:NodeLabel>d365-leverandor-omsetning-grouped</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="dokument-bq-rest-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="dokument-bq-rest-endpoint"><y:SVGNode><y:NodeLabel>dokument-bq-rest-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="global-prosjekt">
+      <ns0:data key="d1">global</ns0:data>
+    <ns0:data key="d0" id="global-prosjekt"><y:SVGNode><y:NodeLabel>global-prosjekt</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="d365-prosjekt">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="d365-prosjekt"><y:SVGNode><y:NodeLabel>d365-prosjekt</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="prosjekt-powerapp-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="prosjekt-powerapp-endpoint"><y:SVGNode><y:NodeLabel>prosjekt-powerapp-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="prosjekt-powerapp">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="prosjekt-powerapp"><y:SVGNode><y:NodeLabel>prosjekt-powerapp</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="powerapp (target)">
+      <ns0:data key="d1">system</ns0:data>
+      <ns0:data key="d2">target</ns0:data>
+    <ns0:data key="d0" id="powerapp (target)"><y:SVGNode><y:NodeLabel>powerapp (target)</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="leverandorvurdering-bq">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="leverandorvurdering-bq"><y:SVGNode><y:NodeLabel>leverandorvurdering-bq</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="global-leverandorvurdering">
+      <ns0:data key="d1">global</ns0:data>
+    <ns0:data key="d0" id="global-leverandorvurdering"><y:SVGNode><y:NodeLabel>global-leverandorvurdering</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="bisnode-sanksjoner">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="bisnode-sanksjoner"><y:SVGNode><y:NodeLabel>bisnode-sanksjoner</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="bisnode-leverandor">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="bisnode-leverandor"><y:SVGNode><y:NodeLabel>bisnode-leverandor</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="prosjektrapportering-powerapp-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="prosjektrapportering-powerapp-endpoint"><y:SVGNode><y:NodeLabel>prosjektrapportering-powerapp-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="prosjektrapportering-powerapp">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="prosjektrapportering-powerapp"><y:SVGNode><y:NodeLabel>prosjektrapportering-powerapp</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="global-serviceavtale">
+      <ns0:data key="d1">global</ns0:data>
+    <ns0:data key="d0" id="global-serviceavtale"><y:SVGNode><y:NodeLabel>global-serviceavtale</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="fdvweb-serviceavtale">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="fdvweb-serviceavtale"><y:SVGNode><y:NodeLabel>fdvweb-serviceavtale</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="fdvweb-api (source)">
+      <ns0:data key="d1">system</ns0:data>
+      <ns0:data key="d2">source</ns0:data>
+    <ns0:data key="d0" id="fdvweb-api (source)"><y:SVGNode><y:NodeLabel>fdvweb-api (source)</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="serviceavtale-bq">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="serviceavtale-bq"><y:SVGNode><y:NodeLabel>serviceavtale-bq</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="serviceavtale-bq-rest">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="serviceavtale-bq-rest"><y:SVGNode><y:NodeLabel>serviceavtale-bq-rest</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="serviceavtale-bigquery-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="serviceavtale-bigquery-endpoint"><y:SVGNode><y:NodeLabel>serviceavtale-bigquery-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="bigquery-kdi-ms (target)">
+      <ns0:data key="d1">system</ns0:data>
+      <ns0:data key="d2">target</ns0:data>
+    <ns0:data key="d0" id="bigquery-kdi-ms (target)"><y:SVGNode><y:NodeLabel>bigquery-kdi-ms (target)</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="serviceavtale-bq-rest-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="serviceavtale-bq-rest-endpoint"><y:SVGNode><y:NodeLabel>serviceavtale-bq-rest-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="leverandorvurdering-bigquery-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="leverandorvurdering-bigquery-endpoint"><y:SVGNode><y:NodeLabel>leverandorvurdering-bigquery-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="byggtegning-leko-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="byggtegning-leko-endpoint"><y:SVGNode><y:NodeLabel>byggtegning-leko-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="byggtegning-leko">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="byggtegning-leko"><y:SVGNode><y:NodeLabel>byggtegning-leko</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="global-kostkategori">
+      <ns0:data key="d1">global</ns0:data>
+    <ns0:data key="d0" id="global-kostkategori"><y:SVGNode><y:NodeLabel>global-kostkategori</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="d365-kostkategori">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="d365-kostkategori"><y:SVGNode><y:NodeLabel>d365-kostkategori</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="kostkategori-forvalter">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="kostkategori-forvalter"><y:SVGNode><y:NodeLabel>kostkategori-forvalter</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="kostkategori-forvalter-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="kostkategori-forvalter-endpoint"><y:SVGNode><y:NodeLabel>kostkategori-forvalter-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="wasteconsumption-kundeportal-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="wasteconsumption-kundeportal-endpoint"><y:SVGNode><y:NodeLabel>wasteconsumption-kundeportal-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="wasteconsumption-kundeportal">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="wasteconsumption-kundeportal"><y:SVGNode><y:NodeLabel>wasteconsumption-kundeportal</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="waterconsumption-kundeportal-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="waterconsumption-kundeportal-endpoint"><y:SVGNode><y:NodeLabel>waterconsumption-kundeportal-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="energyconsumption-kundeportal-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="energyconsumption-kundeportal-endpoint"><y:SVGNode><y:NodeLabel>energyconsumption-kundeportal-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="superoffice-ticketmessageattachment-update">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="superoffice-ticketmessageattachment-update"><y:SVGNode><y:NodeLabel>superoffice-ticketmessageattachment-update</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="superoffice-ticketmessage-update">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="superoffice-ticketmessage-update"><y:SVGNode><y:NodeLabel>superoffice-ticketmessage-update</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="energinet-adjustedenergyconsumption">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="energinet-adjustedenergyconsumption"><y:SVGNode><y:NodeLabel>energinet-adjustedenergyconsumption</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="maaltall-kundeportal-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="maaltall-kundeportal-endpoint"><y:SVGNode><y:NodeLabel>maaltall-kundeportal-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="maaltall-kundeportal">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="maaltall-kundeportal"><y:SVGNode><y:NodeLabel>maaltall-kundeportal</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="adjustedenergyconsumption-kundeportal-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="adjustedenergyconsumption-kundeportal-endpoint"><y:SVGNode><y:NodeLabel>adjustedenergyconsumption-kundeportal-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="adjustedenergyconsumption-kundeportal">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="adjustedenergyconsumption-kundeportal"><y:SVGNode><y:NodeLabel>adjustedenergyconsumption-kundeportal</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="energinet-maaltall">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="energinet-maaltall"><y:SVGNode><y:NodeLabel>energinet-maaltall</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="contract-garanti-kundeportal-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="contract-garanti-kundeportal-endpoint"><y:SVGNode><y:NodeLabel>contract-garanti-kundeportal-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="contract-garanti-kundeportal">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="contract-garanti-kundeportal"><y:SVGNode><y:NodeLabel>contract-garanti-kundeportal</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="d365-garanti">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="d365-garanti"><y:SVGNode><y:NodeLabel>d365-garanti</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="kredittvurdering-superoffice-rest-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="kredittvurdering-superoffice-rest-endpoint"><y:SVGNode><y:NodeLabel>kredittvurdering-superoffice-rest-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="kredittvurdering-superoffice-rest">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="kredittvurdering-superoffice-rest"><y:SVGNode><y:NodeLabel>kredittvurdering-superoffice-rest</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="superoffice-contactsimple-cleanorgnummer">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="superoffice-contactsimple-cleanorgnummer"><y:SVGNode><y:NodeLabel>superoffice-contactsimple-cleanorgnummer</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="global-kredittvurdering">
+      <ns0:data key="d1">global</ns0:data>
+    <ns0:data key="d0" id="global-kredittvurdering"><y:SVGNode><y:NodeLabel>global-kredittvurdering</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="kredittvurdering-superoffice">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="kredittvurdering-superoffice"><y:SVGNode><y:NodeLabel>kredittvurdering-superoffice</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="leverandorvurdering-forvalter-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="leverandorvurdering-forvalter-endpoint"><y:SVGNode><y:NodeLabel>leverandorvurdering-forvalter-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="leverandorvurdering-forvalter">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="leverandorvurdering-forvalter"><y:SVGNode><y:NodeLabel>leverandorvurdering-forvalter</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="eos-energinet-energyconsumption">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="eos-energinet-energyconsumption"><y:SVGNode><y:NodeLabel>eos-energinet-energyconsumption</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="bigquery-proptechos-ms (source)">
+      <ns0:data key="d1">system</ns0:data>
+      <ns0:data key="d2">source</ns0:data>
+    <ns0:data key="d0" id="bigquery-proptechos-ms (source)"><y:SVGNode><y:NodeLabel>bigquery-proptechos-ms (source)</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="global-prosjektprosess">
+      <ns0:data key="d1">global</ns0:data>
+    <ns0:data key="d0" id="global-prosjektprosess"><y:SVGNode><y:NodeLabel>global-prosjektprosess</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="forvalter-prosjektprosess">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="forvalter-prosjektprosess"><y:SVGNode><y:NodeLabel>forvalter-prosjektprosess</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="prosjektprosess-powerapp">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="prosjektprosess-powerapp"><y:SVGNode><y:NodeLabel>prosjektprosess-powerapp</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="prosjektprosess-powerapp-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="prosjektprosess-powerapp-endpoint"><y:SVGNode><y:NodeLabel>prosjektprosess-powerapp-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="global-budget">
+      <ns0:data key="d1">global</ns0:data>
+    <ns0:data key="d0" id="global-budget"><y:SVGNode><y:NodeLabel>global-budget</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="d365-prosjektbudsjett">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="d365-prosjektbudsjett"><y:SVGNode><y:NodeLabel>d365-prosjektbudsjett</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="prosjektbudsjett-forvalter-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="prosjektbudsjett-forvalter-endpoint"><y:SVGNode><y:NodeLabel>prosjektbudsjett-forvalter-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="prosjektbudsjett-forvalter">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="prosjektbudsjett-forvalter"><y:SVGNode><y:NodeLabel>prosjektbudsjett-forvalter</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="dokument-vertex-rest-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="dokument-vertex-rest-endpoint"><y:SVGNode><y:NodeLabel>dokument-vertex-rest-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="dokument-vertex-rest">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="dokument-vertex-rest"><y:SVGNode><y:NodeLabel>dokument-vertex-rest</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="document-api (target)">
+      <ns0:data key="d1">system</ns0:data>
+      <ns0:data key="d2">target</ns0:data>
+    <ns0:data key="d0" id="document-api (target)"><y:SVGNode><y:NodeLabel>document-api (target)</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="user-powerapp">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="user-powerapp"><y:SVGNode><y:NodeLabel>user-powerapp</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="user-powerapp-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="user-powerapp-endpoint"><y:SVGNode><y:NodeLabel>user-powerapp-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="forvalter-brukerrolle-powerapp-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="forvalter-brukerrolle-powerapp-endpoint"><y:SVGNode><y:NodeLabel>forvalter-brukerrolle-powerapp-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="forvalter-brukerrolle-powerapp">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="forvalter-brukerrolle-powerapp"><y:SVGNode><y:NodeLabel>forvalter-brukerrolle-powerapp</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="global-brukerrolle">
+      <ns0:data key="d1">global</ns0:data>
+    <ns0:data key="d0" id="global-brukerrolle"><y:SVGNode><y:NodeLabel>global-brukerrolle</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="forvalter-brukerrolle">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="forvalter-brukerrolle"><y:SVGNode><y:NodeLabel>forvalter-brukerrolle</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="d365-purring-detaljer">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="d365-purring-detaljer"><y:SVGNode><y:NodeLabel>d365-purring-detaljer</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="purring-kundeportal">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="purring-kundeportal"><y:SVGNode><y:NodeLabel>purring-kundeportal</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="global-purring">
+      <ns0:data key="d1">global</ns0:data>
+    <ns0:data key="d0" id="global-purring"><y:SVGNode><y:NodeLabel>global-purring</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="purring-kundeportal-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="purring-kundeportal-endpoint"><y:SVGNode><y:NodeLabel>purring-kundeportal-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="d365-prosjektbilag">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="d365-prosjektbilag"><y:SVGNode><y:NodeLabel>d365-prosjektbilag</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="prosjektbilag-forvalter">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="prosjektbilag-forvalter"><y:SVGNode><y:NodeLabel>prosjektbilag-forvalter</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="global-prosjektbilag">
+      <ns0:data key="d1">global</ns0:data>
+    <ns0:data key="d0" id="global-prosjektbilag"><y:SVGNode><y:NodeLabel>global-prosjektbilag</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="prosjektbilag-forvalter-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="prosjektbilag-forvalter-endpoint"><y:SVGNode><y:NodeLabel>prosjektbilag-forvalter-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="energycustomerconsumption-kundeportal">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="energycustomerconsumption-kundeportal"><y:SVGNode><y:NodeLabel>energycustomerconsumption-kundeportal</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="energinet-energycustomerconsumption">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="energinet-energycustomerconsumption"><y:SVGNode><y:NodeLabel>energinet-energycustomerconsumption</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:node id="energycustomerconsumption-kundeportal-endpoint">
+      <ns0:data key="d1">pipe</ns0:data>
+    <ns0:data key="d0" id="energycustomerconsumption-kundeportal-endpoint"><y:SVGNode><y:NodeLabel>energycustomerconsumption-kundeportal-endpoint</y:NodeLabel></y:SVGNode><y:SVGNodeProperties usingVisualBounds="true" /></ns0:data></ns0:node>
+    <ns0:edge source="contract-details-kundeportal-endpoint" target="kundeportal (target)" id="contract-details-kundeportal-endpoint_kundeportal (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="contract-details-kundeportal" target="contract-details-kundeportal-endpoint" id="contract-details-kundeportal_contract-details-kundeportal-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="kunder-kundeportal-endpoint" target="kundeportal (target)" id="kunder-kundeportal-endpoint_kundeportal (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="kunder-kundeportal" target="kunder-kundeportal-endpoint" id="kunder-kundeportal_kunder-kundeportal-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="bygg-kundeportal-endpoint" target="kundeportal (target)" id="bygg-kundeportal-endpoint_kundeportal (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="bygg-kundeportal" target="bygg-kundeportal-endpoint" id="bygg-kundeportal_bygg-kundeportal-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="axapta-yearly-shared-costs" target="contract-kundeportal" id="axapta-yearly-shared-costs_contract-kundeportal_hops">
+      <ns0:data key="d3">hops</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="axapta-yearly-shared-costs-where-filter" target="axapta-yearly-shared-costs" id="axapta-yearly-shared-costs-where-filter_axapta-yearly-shared-costs_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="contract-kundeportal-endpoint" target="kundeportal (target)" id="contract-kundeportal-endpoint_kundeportal (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="contract-kundeportal" target="contract-kundeportal-endpoint" id="contract-kundeportal_contract-kundeportal-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="axapta-geography" target="global-geography" id="axapta-geography_global-geography_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="axapta-yearly-rent-where-filter" target="axapta-yearly-rent" id="axapta-yearly-rent-where-filter_axapta-yearly-rent_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="axapta-contract-line-price" target="axapta-yearly-rent-where-filter" id="axapta-contract-line-price_axapta-yearly-rent-where-filter_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="axapta-contract-line-price" target="axapta-yearly-property-tax-where-filter" id="axapta-contract-line-price_axapta-yearly-property-tax-where-filter_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="axapta-contract-line-price" target="axapta-yearly-shared-costs-where-filter" id="axapta-contract-line-price_axapta-yearly-shared-costs-where-filter_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="axapta-contract-line-price" target="axapta-contract-details" id="axapta-contract-line-price_axapta-contract-details_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="axapta-yearly-property-tax-where-filter" target="axapta-yearly-property-tax" id="axapta-yearly-property-tax-where-filter_axapta-yearly-property-tax_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="personinterest-kundeportal-endpoint" target="kundeportal (target)" id="personinterest-kundeportal-endpoint_kundeportal (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="personinterest-kundeportal" target="personinterest-kundeportal-endpoint" id="personinterest-kundeportal_personinterest-kundeportal-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="axapta-yearly-rent" target="contract-kundeportal" id="axapta-yearly-rent_contract-kundeportal_hops">
+      <ns0:data key="d3">hops</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="axapta-yearly-property-tax" target="contract-kundeportal" id="axapta-yearly-property-tax_contract-kundeportal_hops">
+      <ns0:data key="d3">hops</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="faktura-kundeportal-endpoint" target="kundeportal (target)" id="faktura-kundeportal-endpoint_kundeportal (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="faktura-kundeportal" target="faktura-kundeportal-endpoint" id="faktura-kundeportal_faktura-kundeportal-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-personinterest" target="personinterest-kundeportal" id="global-personinterest_personinterest-kundeportal_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-personinterest" target="user-leko" id="global-personinterest_user-leko_hops">
+      <ns0:data key="d3">hops</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-personinterest" target="user-kundeportal" id="global-personinterest_user-kundeportal_hops">
+      <ns0:data key="d3">hops</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="superoffice-personinterest" target="global-personinterest" id="superoffice-personinterest_global-personinterest_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="axapta-object" target="global-property-object" id="axapta-object_global-property-object_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="superoffice-ticketmessage" target="superoffice-ticketmessageattachment" id="superoffice-ticketmessage_superoffice-ticketmessageattachment_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="superoffice-ticketmessage" target="global-ticketmessage" id="superoffice-ticketmessage_global-ticketmessage_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="superoffice-ticket" target="superoffice-ticketmessage" id="superoffice-ticket_superoffice-ticketmessage_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="superoffice-ticket" target="global-ticket" id="superoffice-ticket_global-ticket_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="ticketsupportcategory-kundeportal-endpoint" target="kundeportal (target)" id="ticketsupportcategory-kundeportal-endpoint_kundeportal (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="ticketsupportcategory-kundeportal" target="ticketsupportcategory-kundeportal-endpoint" id="ticketsupportcategory-kundeportal_ticketsupportcategory-kundeportal-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-ticketcategory" target="ticketcategory-kundeportal" id="global-ticketcategory_ticketcategory-kundeportal_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="superoffice-ticketcategory" target="global-ticketcategory" id="superoffice-ticketcategory_global-ticketcategory_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="superoffice-supportcategory" target="global-ticketcategory" id="superoffice-supportcategory_global-ticketcategory_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="kundeportal-ticketcategory" target="global-ticketcategory" id="kundeportal-ticketcategory_global-ticketcategory_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="kundeportal-ticketcategory" target="ticketsupportcategory-kundeportal" id="kundeportal-ticketcategory_ticketsupportcategory-kundeportal_hops">
+      <ns0:data key="d3">hops</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="kundeportal-ticketcategory" target="ticket-kundeportal" id="kundeportal-ticketcategory_ticket-kundeportal_hops">
+      <ns0:data key="d3">hops</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-ticket" target="ticketsupportcategory-kundeportal" id="global-ticket_ticketsupportcategory-kundeportal_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-ticket" target="ticket-kundeportal" id="global-ticket_ticket-kundeportal_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="ticketcategory-kundeportal" target="ticketcategory-kundeportal-endpoint" id="ticketcategory-kundeportal_ticketcategory-kundeportal-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="ticketmessageattachment-kundeportal" target="ticketmessageattachment-kundeportal-endpoint" id="ticketmessageattachment-kundeportal_ticketmessageattachment-kundeportal-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-ticketmessageattachment" target="ticketmessageattachment-kundeportal" id="global-ticketmessageattachment_ticketmessageattachment-kundeportal_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="superoffice-ticketmessageattachment" target="global-ticketmessageattachment" id="superoffice-ticketmessageattachment_global-ticketmessageattachment_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-CustomerNumber" target="global-customer" id="d365-CustomerNumber_global-customer_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-CustomerNumber" target="contract-kundeportal" id="d365-CustomerNumber_contract-kundeportal_hops">
+      <ns0:data key="d3">hops</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-map" target="d365-CustomerNumber" id="d365-map_d365-CustomerNumber_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-map" target="d365-ContractNumber" id="d365-map_d365-ContractNumber_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-map" target="d365-contract-line-number" id="d365-map_d365-contract-line-number_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-map" target="d365-buildingnumber" id="d365-map_d365-buildingnumber_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-map" target="d365-selskap" id="d365-map_d365-selskap_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="sale-kundeportal" target="sale-kundeportal-endpoint" id="sale-kundeportal_sale-kundeportal-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-project" target="sale-kundeportal" id="global-project_sale-kundeportal_hops">
+      <ns0:data key="d3">hops</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-project" target="prosjekt-juridiskselskap-superoffice" id="global-project_prosjekt-juridiskselskap-superoffice_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-project" target="sale-forvalter" id="global-project_sale-forvalter_hops">
+      <ns0:data key="d3">hops</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-project" target="prosjekt-forvalter" id="global-project_prosjekt-forvalter_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-customer" target="sale-kundeportal" id="global-customer_sale-kundeportal_hops">
+      <ns0:data key="d3">hops</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-customer" target="user-person-forvalter" id="global-customer_user-person-forvalter_hops">
+      <ns0:data key="d3">hops</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-customer" target="user-leko" id="global-customer_user-leko_hops">
+      <ns0:data key="d3">hops</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-customer" target="kunder-kundeportal" id="global-customer_kunder-kundeportal_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-customer" target="kunde-orgnummer-kundeportal" id="global-customer_kunde-orgnummer-kundeportal_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-customer" target="customer-leko" id="global-customer_customer-leko_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-customer" target="customer-bq" id="global-customer_customer-bq_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-customer" target="sale-forvalter" id="global-customer_sale-forvalter_hops">
+      <ns0:data key="d3">hops</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-customer" target="customer-forvalter" id="global-customer_customer-forvalter_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-customer" target="dokument-bq" id="global-customer_dokument-bq_hops">
+      <ns0:data key="d3">hops</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-customer" target="user-powerapp" id="global-customer_user-powerapp_hops">
+      <ns0:data key="d3">hops</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-customer" target="user-forvalter" id="global-customer_user-forvalter_hops">
+      <ns0:data key="d3">hops</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-sale" target="sale-kundeportal" id="global-sale_sale-kundeportal_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-sale" target="sale-forvalter" id="global-sale_sale-forvalter_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="ticketstatus-kundeportal-endpoint" target="kundeportal (target)" id="ticketstatus-kundeportal-endpoint_kundeportal (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="ticketstatus-kundeportal" target="ticketstatus-kundeportal-endpoint" id="ticketstatus-kundeportal_ticketstatus-kundeportal-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-ticketstatus" target="ticketstatus-kundeportal" id="global-ticketstatus_ticketstatus-kundeportal_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="superoffice-sale" target="global-sale" id="superoffice-sale_global-sale_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="superoffice-salesimple" target="global-sale" id="superoffice-salesimple_global-sale_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="superoffice-project" target="global-project" id="superoffice-project_global-project_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="superoffice-projectsimple" target="global-project" id="superoffice-projectsimple_global-project_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-ContractNumber" target="axapta-contract-with-d365Id" id="d365-ContractNumber_axapta-contract-with-d365Id_hops">
+      <ns0:data key="d3">hops</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-ContractNumber" target="axapta-contract-details-with-d365Id" id="d365-ContractNumber_axapta-contract-details-with-d365Id_hops">
+      <ns0:data key="d3">hops</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="user-leko" target="user-leko-endpoint" id="user-leko_user-leko-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="user-leko" target="user-leko-rest" id="user-leko_user-leko-rest_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="axapta-contract-details" target="axapta-contract-details-with-d365Id" id="axapta-contract-details_axapta-contract-details-with-d365Id_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="axapta-contract-line" target="axapta-contract-details" id="axapta-contract-line_axapta-contract-details_hops">
+      <ns0:data key="d3">hops</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="axapta-contract-line" target="contract-details-kundeportal" id="axapta-contract-line_contract-details-kundeportal_hops">
+      <ns0:data key="d3">hops</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-contract-line-number" target="axapta-contract-details-with-d365Id" id="d365-contract-line-number_axapta-contract-details-with-d365Id_hops">
+      <ns0:data key="d3">hops</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="axapta-contract-with-d365Id" target="global-contract" id="axapta-contract-with-d365Id_global-contract_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="axapta-contract" target="axapta-contract-with-d365Id" id="axapta-contract_axapta-contract-with-d365Id_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="customer-leko" target="customer-leko-endpoint" id="customer-leko_customer-leko-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="customer-leko" target="customer-leko-rest" id="customer-leko_customer-leko-rest_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-contract" target="contract-details-forvalter" id="global-contract_contract-details-forvalter_hops">
+      <ns0:data key="d3">hops</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-contract" target="kunder-kundeportal" id="global-contract_kunder-kundeportal_hops">
+      <ns0:data key="d3">hops</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-contract" target="contract-kundeportal" id="global-contract_contract-kundeportal_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-contract" target="contract-details-kundeportal" id="global-contract_contract-details-kundeportal_hops">
+      <ns0:data key="d3">hops</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-kontrakt" target="global-contract" id="d365-kontrakt_global-contract_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-kontrakt" target="d365-kunde-kontrakt-leie-grouped" id="d365-kontrakt_d365-kunde-kontrakt-leie-grouped_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-contract-details" target="contract-details-forvalter" id="global-contract-details_contract-details-forvalter_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-contract-details" target="contract-details-kundeportal" id="global-contract-details_contract-details-kundeportal_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-contract-line" target="global-contract-details" id="d365-contract-line_global-contract-details_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-contract-line" target="d365-contract-line-area-countable" id="d365-contract-line_d365-contract-line-area-countable_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="axapta-contract-details-with-d365Id" target="global-contract-details" id="axapta-contract-details-with-d365Id_global-contract-details_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-buildingnumber" target="global-property" id="d365-buildingnumber_global-property_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-buildingnumber" target="contract-kundeportal" id="d365-buildingnumber_contract-kundeportal_hops">
+      <ns0:data key="d3">hops</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-buildingnumber" target="contract-details-kundeportal" id="d365-buildingnumber_contract-details-kundeportal_hops">
+      <ns0:data key="d3">hops</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="ticketmessageattachment-kundeportal-endpoint" target="kundeportal (target)" id="ticketmessageattachment-kundeportal-endpoint_kundeportal (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="bygg-leko-rest-endpoint" target="leko (target)" id="bygg-leko-rest-endpoint_leko (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="bygg-leko-rest" target="bygg-leko-rest-endpoint" id="bygg-leko-rest_bygg-leko-rest-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="bygg-forvalter-endpoint" target="forvalter (target)" id="bygg-forvalter-endpoint_forvalter (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="bygg-forvalter" target="bygg-forvalter-endpoint" id="bygg-forvalter_bygg-forvalter-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-firma" target="firma-forvalter" id="global-firma_firma-forvalter_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-firma" target="global-firma" id="d365-firma_global-firma_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-firma" target="contract-details-forvalter" id="d365-firma_contract-details-forvalter_hops">
+      <ns0:data key="d3">hops</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-firma" target="bygg-forvalter" id="d365-firma_bygg-forvalter_hops">
+      <ns0:data key="d3">hops</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-firma" target="bygg-kundeportal" id="d365-firma_bygg-kundeportal_hops">
+      <ns0:data key="d3">hops</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-firma" target="bygg-leko" id="d365-firma_bygg-leko_hops">
+      <ns0:data key="d3">hops</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="ticketmessage-kundeportal-endpoint" target="kundeportalCharsetUtf8mb4 (target)" id="ticketmessage-kundeportal-endpoint_kundeportalCharsetUtf8mb4 (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="ticketmessage-kundeportal" target="ticketmessage-kundeportal-endpoint" id="ticketmessage-kundeportal_ticketmessage-kundeportal-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="customer-forvalter-endpoint" target="forvalter (target)" id="customer-forvalter-endpoint_forvalter (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="customer-forvalter" target="customer-forvalter-endpoint" id="customer-forvalter_customer-forvalter-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="customer-leko-rest" target="customer-leko-rest-endpoint" id="customer-leko-rest_customer-leko-rest-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="user-leko-rest-endpoint" target="leko (target)" id="user-leko-rest-endpoint_leko (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="user-leko-rest" target="user-leko-rest-endpoint" id="user-leko-rest_user-leko-rest-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="firma-forvalter-endpoint" target="forvalter (target)" id="firma-forvalter-endpoint_forvalter (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="firma-forvalter" target="firma-forvalter-endpoint" id="firma-forvalter_firma-forvalter-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="sale-kundeportal-endpoint" target="kundeportal (target)" id="sale-kundeportal-endpoint_kundeportal (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="bygg-leko" target="bygg-leko-rest" id="bygg-leko_bygg-leko-rest_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="bygg-leko" target="bygg-leko-endpoint" id="bygg-leko_bygg-leko-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="customer-leko-rest-endpoint" target="leko (target)" id="customer-leko-rest-endpoint_leko (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-byggtegning" target="byggtegning-leko" id="global-byggtegning_byggtegning-leko_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="kundeportal-byggtegning" target="global-byggtegning" id="kundeportal-byggtegning_global-byggtegning_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-rentalobject" target="leieobjekt-forvalter" id="global-rentalobject_leieobjekt-forvalter_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-leieobjekt" target="global-rentalobject" id="d365-leieobjekt_global-rentalobject_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="leieobjekt-forvalter-endpoint" target="forvalter (target)" id="leieobjekt-forvalter-endpoint_forvalter (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="leieobjekt-forvalter" target="leieobjekt-forvalter-endpoint" id="leieobjekt-forvalter_leieobjekt-forvalter-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-ledige-arealer-grouped" target="global-property" id="d365-ledige-arealer-grouped_global-property_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-ledige-arealer" target="d365-ledige-arealer-grouped" id="d365-ledige-arealer_d365-ledige-arealer-grouped_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-ledige-arealer" target="ledige-arealer-forvalter" id="d365-ledige-arealer_ledige-arealer-forvalter_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-bygg-avdeling" target="d365-ledige-arealer-grouped" id="d365-bygg-avdeling_d365-ledige-arealer-grouped_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-bygg-avdeling" target="d365-utleide-areal-grouped" id="d365-bygg-avdeling_d365-utleide-areal-grouped_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-bygg-avdeling" target="d365-total-arealer-grouped" id="d365-bygg-avdeling_d365-total-arealer-grouped_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-bygg-avdeling" target="global-property" id="d365-bygg-avdeling_global-property_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-utleide-areal-grouped" target="global-property" id="d365-utleide-areal-grouped_global-property_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-utleide-areal" target="d365-utleide-areal-grouped" id="d365-utleide-areal_d365-utleide-areal-grouped_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-total-arealer-grouped" target="global-property" id="d365-total-arealer-grouped_global-property_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-areas" target="d365-total-arealer-grouped" id="d365-areas_d365-total-arealer-grouped_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-areas" target="d365-ledige-arealer" id="d365-areas_d365-ledige-arealer_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-areas" target="d365-utleide-areal" id="d365-areas_d365-utleide-areal_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="ledige-arealer-forvalter-endpoint" target="forvalter (target)" id="ledige-arealer-forvalter-endpoint_forvalter (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="ledige-arealer-forvalter" target="ledige-arealer-forvalter-endpoint" id="ledige-arealer-forvalter_ledige-arealer-forvalter-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="user-forvalter-endpoint" target="forvalter (target)" id="user-forvalter-endpoint_forvalter (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="user-forvalter" target="user-forvalter-endpoint" id="user-forvalter_user-forvalter-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="superoffice-ticketstatus" target="global-ticketstatus" id="superoffice-ticketstatus_global-ticketstatus_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="contract-details-forvalter-endpoint" target="forvalter (target)" id="contract-details-forvalter-endpoint_forvalter (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="contract-details-forvalter" target="contract-details-forvalter-endpoint" id="contract-details-forvalter_contract-details-forvalter-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="faktura-forvalter-endpoint" target="forvalter (target)" id="faktura-forvalter-endpoint_forvalter (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="faktura-forvalter" target="faktura-forvalter-endpoint" id="faktura-forvalter_faktura-forvalter-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-faktura-detaljer-with-commonid" target="global-invoice" id="d365-faktura-detaljer-with-commonid_global-invoice_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-faktura-detaljer" target="d365-faktura-detaljer-with-commonid" id="d365-faktura-detaljer_d365-faktura-detaljer-with-commonid_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="energyconsumption-kundeportal" target="energyconsumption-kundeportal-endpoint" id="energyconsumption-kundeportal_energyconsumption-kundeportal-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="energinet-energyconsumption" target="energyconsumption-kundeportal" id="energinet-energyconsumption_energyconsumption-kundeportal_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-user" target="personinterest-kundeportal" id="global-user_personinterest-kundeportal_hops">
+      <ns0:data key="d3">hops</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-user" target="ticketmessage-kundeportal" id="global-user_ticketmessage-kundeportal_hops">
+      <ns0:data key="d3">hops</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-user" target="user-person-forvalter" id="global-user_user-person-forvalter_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-user" target="user-leko" id="global-user_user-leko_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-user" target="usercustomer-kundeportal" id="global-user_usercustomer-kundeportal_hops">
+      <ns0:data key="d3">hops</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-user" target="usercustomer-kundeportal" id="global-user_usercustomer-kundeportal_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-user" target="user-kundeportal" id="global-user_user-kundeportal_hops">
+      <ns0:data key="d3">hops</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-user" target="user-kundeportal" id="global-user_user-kundeportal_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-user" target="usercustomer-bq" id="global-user_usercustomer-bq_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-user" target="dokument-forvalter" id="global-user_dokument-forvalter_hops">
+      <ns0:data key="d3">hops</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-user" target="ticket-kundeportal" id="global-user_ticket-kundeportal_hops">
+      <ns0:data key="d3">hops</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="usercustomer-kundeportal-endpoint" target="kundeportal (target)" id="usercustomer-kundeportal-endpoint_kundeportal (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="usercustomer-kundeportal" target="usercustomer-kundeportal-endpoint" id="usercustomer-kundeportal_usercustomer-kundeportal-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="ticketcategory-kundeportal-endpoint" target="kundeportal (target)" id="ticketcategory-kundeportal-endpoint_kundeportal (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="personkonvolutt-forvalter-endpoint" target="forvalter (target)" id="personkonvolutt-forvalter-endpoint_forvalter (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="personkonvolutt-forvalter" target="personkonvolutt-forvalter-endpoint" id="personkonvolutt-forvalter_personkonvolutt-forvalter-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="dokument-forvalter-endpoint" target="forvalter (target)" id="dokument-forvalter-endpoint_forvalter (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="dokument-forvalter" target="dokument-forvalter-endpoint" id="dokument-forvalter_dokument-forvalter-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="konvolutt-forvalter-endpoint" target="forvalter (target)" id="konvolutt-forvalter-endpoint_forvalter (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="konvolutt-forvalter" target="konvolutt-forvalter-endpoint" id="konvolutt-forvalter_konvolutt-forvalter-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="ticket-kundeportal-endpoint" target="kundeportalCharsetUtf8mb4 (target)" id="ticket-kundeportal-endpoint_kundeportalCharsetUtf8mb4 (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="ticket-kundeportal" target="ticket-kundeportal-endpoint" id="ticket-kundeportal_ticket-kundeportal-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-ticketmessage" target="ticketmessage-kundeportal" id="global-ticketmessage_ticketmessage-kundeportal_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="user-person-forvalter" target="user-person-forvalter-endpoint" id="user-person-forvalter_user-person-forvalter-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="kunde-leie-superoffice-rest-endpoint" target="superoffice-rest-api (target)" id="kunde-leie-superoffice-rest-endpoint_superoffice-rest-api (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="kunde-leie-superoffice-rest" target="kunde-leie-superoffice-rest-endpoint" id="kunde-leie-superoffice-rest_kunde-leie-superoffice-rest-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="user-person-forvalter-endpoint" target="forvalter (target)" id="user-person-forvalter-endpoint_forvalter (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="user-kundeportal-endpoint" target="kundeportal (target)" id="user-kundeportal-endpoint_kundeportal (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="user-kundeportal" target="user-kundeportal-endpoint" id="user-kundeportal_user-kundeportal-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="verified-envelope" target="konvolutt-forvalter" id="verified-envelope_konvolutt-forvalter_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="verified-envelope" target="verified-personkonvolutt" id="verified-envelope_verified-personkonvolutt_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="verified-envelope" target="verified-document" id="verified-envelope_verified-document_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-contract-line-area-countable" target="d365-kunde-kontrakt-leie-grouped" id="d365-contract-line-area-countable_d365-kunde-kontrakt-leie-grouped_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-kunde-kontrakt-leie-grouped" target="kunde-leie-superoffice-endpoint" id="d365-kunde-kontrakt-leie-grouped_kunde-leie-superoffice-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-kunde-kontrakt-leie-grouped" target="kunde-leie-superoffice-rest" id="d365-kunde-kontrakt-leie-grouped_kunde-leie-superoffice-rest_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="verified-personkonvolutt" target="personkonvolutt-forvalter" id="verified-personkonvolutt_personkonvolutt-forvalter_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-kunde" target="d365-kunde-kontrakt-leie-grouped" id="d365-kunde_d365-kunde-kontrakt-leie-grouped_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-kunde" target="global-customer" id="d365-kunde_global-customer_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="superoffice-contactsimple" target="d365-kunde-kontrakt-leie-grouped" id="superoffice-contactsimple_d365-kunde-kontrakt-leie-grouped_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="superoffice-contactsimple" target="global-customer" id="superoffice-contactsimple_global-customer_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="superoffice-contactsimple" target="superoffice-contactsimple-leverandor" id="superoffice-contactsimple_superoffice-contactsimple-leverandor_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="superoffice-contactsimple" target="superoffice-contactsimple-cleanorgnummer" id="superoffice-contactsimple_superoffice-contactsimple-cleanorgnummer_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-invoice" target="faktura-kundeportal" id="global-invoice_faktura-kundeportal_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-invoice" target="faktura-forvalter" id="global-invoice_faktura-forvalter_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="waterconsumption-kundeportal" target="waterconsumption-kundeportal-endpoint" id="waterconsumption-kundeportal_waterconsumption-kundeportal-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="energinet-waterconsumption" target="waterconsumption-kundeportal" id="energinet-waterconsumption_waterconsumption-kundeportal_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="energinet-api (source)" target="energinet-waterconsumption" id="energinet-api (source)_energinet-waterconsumption_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="energinet-api (source)" target="energinet-wasteconsumption" id="energinet-api (source)_energinet-wasteconsumption_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="energinet-api (source)" target="energinet-energyconsumption" id="energinet-api (source)_energinet-energyconsumption_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="energinet-api (source)" target="energinet-adjustedenergyconsumption" id="energinet-api (source)_energinet-adjustedenergyconsumption_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="energinet-api (source)" target="energinet-maaltall" id="energinet-api (source)_energinet-maaltall_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="energinet-api (source)" target="energinet-energycustomerconsumption" id="energinet-api (source)_energinet-energycustomerconsumption_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="dokumentkontraktslinjeavsjekk-kundeportal" target="dokumentkontraktslinjeavsjekk-kundeportal-endpoint" id="dokumentkontraktslinjeavsjekk-kundeportal_dokumentkontraktslinjeavsjekk-kundeportal-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-dokumentkontraktslinjeavsjekk" target="dokumentkontraktslinjeavsjekk-kundeportal" id="global-dokumentkontraktslinjeavsjekk_dokumentkontraktslinjeavsjekk-kundeportal_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="dokumentkontraktslinjeavsjekk-kundeportal-endpoint" target="kundeportal (target)" id="dokumentkontraktslinjeavsjekk-kundeportal-endpoint_kundeportal (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="bygg-bqeos-rest-endpoint" target="bigquery-api (target)" id="bygg-bqeos-rest-endpoint_bigquery-api (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="bygg-bqeos-rest" target="bygg-bqeos-rest-endpoint" id="bygg-bqeos-rest_bygg-bqeos-rest-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="bygg-bqeos" target="bygg-bqeos-rest" id="bygg-bqeos_bygg-bqeos-rest_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="forvalter-dokumentkontraktslinjeavsjekk" target="global-dokumentkontraktslinjeavsjekk" id="forvalter-dokumentkontraktslinjeavsjekk_global-dokumentkontraktslinjeavsjekk_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="forvalter (source)" target="forvalter-dokumentkontraktslinjeavsjekk" id="forvalter (source)_forvalter-dokumentkontraktslinjeavsjekk_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="forvalter (source)" target="forvalter-prosjektprosess" id="forvalter (source)_forvalter-prosjektprosess_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="forvalter (source)" target="forvalter-brukerrolle" id="forvalter (source)_forvalter-brukerrolle_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-property" target="bygg-forvalter" id="global-property_bygg-forvalter_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-property" target="prosjekt-juridiskselskap-superoffice" id="global-property_prosjekt-juridiskselskap-superoffice_hops">
+      <ns0:data key="d3">hops</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-property" target="energiattest-bqeos" id="global-property_energiattest-bqeos_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-property" target="bygg-kundeportal" id="global-property_bygg-kundeportal_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-property" target="bygg-leko" id="global-property_bygg-leko_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-property" target="bygg-bqeos" id="global-property_bygg-bqeos_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-property" target="byggtegning-leko" id="global-property_byggtegning-leko_hops">
+      <ns0:data key="d3">hops</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="superoffice-contact" target="global-customer" id="superoffice-contact_global-customer_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="superoffice-contact" target="ticket-kundeportal" id="superoffice-contact_ticket-kundeportal_hops">
+      <ns0:data key="d3">hops</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="kundeportal-customer" target="global-customer" id="kundeportal-customer_global-customer_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="prosjekt-juridiskselskap-superoffice-rest-endpoint" target="superoffice-rest-api (target)" id="prosjekt-juridiskselskap-superoffice-rest-endpoint_superoffice-rest-api (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="prosjekt-juridiskselskap-superoffice-rest" target="prosjekt-juridiskselskap-superoffice-rest-endpoint" id="prosjekt-juridiskselskap-superoffice-rest_prosjekt-juridiskselskap-superoffice-rest-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="prosjekt-juridiskselskap-superoffice" target="prosjekt-juridiskselskap-superoffice-rest" id="prosjekt-juridiskselskap-superoffice_prosjekt-juridiskselskap-superoffice-rest_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="eiendom-api (source)" target="vault-secrets" id="eiendom-api (source)_vault-secrets_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="kontrakt-leko-kdi" target="kontrakt-leko-kdi-endpoint" id="kontrakt-leko-kdi_kontrakt-leko-kdi-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="leko-kontrakt" target="kontrakt-leko-kdi" id="leko-kontrakt_kontrakt-leko-kdi_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="leko-kontrakt" target="leko-dokument" id="leko-kontrakt_leko-dokument_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="kontrakt-leko-kdi-endpoint" target="leko-kdipubsub (target)" id="kontrakt-leko-kdi-endpoint_leko-kdipubsub (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="directlink-forvalter-endpoint" target="forvalter (target)" id="directlink-forvalter-endpoint_forvalter (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="directlink-forvalter" target="directlink-forvalter-endpoint" id="directlink-forvalter_directlink-forvalter-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="lekoworker-directlink" target="directlink-forvalter" id="lekoworker-directlink_directlink-forvalter_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="fdvweb-helper-energy" target="fdvweb-energy-categorization" id="fdvweb-helper-energy_fdvweb-energy-categorization_hops">
+      <ns0:data key="d3">hops</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="fdvweb-building" target="fdvweb-energy-categorization" id="fdvweb-building_fdvweb-energy-categorization_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="fdvweb-building" target="global-property" id="fdvweb-building_global-property_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="fdvweb (source)" target="fdvweb-building" id="fdvweb (source)_fdvweb-building_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="fdvweb (source)" target="fdvweb-building-image" id="fdvweb (source)_fdvweb-building-image_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="fdvweb-building-image" target="global-property" id="fdvweb-building-image_global-property_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="fdvweb-energy-categorization" target="global-property" id="fdvweb-energy-categorization_global-property_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="kundeportal-building" target="global-property" id="kundeportal-building_global-property_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="kundeportal (source)" target="kundeportal-building" id="kundeportal (source)_kundeportal-building_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="kundeportal (source)" target="kundeportal-byggtegning" id="kundeportal (source)_kundeportal-byggtegning_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="kundeportal (source)" target="kundeportal-customer" id="kundeportal (source)_kundeportal-customer_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="kundeportal (source)" target="kundeportal-ticketcategory" id="kundeportal (source)_kundeportal-ticketcategory_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="superoffice (source)" target="superoffice-personinterest" id="superoffice (source)_superoffice-personinterest_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="superoffice (source)" target="superoffice-supportcategory" id="superoffice (source)_superoffice-supportcategory_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="superoffice (source)" target="superoffice-csuser" id="superoffice (source)_superoffice-csuser_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="superoffice-api (source)" target="superoffice-ticketcategory" id="superoffice-api (source)_superoffice-ticketcategory_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="superoffice-api (source)" target="superoffice-sale" id="superoffice-api (source)_superoffice-sale_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="superoffice-api (source)" target="superoffice-ticketstatus" id="superoffice-api (source)_superoffice-ticketstatus_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="superoffice-api (source)" target="superoffice-contact" id="superoffice-api (source)_superoffice-contact_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="superoffice-api (source)" target="superoffice-project" id="superoffice-api (source)_superoffice-project_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-grunneiendom" target="global-property" id="d365-grunneiendom_global-property_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-api (source)" target="d365-grunneiendom" id="d365-api (source)_d365-grunneiendom_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-api (source)" target="d365-bygg-avdeling" id="d365-api (source)_d365-bygg-avdeling_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-api (source)" target="d365-areas" id="d365-api (source)_d365-areas_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-api (source)" target="d365-leieobjekt" id="d365-api (source)_d365-leieobjekt_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-api (source)" target="d365-map" id="d365-api (source)_d365-map_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-api (source)" target="d365-faktura-detaljer" id="d365-api (source)_d365-faktura-detaljer_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-api (source)" target="d365-kunde" id="d365-api (source)_d365-kunde_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-api (source)" target="d365-leverandoromsetning" id="d365-api (source)_d365-leverandoromsetning_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-api (source)" target="d365-building" id="d365-api (source)_d365-building_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-api (source)" target="d365-ansatt" id="d365-api (source)_d365-ansatt_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-api (source)" target="influx-portalusage-sistaktiv" id="d365-api (source)_influx-portalusage-sistaktiv_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-api (source)" target="d365-leverandor" id="d365-api (source)_d365-leverandor_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-api (source)" target="d365-bygg-firma" id="d365-api (source)_d365-bygg-firma_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-api (source)" target="d365-firma" id="d365-api (source)_d365-firma_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-api (source)" target="d365-kostkategori" id="d365-api (source)_d365-kostkategori_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-api (source)" target="d365-garanti" id="d365-api (source)_d365-garanti_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-api (source)" target="d365-contract-line" id="d365-api (source)_d365-contract-line_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-api (source)" target="d365-kontrakt" id="d365-api (source)_d365-kontrakt_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-api (source)" target="d365-prosjekt" id="d365-api (source)_d365-prosjekt_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-api (source)" target="d365-prosjektbudsjett" id="d365-api (source)_d365-prosjektbudsjett_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-api (source)" target="d365-purring-detaljer" id="d365-api (source)_d365-purring-detaljer_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-api (source)" target="d365-prosjektbilag" id="d365-api (source)_d365-prosjektbilag_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="axapta (source)" target="axapta-contract-line" id="axapta (source)_axapta-contract-line_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="axapta (source)" target="axapta-object" id="axapta (source)_axapta-object_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="axapta (source)" target="axapta-building" id="axapta (source)_axapta-building_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="axapta (source)" target="axapta-contract-line-price" id="axapta (source)_axapta-contract-line-price_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="axapta (source)" target="axapta-contract" id="axapta (source)_axapta-contract_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="axapta (source)" target="axapta-geography" id="axapta (source)_axapta-geography_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="axapta (source)" target="axapta-customer" id="axapta (source)_axapta-customer_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="energinet-wasteconsumption" target="wasteconsumption-kundeportal" id="energinet-wasteconsumption_wasteconsumption-kundeportal_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="superoffice-csuser" target="global-user" id="superoffice-csuser_global-user_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-leverandoromsetning" target="d365-leverandor-omsetning-grouped" id="d365-leverandoromsetning_d365-leverandor-omsetning-grouped_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="leverandor-omsetning-superoffice-rest-endpoint" target="superoffice-rest-api (target)" id="leverandor-omsetning-superoffice-rest-endpoint_superoffice-rest-api (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="leverandor-omsetning-superoffice-rest" target="leverandor-omsetning-superoffice-rest-endpoint" id="leverandor-omsetning-superoffice-rest_leverandor-omsetning-superoffice-rest-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-leverandor" target="leverandorvurdering-bq" id="global-leverandor_leverandorvurdering-bq_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-leverandor" target="leverandorvurdering-forvalter" id="global-leverandor_leverandorvurdering-forvalter_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-leverandor" target="global-leverandor" id="d365-leverandor_global-leverandor_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-leverandor" target="d365-leverandor-omsetning-grouped" id="d365-leverandor_d365-leverandor-omsetning-grouped_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-leverandor" target="global-leverandorvurdering" id="d365-leverandor_global-leverandorvurdering_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="superoffice-contactsimple-leverandor" target="global-leverandor" id="superoffice-contactsimple-leverandor_global-leverandor_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="superoffice-contactsimple-leverandor" target="d365-leverandor-omsetning-grouped" id="superoffice-contactsimple-leverandor_d365-leverandor-omsetning-grouped_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="superoffice-contactsimple-leverandor" target="global-leverandorvurdering" id="superoffice-contactsimple-leverandor_global-leverandorvurdering_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="leko-dokument" target="global-document" id="leko-dokument_global-document_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="energiattest-bqeos-rest" target="energiattest-bqeos-rest-endpoint" id="energiattest-bqeos-rest_energiattest-bqeos-rest-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="energiattest-bqeos" target="energiattest-bqeos-rest" id="energiattest-bqeos_energiattest-bqeos-rest_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="energiattest-bqeos-rest-endpoint" target="bigquery-api (target)" id="energiattest-bqeos-rest-endpoint_bigquery-api (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-building" target="global-property" id="d365-building_global-property_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="fdvweb-helper-energy-categorization" target="global-property" id="fdvweb-helper-energy-categorization_global-property_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-bygg-firma" target="global-property" id="d365-bygg-firma_global-property_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="kunde-orgnummer-kundeportal" target="kunde-orgnummer-kundeportal-endpoint" id="kunde-orgnummer-kundeportal_kunde-orgnummer-kundeportal-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="kunde-orgnummer-kundeportal-endpoint" target="kundeportal (target)" id="kunde-orgnummer-kundeportal-endpoint_kundeportal (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="superoffice-migrateduser" target="global-user" id="superoffice-migrateduser_global-user_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="superoffice-migrateduser" target="global-internaluser" id="superoffice-migrateduser_global-internaluser_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-internaluser" target="user-kundeportal" id="global-internaluser_user-kundeportal_hops">
+      <ns0:data key="d3">hops</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-internaluser" target="user-powerapp" id="global-internaluser_user-powerapp_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-internaluser" target="user-forvalter" id="global-internaluser_user-forvalter_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-ansatt" target="global-internaluser" id="d365-ansatt_global-internaluser_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-ansatt" target="bygg-kundeportal" id="d365-ansatt_bygg-kundeportal_hops">
+      <ns0:data key="d3">hops</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="superoffice-user" target="superoffice-migrateduser" id="superoffice-user_superoffice-migrateduser_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="usercustomer-bq-rest-endpoint" target="bigquery-api (target)" id="usercustomer-bq-rest-endpoint_bigquery-api (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="usercustomer-bq-rest" target="usercustomer-bq-rest-endpoint" id="usercustomer-bq-rest_usercustomer-bq-rest-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="usercustomer-bq" target="usercustomer-bq-rest" id="usercustomer-bq_usercustomer-bq-rest_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="customer-bq-rest-endpoint" target="bigquery-api (target)" id="customer-bq-rest-endpoint_bigquery-api (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="customer-bq-rest" target="customer-bq-rest-endpoint" id="customer-bq-rest_customer-bq-rest-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="customer-bq" target="customer-bq-rest" id="customer-bq_customer-bq-rest_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="leverandorvurdering-superoffice-rest-endpoint" target="superoffice-rest-api (target)" id="leverandorvurdering-superoffice-rest-endpoint_superoffice-rest-api (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="leverandorvurdering-superoffice-rest" target="leverandorvurdering-superoffice-rest-endpoint" id="leverandorvurdering-superoffice-rest_leverandorvurdering-superoffice-rest-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="portalusage-sistaktiv-kundeportal-endpoint" target="kundeportal (target)" id="portalusage-sistaktiv-kundeportal-endpoint_kundeportal (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="portalusage-sistaktiv-kundeportal" target="portalusage-sistaktiv-kundeportal-endpoint" id="portalusage-sistaktiv-kundeportal_portalusage-sistaktiv-kundeportal-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="influx-portalusage-sistaktiv" target="portalusage-sistaktiv-kundeportal" id="influx-portalusage-sistaktiv_portalusage-sistaktiv-kundeportal_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="prosjekt-forvalter-endpoint" target="forvalter (target)" id="prosjekt-forvalter-endpoint_forvalter (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="prosjekt-forvalter" target="prosjekt-forvalter-endpoint" id="prosjekt-forvalter_prosjekt-forvalter-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="sale-forvalter-endpoint" target="forvalter (target)" id="sale-forvalter-endpoint_forvalter (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="sale-forvalter" target="sale-forvalter-endpoint" id="sale-forvalter_sale-forvalter-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-document" target="dokument-forvalter" id="global-document_dokument-forvalter_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-document" target="dokument-bq" id="global-document_dokument-bq_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="superoffice-document" target="global-document" id="superoffice-document_global-document_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="verified-document" target="global-document" id="verified-document_global-document_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="dokument-bq-rest" target="dokument-bq-rest-endpoint" id="dokument-bq-rest_dokument-bq-rest-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="dokument-bq" target="dokument-bq-rest" id="dokument-bq_dokument-bq-rest_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="dokument-bq" target="dokument-vertex-rest" id="dokument-bq_dokument-vertex-rest_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-leverandor-omsetning-grouped" target="leverandor-omsetning-superoffice-rest" id="d365-leverandor-omsetning-grouped_leverandor-omsetning-superoffice-rest_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="dokument-bq-rest-endpoint" target="bigquery-api (target)" id="dokument-bq-rest-endpoint_bigquery-api (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-prosjekt" target="prosjekt-powerapp" id="global-prosjekt_prosjekt-powerapp_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-prosjekt" target="prosjektrapportering-powerapp" id="global-prosjekt_prosjektrapportering-powerapp_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-prosjekt" target="global-prosjekt" id="d365-prosjekt_global-prosjekt_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="prosjekt-powerapp-endpoint" target="powerapp (target)" id="prosjekt-powerapp-endpoint_powerapp (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="prosjekt-powerapp" target="prosjekt-powerapp-endpoint" id="prosjekt-powerapp_prosjekt-powerapp-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="leverandorvurdering-bq" target="leverandorvurdering-superoffice-rest" id="leverandorvurdering-bq_leverandorvurdering-superoffice-rest_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="leverandorvurdering-bq" target="leverandorvurdering-bigquery-endpoint" id="leverandorvurdering-bq_leverandorvurdering-bigquery-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="bisnode-sanksjoner" target="global-leverandorvurdering" id="bisnode-sanksjoner_global-leverandorvurdering_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="bisnode-sanksjoner" target="leverandorvurdering-bq" id="bisnode-sanksjoner_leverandorvurdering-bq_hops">
+      <ns0:data key="d3">hops</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="bisnode-sanksjoner" target="global-kredittvurdering" id="bisnode-sanksjoner_global-kredittvurdering_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="bisnode-sanksjoner" target="kredittvurdering-superoffice" id="bisnode-sanksjoner_kredittvurdering-superoffice_hops">
+      <ns0:data key="d3">hops</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="bisnode-leverandor" target="global-leverandorvurdering" id="bisnode-leverandor_global-leverandorvurdering_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="bisnode-leverandor" target="leverandorvurdering-bq" id="bisnode-leverandor_leverandorvurdering-bq_hops">
+      <ns0:data key="d3">hops</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="bisnode-leverandor" target="global-kredittvurdering" id="bisnode-leverandor_global-kredittvurdering_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="prosjektrapportering-powerapp-endpoint" target="powerapp (target)" id="prosjektrapportering-powerapp-endpoint_powerapp (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="prosjektrapportering-powerapp" target="prosjektrapportering-powerapp-endpoint" id="prosjektrapportering-powerapp_prosjektrapportering-powerapp-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-serviceavtale" target="serviceavtale-bq" id="global-serviceavtale_serviceavtale-bq_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="fdvweb-serviceavtale" target="global-serviceavtale" id="fdvweb-serviceavtale_global-serviceavtale_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="fdvweb-api (source)" target="fdvweb-serviceavtale" id="fdvweb-api (source)_fdvweb-serviceavtale_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="serviceavtale-bq" target="serviceavtale-bq-rest" id="serviceavtale-bq_serviceavtale-bq-rest_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="serviceavtale-bq" target="serviceavtale-bigquery-endpoint" id="serviceavtale-bq_serviceavtale-bigquery-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="serviceavtale-bq-rest" target="serviceavtale-bq-rest-endpoint" id="serviceavtale-bq-rest_serviceavtale-bq-rest-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="serviceavtale-bigquery-endpoint" target="bigquery-kdi-ms (target)" id="serviceavtale-bigquery-endpoint_bigquery-kdi-ms (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="serviceavtale-bq-rest-endpoint" target="bigquery-api (target)" id="serviceavtale-bq-rest-endpoint_bigquery-api (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="leverandorvurdering-bigquery-endpoint" target="bigquery-kdi-ms (target)" id="leverandorvurdering-bigquery-endpoint_bigquery-kdi-ms (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="byggtegning-leko" target="byggtegning-leko-endpoint" id="byggtegning-leko_byggtegning-leko-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-kostkategori" target="kostkategori-forvalter" id="global-kostkategori_kostkategori-forvalter_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-kostkategori" target="global-kostkategori" id="d365-kostkategori_global-kostkategori_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="kostkategori-forvalter" target="kostkategori-forvalter-endpoint" id="kostkategori-forvalter_kostkategori-forvalter-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="kostkategori-forvalter-endpoint" target="forvalter (target)" id="kostkategori-forvalter-endpoint_forvalter (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="wasteconsumption-kundeportal-endpoint" target="kundeportal (target)" id="wasteconsumption-kundeportal-endpoint_kundeportal (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="wasteconsumption-kundeportal" target="wasteconsumption-kundeportal-endpoint" id="wasteconsumption-kundeportal_wasteconsumption-kundeportal-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="waterconsumption-kundeportal-endpoint" target="kundeportal (target)" id="waterconsumption-kundeportal-endpoint_kundeportal (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="energyconsumption-kundeportal-endpoint" target="kundeportal (target)" id="energyconsumption-kundeportal-endpoint_kundeportal (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="superoffice-ticketmessageattachment-update" target="global-ticketmessageattachment" id="superoffice-ticketmessageattachment-update_global-ticketmessageattachment_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="superoffice-ticketmessage-update" target="superoffice-ticketmessageattachment-update" id="superoffice-ticketmessage-update_superoffice-ticketmessageattachment-update_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="superoffice-ticketmessage-update" target="global-ticketmessage" id="superoffice-ticketmessage-update_global-ticketmessage_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="energinet-adjustedenergyconsumption" target="adjustedenergyconsumption-kundeportal" id="energinet-adjustedenergyconsumption_adjustedenergyconsumption-kundeportal_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="maaltall-kundeportal-endpoint" target="kundeportal (target)" id="maaltall-kundeportal-endpoint_kundeportal (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="maaltall-kundeportal" target="maaltall-kundeportal-endpoint" id="maaltall-kundeportal_maaltall-kundeportal-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="adjustedenergyconsumption-kundeportal-endpoint" target="kundeportal (target)" id="adjustedenergyconsumption-kundeportal-endpoint_kundeportal (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="adjustedenergyconsumption-kundeportal" target="adjustedenergyconsumption-kundeportal-endpoint" id="adjustedenergyconsumption-kundeportal_adjustedenergyconsumption-kundeportal-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="energinet-maaltall" target="maaltall-kundeportal" id="energinet-maaltall_maaltall-kundeportal_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="contract-garanti-kundeportal-endpoint" target="kundeportal (target)" id="contract-garanti-kundeportal-endpoint_kundeportal (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="contract-garanti-kundeportal" target="contract-garanti-kundeportal-endpoint" id="contract-garanti-kundeportal_contract-garanti-kundeportal-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-garanti" target="contract-garanti-kundeportal" id="d365-garanti_contract-garanti-kundeportal_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="kredittvurdering-superoffice-rest-endpoint" target="superoffice-rest-api (target)" id="kredittvurdering-superoffice-rest-endpoint_superoffice-rest-api (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="kredittvurdering-superoffice-rest" target="kredittvurdering-superoffice-rest-endpoint" id="kredittvurdering-superoffice-rest_kredittvurdering-superoffice-rest-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="superoffice-contactsimple-cleanorgnummer" target="global-kredittvurdering" id="superoffice-contactsimple-cleanorgnummer_global-kredittvurdering_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-kredittvurdering" target="kredittvurdering-superoffice" id="global-kredittvurdering_kredittvurdering-superoffice_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="kredittvurdering-superoffice" target="kredittvurdering-superoffice-rest" id="kredittvurdering-superoffice_kredittvurdering-superoffice-rest_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="leverandorvurdering-forvalter-endpoint" target="forvalter (target)" id="leverandorvurdering-forvalter-endpoint_forvalter (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="leverandorvurdering-forvalter" target="leverandorvurdering-forvalter-endpoint" id="leverandorvurdering-forvalter_leverandorvurdering-forvalter-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="bigquery-proptechos-ms (source)" target="eos-energinet-energyconsumption" id="bigquery-proptechos-ms (source)_eos-energinet-energyconsumption_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-prosjektprosess" target="prosjektprosess-powerapp" id="global-prosjektprosess_prosjektprosess-powerapp_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="forvalter-prosjektprosess" target="global-prosjektprosess" id="forvalter-prosjektprosess_global-prosjektprosess_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="prosjektprosess-powerapp" target="prosjektprosess-powerapp-endpoint" id="prosjektprosess-powerapp_prosjektprosess-powerapp-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="prosjektprosess-powerapp-endpoint" target="powerapp (target)" id="prosjektprosess-powerapp-endpoint_powerapp (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-budget" target="prosjektbudsjett-forvalter" id="global-budget_prosjektbudsjett-forvalter_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-prosjektbudsjett" target="global-budget" id="d365-prosjektbudsjett_global-budget_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="prosjektbudsjett-forvalter-endpoint" target="forvalter (target)" id="prosjektbudsjett-forvalter-endpoint_forvalter (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="prosjektbudsjett-forvalter" target="prosjektbudsjett-forvalter-endpoint" id="prosjektbudsjett-forvalter_prosjektbudsjett-forvalter-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="dokument-vertex-rest-endpoint" target="document-api (target)" id="dokument-vertex-rest-endpoint_document-api (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="dokument-vertex-rest" target="dokument-vertex-rest-endpoint" id="dokument-vertex-rest_dokument-vertex-rest-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="user-powerapp" target="user-powerapp-endpoint" id="user-powerapp_user-powerapp-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="user-powerapp-endpoint" target="powerapp (target)" id="user-powerapp-endpoint_powerapp (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="forvalter-brukerrolle-powerapp-endpoint" target="powerapp (target)" id="forvalter-brukerrolle-powerapp-endpoint_powerapp (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="forvalter-brukerrolle-powerapp" target="forvalter-brukerrolle-powerapp-endpoint" id="forvalter-brukerrolle-powerapp_forvalter-brukerrolle-powerapp-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-brukerrolle" target="forvalter-brukerrolle-powerapp" id="global-brukerrolle_forvalter-brukerrolle-powerapp_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="forvalter-brukerrolle" target="global-brukerrolle" id="forvalter-brukerrolle_global-brukerrolle_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-purring-detaljer" target="global-purring" id="d365-purring-detaljer_global-purring_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="purring-kundeportal" target="purring-kundeportal-endpoint" id="purring-kundeportal_purring-kundeportal-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-purring" target="purring-kundeportal" id="global-purring_purring-kundeportal_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="purring-kundeportal-endpoint" target="kundeportal (target)" id="purring-kundeportal-endpoint_kundeportal (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="d365-prosjektbilag" target="global-prosjektbilag" id="d365-prosjektbilag_global-prosjektbilag_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="prosjektbilag-forvalter" target="prosjektbilag-forvalter-endpoint" id="prosjektbilag-forvalter_prosjektbilag-forvalter-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="global-prosjektbilag" target="prosjektbilag-forvalter" id="global-prosjektbilag_prosjektbilag-forvalter_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="prosjektbilag-forvalter-endpoint" target="forvalter (target)" id="prosjektbilag-forvalter-endpoint_forvalter (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="energycustomerconsumption-kundeportal" target="energycustomerconsumption-kundeportal-endpoint" id="energycustomerconsumption-kundeportal_energycustomerconsumption-kundeportal-endpoint_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="energinet-energycustomerconsumption" target="energycustomerconsumption-kundeportal" id="energinet-energycustomerconsumption_energycustomerconsumption-kundeportal_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="energycustomerconsumption-kundeportal-endpoint" target="kundeportal (target)" id="energycustomerconsumption-kundeportal-endpoint_kundeportal (target)_main">
+      <ns0:data key="d3">main</ns0:data>
+    </ns0:edge>
   </ns0:graph>
-<ns0:key id="d0" for="node" yfiles.type="nodegraphics" /></ns0:graphml>
+</ns0:graphml>

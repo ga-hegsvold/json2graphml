@@ -1,54 +1,2549 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d3" for="edge" attr.name="type" attr.type="string" />
+  <key id="d2" for="node" attr.name="type" attr.type="string" />
   <key id="d1" for="node" attr.name="icon" attr.type="string" />
   <key id="d0" for="node" attr.name="label" attr.type="string" />
   <graph edgedefault="directed">
-    <node id="ifs-ref-custom-enumerations">
-      <data key="d0">ifs-ref-custom-enumerations</data>
+    <node id="contract-details-kundeportal-endpoint">
+      <data key="d0">contract-details-kundeportal-endpoint</data>
       <data key="d1">pipe</data>
     </node>
-    <node id="ifs-receive-supplier-agreement">
-      <data key="d0">ifs-receive-supplier-agreement</data>
+    <node id="contract-details-kundeportal">
+      <data key="d0">contract-details-kundeportal</data>
       <data key="d1">pipe</data>
     </node>
-    <node id="ifs-receive-supplier">
-      <data key="d0">ifs-receive-supplier</data>
-      <data key="d1">pipe</data>
-    </node>
-    <node id="ifs-receive-supplier-info-address">
-      <data key="d0">ifs-receive-supplier-info-address</data>
-      <data key="d1">pipe</data>
-    </node>
-    <node id="ifs-supplier">
-      <data key="d0">ifs-supplier</data>
-      <data key="d1">pipe</data>
-    </node>
-    <node id="ifs-supplier-addresses">
-      <data key="d0">ifs-supplier-addresses</data>
-      <data key="d1">pipe</data>
-    </node>
-    <node id="ifs-supplier-agreement">
-      <data key="d0">ifs-supplier-agreement</data>
-      <data key="d1">pipe</data>
-    </node>
-    <node id="global-vendor">
-      <data key="d0">global-vendor</data>
-      <data key="d1">pipe</data>
-    </node>
-    <node id="supplier-agreement-mfiles">
-      <data key="d0">supplier-agreement-mfiles</data>
-      <data key="d1">pipe</data>
-    </node>
-    <node id="ace">
-      <data key="d0">ace</data>
+    <node id="kundeportal (target)">
+      <data key="d0">kundeportal (target)</data>
       <data key="d1">system</data>
+      <data key="d2">target</data>
     </node>
-    <edge source="ifs-receive-supplier-agreement" target="ifs-supplier-agreement" />
-    <edge source="ifs-receive-supplier" target="ifs-supplier" />
-    <edge source="ifs-receive-supplier-info-address" target="ifs-supplier-addresses" />
-    <edge source="ifs-supplier" target="global-vendor" />
-    <edge source="ifs-supplier-addresses" target="global-vendor" />
-    <edge source="ifs-supplier-agreement" target="global-vendor" />
-    <edge source="global-vendor" target="supplier-agreement-mfiles" />
+    <node id="kunder-kundeportal-endpoint">
+      <data key="d0">kunder-kundeportal-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="kunder-kundeportal">
+      <data key="d0">kunder-kundeportal</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="bygg-kundeportal-endpoint">
+      <data key="d0">bygg-kundeportal-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="bygg-kundeportal">
+      <data key="d0">bygg-kundeportal</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="axapta-yearly-shared-costs">
+      <data key="d0">axapta-yearly-shared-costs</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="axapta-yearly-shared-costs-where-filter">
+      <data key="d0">axapta-yearly-shared-costs-where-filter</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="contract-kundeportal-endpoint">
+      <data key="d0">contract-kundeportal-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="contract-kundeportal">
+      <data key="d0">contract-kundeportal</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="global-geography">
+      <data key="d0">global-geography</data>
+      <data key="d1">global</data>
+    </node>
+    <node id="axapta-geography">
+      <data key="d0">axapta-geography</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="axapta-yearly-rent-where-filter">
+      <data key="d0">axapta-yearly-rent-where-filter</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="axapta-contract-line-price">
+      <data key="d0">axapta-contract-line-price</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="axapta-yearly-property-tax-where-filter">
+      <data key="d0">axapta-yearly-property-tax-where-filter</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="personinterest-kundeportal-endpoint">
+      <data key="d0">personinterest-kundeportal-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="personinterest-kundeportal">
+      <data key="d0">personinterest-kundeportal</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="axapta-yearly-rent">
+      <data key="d0">axapta-yearly-rent</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="axapta-yearly-property-tax">
+      <data key="d0">axapta-yearly-property-tax</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="faktura-kundeportal-endpoint">
+      <data key="d0">faktura-kundeportal-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="faktura-kundeportal">
+      <data key="d0">faktura-kundeportal</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="global-personinterest">
+      <data key="d0">global-personinterest</data>
+      <data key="d1">global</data>
+    </node>
+    <node id="superoffice-personinterest">
+      <data key="d0">superoffice-personinterest</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="global-property-object">
+      <data key="d0">global-property-object</data>
+      <data key="d1">global</data>
+    </node>
+    <node id="axapta-object">
+      <data key="d0">axapta-object</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="superoffice-ticketmessage">
+      <data key="d0">superoffice-ticketmessage</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="superoffice-ticket">
+      <data key="d0">superoffice-ticket</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="ticketsupportcategory-kundeportal-endpoint">
+      <data key="d0">ticketsupportcategory-kundeportal-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="ticketsupportcategory-kundeportal">
+      <data key="d0">ticketsupportcategory-kundeportal</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="global-ticketcategory">
+      <data key="d0">global-ticketcategory</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="superoffice-ticketcategory">
+      <data key="d0">superoffice-ticketcategory</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="superoffice-supportcategory">
+      <data key="d0">superoffice-supportcategory</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="kundeportal-ticketcategory">
+      <data key="d0">kundeportal-ticketcategory</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="global-ticket">
+      <data key="d0">global-ticket</data>
+      <data key="d1">global</data>
+    </node>
+    <node id="ticketcategory-kundeportal">
+      <data key="d0">ticketcategory-kundeportal</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="ticketmessageattachment-kundeportal">
+      <data key="d0">ticketmessageattachment-kundeportal</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="global-ticketmessageattachment">
+      <data key="d0">global-ticketmessageattachment</data>
+      <data key="d1">global</data>
+    </node>
+    <node id="superoffice-ticketmessageattachment">
+      <data key="d0">superoffice-ticketmessageattachment</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="d365-CustomerNumber">
+      <data key="d0">d365-CustomerNumber</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="d365-map">
+      <data key="d0">d365-map</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="sale-kundeportal">
+      <data key="d0">sale-kundeportal</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="global-project">
+      <data key="d0">global-project</data>
+      <data key="d1">global</data>
+    </node>
+    <node id="global-customer">
+      <data key="d0">global-customer</data>
+      <data key="d1">global</data>
+    </node>
+    <node id="global-sale">
+      <data key="d0">global-sale</data>
+      <data key="d1">global</data>
+    </node>
+    <node id="ticketstatus-kundeportal-endpoint">
+      <data key="d0">ticketstatus-kundeportal-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="ticketstatus-kundeportal">
+      <data key="d0">ticketstatus-kundeportal</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="global-ticketstatus">
+      <data key="d0">global-ticketstatus</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="superoffice-sale">
+      <data key="d0">superoffice-sale</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="superoffice-salesimple">
+      <data key="d0">superoffice-salesimple</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="superoffice-project">
+      <data key="d0">superoffice-project</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="superoffice-projectsimple">
+      <data key="d0">superoffice-projectsimple</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="d365-ContractNumber">
+      <data key="d0">d365-ContractNumber</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="user-leko-endpoint">
+      <data key="d0">user-leko-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="user-leko">
+      <data key="d0">user-leko</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="axapta-contract-details">
+      <data key="d0">axapta-contract-details</data>
+      <data key="d1">global</data>
+    </node>
+    <node id="axapta-contract-line">
+      <data key="d0">axapta-contract-line</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="d365-contract-line-number">
+      <data key="d0">d365-contract-line-number</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="axapta-contract-with-d365Id">
+      <data key="d0">axapta-contract-with-d365Id</data>
+      <data key="d1">global</data>
+    </node>
+    <node id="axapta-contract">
+      <data key="d0">axapta-contract</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="customer-leko-endpoint">
+      <data key="d0">customer-leko-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="customer-leko">
+      <data key="d0">customer-leko</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="global-contract">
+      <data key="d0">global-contract</data>
+      <data key="d1">global</data>
+    </node>
+    <node id="d365-kontrakt">
+      <data key="d0">d365-kontrakt</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="global-contract-details">
+      <data key="d0">global-contract-details</data>
+      <data key="d1">global</data>
+    </node>
+    <node id="d365-contract-line">
+      <data key="d0">d365-contract-line</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="axapta-contract-details-with-d365Id">
+      <data key="d0">axapta-contract-details-with-d365Id</data>
+      <data key="d1">global</data>
+    </node>
+    <node id="d365-buildingnumber">
+      <data key="d0">d365-buildingnumber</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="d365-selskap">
+      <data key="d0">d365-selskap</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="ticketmessageattachment-kundeportal-endpoint">
+      <data key="d0">ticketmessageattachment-kundeportal-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="bygg-leko-rest-endpoint">
+      <data key="d0">bygg-leko-rest-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="bygg-leko-rest">
+      <data key="d0">bygg-leko-rest</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="leko (target)">
+      <data key="d0">leko (target)</data>
+      <data key="d1">system</data>
+      <data key="d2">target</data>
+    </node>
+    <node id="bygg-forvalter-endpoint">
+      <data key="d0">bygg-forvalter-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="bygg-forvalter">
+      <data key="d0">bygg-forvalter</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="forvalter (target)">
+      <data key="d0">forvalter (target)</data>
+      <data key="d1">system</data>
+      <data key="d2">target</data>
+    </node>
+    <node id="global-firma">
+      <data key="d0">global-firma</data>
+      <data key="d1">global</data>
+    </node>
+    <node id="d365-firma">
+      <data key="d0">d365-firma</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="ticketmessage-kundeportal-endpoint">
+      <data key="d0">ticketmessage-kundeportal-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="ticketmessage-kundeportal">
+      <data key="d0">ticketmessage-kundeportal</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="kundeportalCharsetUtf8mb4 (target)">
+      <data key="d0">kundeportalCharsetUtf8mb4 (target)</data>
+      <data key="d1">system</data>
+      <data key="d2">target</data>
+    </node>
+    <node id="customer-forvalter-endpoint">
+      <data key="d0">customer-forvalter-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="customer-forvalter">
+      <data key="d0">customer-forvalter</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="customer-leko-rest">
+      <data key="d0">customer-leko-rest</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="user-leko-rest-endpoint">
+      <data key="d0">user-leko-rest-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="user-leko-rest">
+      <data key="d0">user-leko-rest</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="firma-forvalter-endpoint">
+      <data key="d0">firma-forvalter-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="firma-forvalter">
+      <data key="d0">firma-forvalter</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="sale-kundeportal-endpoint">
+      <data key="d0">sale-kundeportal-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="bygg-leko">
+      <data key="d0">bygg-leko</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="customer-leko-rest-endpoint">
+      <data key="d0">customer-leko-rest-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="global-byggtegning">
+      <data key="d0">global-byggtegning</data>
+      <data key="d1">global</data>
+    </node>
+    <node id="kundeportal-byggtegning">
+      <data key="d0">kundeportal-byggtegning</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="global-rentalobject">
+      <data key="d0">global-rentalobject</data>
+      <data key="d1">global</data>
+    </node>
+    <node id="d365-leieobjekt">
+      <data key="d0">d365-leieobjekt</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="leieobjekt-forvalter-endpoint">
+      <data key="d0">leieobjekt-forvalter-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="leieobjekt-forvalter">
+      <data key="d0">leieobjekt-forvalter</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="d365-ledige-arealer-grouped">
+      <data key="d0">d365-ledige-arealer-grouped</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="d365-ledige-arealer">
+      <data key="d0">d365-ledige-arealer</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="d365-bygg-avdeling">
+      <data key="d0">d365-bygg-avdeling</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="d365-utleide-areal-grouped">
+      <data key="d0">d365-utleide-areal-grouped</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="d365-utleide-areal">
+      <data key="d0">d365-utleide-areal</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="d365-total-arealer-grouped">
+      <data key="d0">d365-total-arealer-grouped</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="d365-areas">
+      <data key="d0">d365-areas</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="ledige-arealer-forvalter-endpoint">
+      <data key="d0">ledige-arealer-forvalter-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="ledige-arealer-forvalter">
+      <data key="d0">ledige-arealer-forvalter</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="user-forvalter-endpoint">
+      <data key="d0">user-forvalter-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="user-forvalter">
+      <data key="d0">user-forvalter</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="superoffice-ticketstatus">
+      <data key="d0">superoffice-ticketstatus</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="contract-details-forvalter-endpoint">
+      <data key="d0">contract-details-forvalter-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="contract-details-forvalter">
+      <data key="d0">contract-details-forvalter</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="faktura-forvalter-endpoint">
+      <data key="d0">faktura-forvalter-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="faktura-forvalter">
+      <data key="d0">faktura-forvalter</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="d365-faktura-detaljer-with-commonid">
+      <data key="d0">d365-faktura-detaljer-with-commonid</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="d365-faktura-detaljer">
+      <data key="d0">d365-faktura-detaljer</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="energyconsumption-kundeportal">
+      <data key="d0">energyconsumption-kundeportal</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="energinet-energyconsumption">
+      <data key="d0">energinet-energyconsumption</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="global-user">
+      <data key="d0">global-user</data>
+      <data key="d1">global</data>
+    </node>
+    <node id="usercustomer-kundeportal-endpoint">
+      <data key="d0">usercustomer-kundeportal-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="usercustomer-kundeportal">
+      <data key="d0">usercustomer-kundeportal</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="ticketcategory-kundeportal-endpoint">
+      <data key="d0">ticketcategory-kundeportal-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="personkonvolutt-forvalter-endpoint">
+      <data key="d0">personkonvolutt-forvalter-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="personkonvolutt-forvalter">
+      <data key="d0">personkonvolutt-forvalter</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="dokument-forvalter-endpoint">
+      <data key="d0">dokument-forvalter-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="dokument-forvalter">
+      <data key="d0">dokument-forvalter</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="konvolutt-forvalter-endpoint">
+      <data key="d0">konvolutt-forvalter-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="konvolutt-forvalter">
+      <data key="d0">konvolutt-forvalter</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="ticket-kundeportal-endpoint">
+      <data key="d0">ticket-kundeportal-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="ticket-kundeportal">
+      <data key="d0">ticket-kundeportal</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="global-ticketmessage">
+      <data key="d0">global-ticketmessage</data>
+      <data key="d1">global</data>
+    </node>
+    <node id="user-person-forvalter">
+      <data key="d0">user-person-forvalter</data>
+      <data key="d1">global</data>
+    </node>
+    <node id="kunde-leie-superoffice-rest-endpoint">
+      <data key="d0">kunde-leie-superoffice-rest-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="kunde-leie-superoffice-rest">
+      <data key="d0">kunde-leie-superoffice-rest</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="superoffice-rest-api (target)">
+      <data key="d0">superoffice-rest-api (target)</data>
+      <data key="d1">system</data>
+      <data key="d2">target</data>
+    </node>
+    <node id="user-person-forvalter-endpoint">
+      <data key="d0">user-person-forvalter-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="user-kundeportal-endpoint">
+      <data key="d0">user-kundeportal-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="user-kundeportal">
+      <data key="d0">user-kundeportal</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="verified-envelope">
+      <data key="d0">verified-envelope</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="d365-contract-line-area-countable">
+      <data key="d0">d365-contract-line-area-countable</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="kunde-leie-superoffice-endpoint">
+      <data key="d0">kunde-leie-superoffice-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="d365-kunde-kontrakt-leie-grouped">
+      <data key="d0">d365-kunde-kontrakt-leie-grouped</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="verified-personkonvolutt">
+      <data key="d0">verified-personkonvolutt</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="d365-kunde">
+      <data key="d0">d365-kunde</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="superoffice-contactsimple">
+      <data key="d0">superoffice-contactsimple</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="global-invoice">
+      <data key="d0">global-invoice</data>
+      <data key="d1">global</data>
+    </node>
+    <node id="waterconsumption-kundeportal">
+      <data key="d0">waterconsumption-kundeportal</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="energinet-waterconsumption">
+      <data key="d0">energinet-waterconsumption</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="energinet-api (source)">
+      <data key="d0">energinet-api (source)</data>
+      <data key="d1">system</data>
+      <data key="d2">source</data>
+    </node>
+    <node id="dokumentkontraktslinjeavsjekk-kundeportal">
+      <data key="d0">dokumentkontraktslinjeavsjekk-kundeportal</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="global-dokumentkontraktslinjeavsjekk">
+      <data key="d0">global-dokumentkontraktslinjeavsjekk</data>
+      <data key="d1">global</data>
+    </node>
+    <node id="dokumentkontraktslinjeavsjekk-kundeportal-endpoint">
+      <data key="d0">dokumentkontraktslinjeavsjekk-kundeportal-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="bygg-bqeos-rest-endpoint">
+      <data key="d0">bygg-bqeos-rest-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="bygg-bqeos-rest">
+      <data key="d0">bygg-bqeos-rest</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="bigquery-api (target)">
+      <data key="d0">bigquery-api (target)</data>
+      <data key="d1">system</data>
+      <data key="d2">target</data>
+    </node>
+    <node id="bygg-bqeos">
+      <data key="d0">bygg-bqeos</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="forvalter-dokumentkontraktslinjeavsjekk">
+      <data key="d0">forvalter-dokumentkontraktslinjeavsjekk</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="forvalter (source)">
+      <data key="d0">forvalter (source)</data>
+      <data key="d1">system</data>
+      <data key="d2">source</data>
+    </node>
+    <node id="global-property">
+      <data key="d0">global-property</data>
+      <data key="d1">global</data>
+    </node>
+    <node id="superoffice-contact">
+      <data key="d0">superoffice-contact</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="kundeportal-customer">
+      <data key="d0">kundeportal-customer</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="bygg-leko-endpoint">
+      <data key="d0">bygg-leko-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="prosjekt-juridiskselskap-superoffice-rest-endpoint">
+      <data key="d0">prosjekt-juridiskselskap-superoffice-rest-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="prosjekt-juridiskselskap-superoffice-rest">
+      <data key="d0">prosjekt-juridiskselskap-superoffice-rest</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="prosjekt-juridiskselskap-superoffice">
+      <data key="d0">prosjekt-juridiskselskap-superoffice</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="vault-secrets">
+      <data key="d0">vault-secrets</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="eiendom-api (source)">
+      <data key="d0">eiendom-api (source)</data>
+      <data key="d1">system</data>
+      <data key="d2">source</data>
+    </node>
+    <node id="kontrakt-leko-kdi">
+      <data key="d0">kontrakt-leko-kdi</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="leko-kontrakt">
+      <data key="d0">leko-kontrakt</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="kontrakt-leko-kdi-endpoint">
+      <data key="d0">kontrakt-leko-kdi-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="leko-kdipubsub (target)">
+      <data key="d0">leko-kdipubsub (target)</data>
+      <data key="d1">system</data>
+      <data key="d2">target</data>
+    </node>
+    <node id="directlink-forvalter-endpoint">
+      <data key="d0">directlink-forvalter-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="directlink-forvalter">
+      <data key="d0">directlink-forvalter</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="lekoworker-directlink">
+      <data key="d0">lekoworker-directlink</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="fdvweb-helper-energy">
+      <data key="d0">fdvweb-helper-energy</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="fdvweb-building">
+      <data key="d0">fdvweb-building</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="fdvweb (source)">
+      <data key="d0">fdvweb (source)</data>
+      <data key="d1">system</data>
+      <data key="d2">source</data>
+    </node>
+    <node id="fdvweb-building-image">
+      <data key="d0">fdvweb-building-image</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="fdvweb-energy-categorization">
+      <data key="d0">fdvweb-energy-categorization</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="kundeportal-building">
+      <data key="d0">kundeportal-building</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="kundeportal (source)">
+      <data key="d0">kundeportal (source)</data>
+      <data key="d1">system</data>
+      <data key="d2">source</data>
+    </node>
+    <node id="superoffice (source)">
+      <data key="d0">superoffice (source)</data>
+      <data key="d1">system</data>
+      <data key="d2">source</data>
+    </node>
+    <node id="superoffice-api (source)">
+      <data key="d0">superoffice-api (source)</data>
+      <data key="d1">system</data>
+      <data key="d2">source</data>
+    </node>
+    <node id="d365-grunneiendom">
+      <data key="d0">d365-grunneiendom</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="d365-api (source)">
+      <data key="d0">d365-api (source)</data>
+      <data key="d1">system</data>
+      <data key="d2">source</data>
+    </node>
+    <node id="axapta (source)">
+      <data key="d0">axapta (source)</data>
+      <data key="d1">system</data>
+      <data key="d2">source</data>
+    </node>
+    <node id="energinet-wasteconsumption">
+      <data key="d0">energinet-wasteconsumption</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="axapta-building">
+      <data key="d0">axapta-building</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="axapta-customer">
+      <data key="d0">axapta-customer</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="superoffice-csuser">
+      <data key="d0">superoffice-csuser</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="d365-leverandoromsetning">
+      <data key="d0">d365-leverandoromsetning</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="leverandor-omsetning-superoffice-rest-endpoint">
+      <data key="d0">leverandor-omsetning-superoffice-rest-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="leverandor-omsetning-superoffice-rest">
+      <data key="d0">leverandor-omsetning-superoffice-rest</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="global-leverandor">
+      <data key="d0">global-leverandor</data>
+      <data key="d1">global</data>
+    </node>
+    <node id="d365-leverandor">
+      <data key="d0">d365-leverandor</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="superoffice-contactsimple-leverandor">
+      <data key="d0">superoffice-contactsimple-leverandor</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="leko-dokument">
+      <data key="d0">leko-dokument</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="energiattest-bqeos-rest">
+      <data key="d0">energiattest-bqeos-rest</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="energiattest-bqeos">
+      <data key="d0">energiattest-bqeos</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="energiattest-bqeos-rest-endpoint">
+      <data key="d0">energiattest-bqeos-rest-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="d365-building">
+      <data key="d0">d365-building</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="fdvweb-helper-energy-categorization">
+      <data key="d0">fdvweb-helper-energy-categorization</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="d365-bygg-firma">
+      <data key="d0">d365-bygg-firma</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="kunde-orgnummer-kundeportal">
+      <data key="d0">kunde-orgnummer-kundeportal</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="kunde-orgnummer-kundeportal-endpoint">
+      <data key="d0">kunde-orgnummer-kundeportal-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="superoffice-migrateduser">
+      <data key="d0">superoffice-migrateduser</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="global-internaluser">
+      <data key="d0">global-internaluser</data>
+      <data key="d1">global</data>
+    </node>
+    <node id="d365-ansatt">
+      <data key="d0">d365-ansatt</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="superoffice-user">
+      <data key="d0">superoffice-user</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="usercustomer-bq-rest-endpoint">
+      <data key="d0">usercustomer-bq-rest-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="usercustomer-bq-rest">
+      <data key="d0">usercustomer-bq-rest</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="usercustomer-bq">
+      <data key="d0">usercustomer-bq</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="customer-bq-rest-endpoint">
+      <data key="d0">customer-bq-rest-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="customer-bq-rest">
+      <data key="d0">customer-bq-rest</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="customer-bq">
+      <data key="d0">customer-bq</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="leverandorvurdering-superoffice-rest-endpoint">
+      <data key="d0">leverandorvurdering-superoffice-rest-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="leverandorvurdering-superoffice-rest">
+      <data key="d0">leverandorvurdering-superoffice-rest</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="portalusage-sistaktiv-kundeportal-endpoint">
+      <data key="d0">portalusage-sistaktiv-kundeportal-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="portalusage-sistaktiv-kundeportal">
+      <data key="d0">portalusage-sistaktiv-kundeportal</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="influx-portalusage-sistaktiv">
+      <data key="d0">influx-portalusage-sistaktiv</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="prosjekt-forvalter-endpoint">
+      <data key="d0">prosjekt-forvalter-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="prosjekt-forvalter">
+      <data key="d0">prosjekt-forvalter</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="sale-forvalter-endpoint">
+      <data key="d0">sale-forvalter-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="sale-forvalter">
+      <data key="d0">sale-forvalter</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="global-document">
+      <data key="d0">global-document</data>
+      <data key="d1">global</data>
+    </node>
+    <node id="superoffice-document">
+      <data key="d0">superoffice-document</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="verified-document">
+      <data key="d0">verified-document</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="dokument-bq-rest">
+      <data key="d0">dokument-bq-rest</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="dokument-bq">
+      <data key="d0">dokument-bq</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="d365-leverandor-omsetning-grouped">
+      <data key="d0">d365-leverandor-omsetning-grouped</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="dokument-bq-rest-endpoint">
+      <data key="d0">dokument-bq-rest-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="global-prosjekt">
+      <data key="d0">global-prosjekt</data>
+      <data key="d1">global</data>
+    </node>
+    <node id="d365-prosjekt">
+      <data key="d0">d365-prosjekt</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="prosjekt-powerapp-endpoint">
+      <data key="d0">prosjekt-powerapp-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="prosjekt-powerapp">
+      <data key="d0">prosjekt-powerapp</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="powerapp (target)">
+      <data key="d0">powerapp (target)</data>
+      <data key="d1">system</data>
+      <data key="d2">target</data>
+    </node>
+    <node id="leverandorvurdering-bq">
+      <data key="d0">leverandorvurdering-bq</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="global-leverandorvurdering">
+      <data key="d0">global-leverandorvurdering</data>
+      <data key="d1">global</data>
+    </node>
+    <node id="bisnode-sanksjoner">
+      <data key="d0">bisnode-sanksjoner</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="bisnode-leverandor">
+      <data key="d0">bisnode-leverandor</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="prosjektrapportering-powerapp-endpoint">
+      <data key="d0">prosjektrapportering-powerapp-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="prosjektrapportering-powerapp">
+      <data key="d0">prosjektrapportering-powerapp</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="global-serviceavtale">
+      <data key="d0">global-serviceavtale</data>
+      <data key="d1">global</data>
+    </node>
+    <node id="fdvweb-serviceavtale">
+      <data key="d0">fdvweb-serviceavtale</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="fdvweb-api (source)">
+      <data key="d0">fdvweb-api (source)</data>
+      <data key="d1">system</data>
+      <data key="d2">source</data>
+    </node>
+    <node id="serviceavtale-bq">
+      <data key="d0">serviceavtale-bq</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="serviceavtale-bq-rest">
+      <data key="d0">serviceavtale-bq-rest</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="serviceavtale-bigquery-endpoint">
+      <data key="d0">serviceavtale-bigquery-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="bigquery-kdi-ms (target)">
+      <data key="d0">bigquery-kdi-ms (target)</data>
+      <data key="d1">system</data>
+      <data key="d2">target</data>
+    </node>
+    <node id="serviceavtale-bq-rest-endpoint">
+      <data key="d0">serviceavtale-bq-rest-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="leverandorvurdering-bigquery-endpoint">
+      <data key="d0">leverandorvurdering-bigquery-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="byggtegning-leko-endpoint">
+      <data key="d0">byggtegning-leko-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="byggtegning-leko">
+      <data key="d0">byggtegning-leko</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="global-kostkategori">
+      <data key="d0">global-kostkategori</data>
+      <data key="d1">global</data>
+    </node>
+    <node id="d365-kostkategori">
+      <data key="d0">d365-kostkategori</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="kostkategori-forvalter">
+      <data key="d0">kostkategori-forvalter</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="kostkategori-forvalter-endpoint">
+      <data key="d0">kostkategori-forvalter-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="wasteconsumption-kundeportal-endpoint">
+      <data key="d0">wasteconsumption-kundeportal-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="wasteconsumption-kundeportal">
+      <data key="d0">wasteconsumption-kundeportal</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="waterconsumption-kundeportal-endpoint">
+      <data key="d0">waterconsumption-kundeportal-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="energyconsumption-kundeportal-endpoint">
+      <data key="d0">energyconsumption-kundeportal-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="superoffice-ticketmessageattachment-update">
+      <data key="d0">superoffice-ticketmessageattachment-update</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="superoffice-ticketmessage-update">
+      <data key="d0">superoffice-ticketmessage-update</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="energinet-adjustedenergyconsumption">
+      <data key="d0">energinet-adjustedenergyconsumption</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="maaltall-kundeportal-endpoint">
+      <data key="d0">maaltall-kundeportal-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="maaltall-kundeportal">
+      <data key="d0">maaltall-kundeportal</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="adjustedenergyconsumption-kundeportal-endpoint">
+      <data key="d0">adjustedenergyconsumption-kundeportal-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="adjustedenergyconsumption-kundeportal">
+      <data key="d0">adjustedenergyconsumption-kundeportal</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="energinet-maaltall">
+      <data key="d0">energinet-maaltall</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="contract-garanti-kundeportal-endpoint">
+      <data key="d0">contract-garanti-kundeportal-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="contract-garanti-kundeportal">
+      <data key="d0">contract-garanti-kundeportal</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="d365-garanti">
+      <data key="d0">d365-garanti</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="kredittvurdering-superoffice-rest-endpoint">
+      <data key="d0">kredittvurdering-superoffice-rest-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="kredittvurdering-superoffice-rest">
+      <data key="d0">kredittvurdering-superoffice-rest</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="superoffice-contactsimple-cleanorgnummer">
+      <data key="d0">superoffice-contactsimple-cleanorgnummer</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="global-kredittvurdering">
+      <data key="d0">global-kredittvurdering</data>
+      <data key="d1">global</data>
+    </node>
+    <node id="kredittvurdering-superoffice">
+      <data key="d0">kredittvurdering-superoffice</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="leverandorvurdering-forvalter-endpoint">
+      <data key="d0">leverandorvurdering-forvalter-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="leverandorvurdering-forvalter">
+      <data key="d0">leverandorvurdering-forvalter</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="eos-energinet-energyconsumption">
+      <data key="d0">eos-energinet-energyconsumption</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="bigquery-proptechos-ms (source)">
+      <data key="d0">bigquery-proptechos-ms (source)</data>
+      <data key="d1">system</data>
+      <data key="d2">source</data>
+    </node>
+    <node id="global-prosjektprosess">
+      <data key="d0">global-prosjektprosess</data>
+      <data key="d1">global</data>
+    </node>
+    <node id="forvalter-prosjektprosess">
+      <data key="d0">forvalter-prosjektprosess</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="prosjektprosess-powerapp">
+      <data key="d0">prosjektprosess-powerapp</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="prosjektprosess-powerapp-endpoint">
+      <data key="d0">prosjektprosess-powerapp-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="global-budget">
+      <data key="d0">global-budget</data>
+      <data key="d1">global</data>
+    </node>
+    <node id="d365-prosjektbudsjett">
+      <data key="d0">d365-prosjektbudsjett</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="prosjektbudsjett-forvalter-endpoint">
+      <data key="d0">prosjektbudsjett-forvalter-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="prosjektbudsjett-forvalter">
+      <data key="d0">prosjektbudsjett-forvalter</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="dokument-vertex-rest-endpoint">
+      <data key="d0">dokument-vertex-rest-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="dokument-vertex-rest">
+      <data key="d0">dokument-vertex-rest</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="document-api (target)">
+      <data key="d0">document-api (target)</data>
+      <data key="d1">system</data>
+      <data key="d2">target</data>
+    </node>
+    <node id="user-powerapp">
+      <data key="d0">user-powerapp</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="user-powerapp-endpoint">
+      <data key="d0">user-powerapp-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="forvalter-brukerrolle-powerapp-endpoint">
+      <data key="d0">forvalter-brukerrolle-powerapp-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="forvalter-brukerrolle-powerapp">
+      <data key="d0">forvalter-brukerrolle-powerapp</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="global-brukerrolle">
+      <data key="d0">global-brukerrolle</data>
+      <data key="d1">global</data>
+    </node>
+    <node id="forvalter-brukerrolle">
+      <data key="d0">forvalter-brukerrolle</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="d365-purring-detaljer">
+      <data key="d0">d365-purring-detaljer</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="purring-kundeportal">
+      <data key="d0">purring-kundeportal</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="global-purring">
+      <data key="d0">global-purring</data>
+      <data key="d1">global</data>
+    </node>
+    <node id="purring-kundeportal-endpoint">
+      <data key="d0">purring-kundeportal-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="d365-prosjektbilag">
+      <data key="d0">d365-prosjektbilag</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="prosjektbilag-forvalter">
+      <data key="d0">prosjektbilag-forvalter</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="global-prosjektbilag">
+      <data key="d0">global-prosjektbilag</data>
+      <data key="d1">global</data>
+    </node>
+    <node id="prosjektbilag-forvalter-endpoint">
+      <data key="d0">prosjektbilag-forvalter-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="energycustomerconsumption-kundeportal">
+      <data key="d0">energycustomerconsumption-kundeportal</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="energinet-energycustomerconsumption">
+      <data key="d0">energinet-energycustomerconsumption</data>
+      <data key="d1">pipe</data>
+    </node>
+    <node id="energycustomerconsumption-kundeportal-endpoint">
+      <data key="d0">energycustomerconsumption-kundeportal-endpoint</data>
+      <data key="d1">pipe</data>
+    </node>
+    <edge source="contract-details-kundeportal-endpoint" target="kundeportal (target)" id="contract-details-kundeportal-endpoint_kundeportal (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="contract-details-kundeportal" target="contract-details-kundeportal-endpoint" id="contract-details-kundeportal_contract-details-kundeportal-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="kunder-kundeportal-endpoint" target="kundeportal (target)" id="kunder-kundeportal-endpoint_kundeportal (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="kunder-kundeportal" target="kunder-kundeportal-endpoint" id="kunder-kundeportal_kunder-kundeportal-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="bygg-kundeportal-endpoint" target="kundeportal (target)" id="bygg-kundeportal-endpoint_kundeportal (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="bygg-kundeportal" target="bygg-kundeportal-endpoint" id="bygg-kundeportal_bygg-kundeportal-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="axapta-yearly-shared-costs" target="contract-kundeportal" id="axapta-yearly-shared-costs_contract-kundeportal_hops">
+      <data key="d3">hops</data>
+    </edge>
+    <edge source="axapta-yearly-shared-costs-where-filter" target="axapta-yearly-shared-costs" id="axapta-yearly-shared-costs-where-filter_axapta-yearly-shared-costs_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="contract-kundeportal-endpoint" target="kundeportal (target)" id="contract-kundeportal-endpoint_kundeportal (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="contract-kundeportal" target="contract-kundeportal-endpoint" id="contract-kundeportal_contract-kundeportal-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="axapta-geography" target="global-geography" id="axapta-geography_global-geography_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="axapta-yearly-rent-where-filter" target="axapta-yearly-rent" id="axapta-yearly-rent-where-filter_axapta-yearly-rent_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="axapta-contract-line-price" target="axapta-yearly-rent-where-filter" id="axapta-contract-line-price_axapta-yearly-rent-where-filter_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="axapta-contract-line-price" target="axapta-yearly-property-tax-where-filter" id="axapta-contract-line-price_axapta-yearly-property-tax-where-filter_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="axapta-contract-line-price" target="axapta-yearly-shared-costs-where-filter" id="axapta-contract-line-price_axapta-yearly-shared-costs-where-filter_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="axapta-contract-line-price" target="axapta-contract-details" id="axapta-contract-line-price_axapta-contract-details_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="axapta-yearly-property-tax-where-filter" target="axapta-yearly-property-tax" id="axapta-yearly-property-tax-where-filter_axapta-yearly-property-tax_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="personinterest-kundeportal-endpoint" target="kundeportal (target)" id="personinterest-kundeportal-endpoint_kundeportal (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="personinterest-kundeportal" target="personinterest-kundeportal-endpoint" id="personinterest-kundeportal_personinterest-kundeportal-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="axapta-yearly-rent" target="contract-kundeportal" id="axapta-yearly-rent_contract-kundeportal_hops">
+      <data key="d3">hops</data>
+    </edge>
+    <edge source="axapta-yearly-property-tax" target="contract-kundeportal" id="axapta-yearly-property-tax_contract-kundeportal_hops">
+      <data key="d3">hops</data>
+    </edge>
+    <edge source="faktura-kundeportal-endpoint" target="kundeportal (target)" id="faktura-kundeportal-endpoint_kundeportal (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="faktura-kundeportal" target="faktura-kundeportal-endpoint" id="faktura-kundeportal_faktura-kundeportal-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-personinterest" target="personinterest-kundeportal" id="global-personinterest_personinterest-kundeportal_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-personinterest" target="user-leko" id="global-personinterest_user-leko_hops">
+      <data key="d3">hops</data>
+    </edge>
+    <edge source="global-personinterest" target="user-kundeportal" id="global-personinterest_user-kundeportal_hops">
+      <data key="d3">hops</data>
+    </edge>
+    <edge source="superoffice-personinterest" target="global-personinterest" id="superoffice-personinterest_global-personinterest_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="axapta-object" target="global-property-object" id="axapta-object_global-property-object_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="superoffice-ticketmessage" target="superoffice-ticketmessageattachment" id="superoffice-ticketmessage_superoffice-ticketmessageattachment_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="superoffice-ticketmessage" target="global-ticketmessage" id="superoffice-ticketmessage_global-ticketmessage_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="superoffice-ticket" target="superoffice-ticketmessage" id="superoffice-ticket_superoffice-ticketmessage_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="superoffice-ticket" target="global-ticket" id="superoffice-ticket_global-ticket_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="ticketsupportcategory-kundeportal-endpoint" target="kundeportal (target)" id="ticketsupportcategory-kundeportal-endpoint_kundeportal (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="ticketsupportcategory-kundeportal" target="ticketsupportcategory-kundeportal-endpoint" id="ticketsupportcategory-kundeportal_ticketsupportcategory-kundeportal-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-ticketcategory" target="ticketcategory-kundeportal" id="global-ticketcategory_ticketcategory-kundeportal_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="superoffice-ticketcategory" target="global-ticketcategory" id="superoffice-ticketcategory_global-ticketcategory_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="superoffice-supportcategory" target="global-ticketcategory" id="superoffice-supportcategory_global-ticketcategory_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="kundeportal-ticketcategory" target="global-ticketcategory" id="kundeportal-ticketcategory_global-ticketcategory_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="kundeportal-ticketcategory" target="ticketsupportcategory-kundeportal" id="kundeportal-ticketcategory_ticketsupportcategory-kundeportal_hops">
+      <data key="d3">hops</data>
+    </edge>
+    <edge source="kundeportal-ticketcategory" target="ticket-kundeportal" id="kundeportal-ticketcategory_ticket-kundeportal_hops">
+      <data key="d3">hops</data>
+    </edge>
+    <edge source="global-ticket" target="ticketsupportcategory-kundeportal" id="global-ticket_ticketsupportcategory-kundeportal_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-ticket" target="ticket-kundeportal" id="global-ticket_ticket-kundeportal_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="ticketcategory-kundeportal" target="ticketcategory-kundeportal-endpoint" id="ticketcategory-kundeportal_ticketcategory-kundeportal-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="ticketmessageattachment-kundeportal" target="ticketmessageattachment-kundeportal-endpoint" id="ticketmessageattachment-kundeportal_ticketmessageattachment-kundeportal-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-ticketmessageattachment" target="ticketmessageattachment-kundeportal" id="global-ticketmessageattachment_ticketmessageattachment-kundeportal_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="superoffice-ticketmessageattachment" target="global-ticketmessageattachment" id="superoffice-ticketmessageattachment_global-ticketmessageattachment_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-CustomerNumber" target="global-customer" id="d365-CustomerNumber_global-customer_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-CustomerNumber" target="contract-kundeportal" id="d365-CustomerNumber_contract-kundeportal_hops">
+      <data key="d3">hops</data>
+    </edge>
+    <edge source="d365-map" target="d365-CustomerNumber" id="d365-map_d365-CustomerNumber_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-map" target="d365-ContractNumber" id="d365-map_d365-ContractNumber_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-map" target="d365-contract-line-number" id="d365-map_d365-contract-line-number_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-map" target="d365-buildingnumber" id="d365-map_d365-buildingnumber_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-map" target="d365-selskap" id="d365-map_d365-selskap_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="sale-kundeportal" target="sale-kundeportal-endpoint" id="sale-kundeportal_sale-kundeportal-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-project" target="sale-kundeportal" id="global-project_sale-kundeportal_hops">
+      <data key="d3">hops</data>
+    </edge>
+    <edge source="global-project" target="prosjekt-juridiskselskap-superoffice" id="global-project_prosjekt-juridiskselskap-superoffice_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-project" target="sale-forvalter" id="global-project_sale-forvalter_hops">
+      <data key="d3">hops</data>
+    </edge>
+    <edge source="global-project" target="prosjekt-forvalter" id="global-project_prosjekt-forvalter_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-customer" target="sale-kundeportal" id="global-customer_sale-kundeportal_hops">
+      <data key="d3">hops</data>
+    </edge>
+    <edge source="global-customer" target="user-person-forvalter" id="global-customer_user-person-forvalter_hops">
+      <data key="d3">hops</data>
+    </edge>
+    <edge source="global-customer" target="user-leko" id="global-customer_user-leko_hops">
+      <data key="d3">hops</data>
+    </edge>
+    <edge source="global-customer" target="kunder-kundeportal" id="global-customer_kunder-kundeportal_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-customer" target="kunde-orgnummer-kundeportal" id="global-customer_kunde-orgnummer-kundeportal_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-customer" target="customer-leko" id="global-customer_customer-leko_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-customer" target="customer-bq" id="global-customer_customer-bq_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-customer" target="sale-forvalter" id="global-customer_sale-forvalter_hops">
+      <data key="d3">hops</data>
+    </edge>
+    <edge source="global-customer" target="customer-forvalter" id="global-customer_customer-forvalter_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-customer" target="dokument-bq" id="global-customer_dokument-bq_hops">
+      <data key="d3">hops</data>
+    </edge>
+    <edge source="global-customer" target="user-powerapp" id="global-customer_user-powerapp_hops">
+      <data key="d3">hops</data>
+    </edge>
+    <edge source="global-customer" target="user-forvalter" id="global-customer_user-forvalter_hops">
+      <data key="d3">hops</data>
+    </edge>
+    <edge source="global-sale" target="sale-kundeportal" id="global-sale_sale-kundeportal_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-sale" target="sale-forvalter" id="global-sale_sale-forvalter_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="ticketstatus-kundeportal-endpoint" target="kundeportal (target)" id="ticketstatus-kundeportal-endpoint_kundeportal (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="ticketstatus-kundeportal" target="ticketstatus-kundeportal-endpoint" id="ticketstatus-kundeportal_ticketstatus-kundeportal-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-ticketstatus" target="ticketstatus-kundeportal" id="global-ticketstatus_ticketstatus-kundeportal_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="superoffice-sale" target="global-sale" id="superoffice-sale_global-sale_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="superoffice-salesimple" target="global-sale" id="superoffice-salesimple_global-sale_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="superoffice-project" target="global-project" id="superoffice-project_global-project_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="superoffice-projectsimple" target="global-project" id="superoffice-projectsimple_global-project_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-ContractNumber" target="axapta-contract-with-d365Id" id="d365-ContractNumber_axapta-contract-with-d365Id_hops">
+      <data key="d3">hops</data>
+    </edge>
+    <edge source="d365-ContractNumber" target="axapta-contract-details-with-d365Id" id="d365-ContractNumber_axapta-contract-details-with-d365Id_hops">
+      <data key="d3">hops</data>
+    </edge>
+    <edge source="user-leko" target="user-leko-endpoint" id="user-leko_user-leko-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="user-leko" target="user-leko-rest" id="user-leko_user-leko-rest_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="axapta-contract-details" target="axapta-contract-details-with-d365Id" id="axapta-contract-details_axapta-contract-details-with-d365Id_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="axapta-contract-line" target="axapta-contract-details" id="axapta-contract-line_axapta-contract-details_hops">
+      <data key="d3">hops</data>
+    </edge>
+    <edge source="axapta-contract-line" target="contract-details-kundeportal" id="axapta-contract-line_contract-details-kundeportal_hops">
+      <data key="d3">hops</data>
+    </edge>
+    <edge source="d365-contract-line-number" target="axapta-contract-details-with-d365Id" id="d365-contract-line-number_axapta-contract-details-with-d365Id_hops">
+      <data key="d3">hops</data>
+    </edge>
+    <edge source="axapta-contract-with-d365Id" target="global-contract" id="axapta-contract-with-d365Id_global-contract_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="axapta-contract" target="axapta-contract-with-d365Id" id="axapta-contract_axapta-contract-with-d365Id_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="customer-leko" target="customer-leko-endpoint" id="customer-leko_customer-leko-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="customer-leko" target="customer-leko-rest" id="customer-leko_customer-leko-rest_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-contract" target="contract-details-forvalter" id="global-contract_contract-details-forvalter_hops">
+      <data key="d3">hops</data>
+    </edge>
+    <edge source="global-contract" target="kunder-kundeportal" id="global-contract_kunder-kundeportal_hops">
+      <data key="d3">hops</data>
+    </edge>
+    <edge source="global-contract" target="contract-kundeportal" id="global-contract_contract-kundeportal_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-contract" target="contract-details-kundeportal" id="global-contract_contract-details-kundeportal_hops">
+      <data key="d3">hops</data>
+    </edge>
+    <edge source="d365-kontrakt" target="global-contract" id="d365-kontrakt_global-contract_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-kontrakt" target="d365-kunde-kontrakt-leie-grouped" id="d365-kontrakt_d365-kunde-kontrakt-leie-grouped_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-contract-details" target="contract-details-forvalter" id="global-contract-details_contract-details-forvalter_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-contract-details" target="contract-details-kundeportal" id="global-contract-details_contract-details-kundeportal_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-contract-line" target="global-contract-details" id="d365-contract-line_global-contract-details_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-contract-line" target="d365-contract-line-area-countable" id="d365-contract-line_d365-contract-line-area-countable_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="axapta-contract-details-with-d365Id" target="global-contract-details" id="axapta-contract-details-with-d365Id_global-contract-details_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-buildingnumber" target="global-property" id="d365-buildingnumber_global-property_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-buildingnumber" target="contract-kundeportal" id="d365-buildingnumber_contract-kundeportal_hops">
+      <data key="d3">hops</data>
+    </edge>
+    <edge source="d365-buildingnumber" target="contract-details-kundeportal" id="d365-buildingnumber_contract-details-kundeportal_hops">
+      <data key="d3">hops</data>
+    </edge>
+    <edge source="ticketmessageattachment-kundeportal-endpoint" target="kundeportal (target)" id="ticketmessageattachment-kundeportal-endpoint_kundeportal (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="bygg-leko-rest-endpoint" target="leko (target)" id="bygg-leko-rest-endpoint_leko (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="bygg-leko-rest" target="bygg-leko-rest-endpoint" id="bygg-leko-rest_bygg-leko-rest-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="bygg-forvalter-endpoint" target="forvalter (target)" id="bygg-forvalter-endpoint_forvalter (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="bygg-forvalter" target="bygg-forvalter-endpoint" id="bygg-forvalter_bygg-forvalter-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-firma" target="firma-forvalter" id="global-firma_firma-forvalter_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-firma" target="global-firma" id="d365-firma_global-firma_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-firma" target="contract-details-forvalter" id="d365-firma_contract-details-forvalter_hops">
+      <data key="d3">hops</data>
+    </edge>
+    <edge source="d365-firma" target="bygg-forvalter" id="d365-firma_bygg-forvalter_hops">
+      <data key="d3">hops</data>
+    </edge>
+    <edge source="d365-firma" target="bygg-kundeportal" id="d365-firma_bygg-kundeportal_hops">
+      <data key="d3">hops</data>
+    </edge>
+    <edge source="d365-firma" target="bygg-leko" id="d365-firma_bygg-leko_hops">
+      <data key="d3">hops</data>
+    </edge>
+    <edge source="ticketmessage-kundeportal-endpoint" target="kundeportalCharsetUtf8mb4 (target)" id="ticketmessage-kundeportal-endpoint_kundeportalCharsetUtf8mb4 (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="ticketmessage-kundeportal" target="ticketmessage-kundeportal-endpoint" id="ticketmessage-kundeportal_ticketmessage-kundeportal-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="customer-forvalter-endpoint" target="forvalter (target)" id="customer-forvalter-endpoint_forvalter (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="customer-forvalter" target="customer-forvalter-endpoint" id="customer-forvalter_customer-forvalter-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="customer-leko-rest" target="customer-leko-rest-endpoint" id="customer-leko-rest_customer-leko-rest-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="user-leko-rest-endpoint" target="leko (target)" id="user-leko-rest-endpoint_leko (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="user-leko-rest" target="user-leko-rest-endpoint" id="user-leko-rest_user-leko-rest-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="firma-forvalter-endpoint" target="forvalter (target)" id="firma-forvalter-endpoint_forvalter (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="firma-forvalter" target="firma-forvalter-endpoint" id="firma-forvalter_firma-forvalter-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="sale-kundeportal-endpoint" target="kundeportal (target)" id="sale-kundeportal-endpoint_kundeportal (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="bygg-leko" target="bygg-leko-rest" id="bygg-leko_bygg-leko-rest_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="bygg-leko" target="bygg-leko-endpoint" id="bygg-leko_bygg-leko-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="customer-leko-rest-endpoint" target="leko (target)" id="customer-leko-rest-endpoint_leko (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-byggtegning" target="byggtegning-leko" id="global-byggtegning_byggtegning-leko_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="kundeportal-byggtegning" target="global-byggtegning" id="kundeportal-byggtegning_global-byggtegning_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-rentalobject" target="leieobjekt-forvalter" id="global-rentalobject_leieobjekt-forvalter_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-leieobjekt" target="global-rentalobject" id="d365-leieobjekt_global-rentalobject_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="leieobjekt-forvalter-endpoint" target="forvalter (target)" id="leieobjekt-forvalter-endpoint_forvalter (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="leieobjekt-forvalter" target="leieobjekt-forvalter-endpoint" id="leieobjekt-forvalter_leieobjekt-forvalter-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-ledige-arealer-grouped" target="global-property" id="d365-ledige-arealer-grouped_global-property_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-ledige-arealer" target="d365-ledige-arealer-grouped" id="d365-ledige-arealer_d365-ledige-arealer-grouped_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-ledige-arealer" target="ledige-arealer-forvalter" id="d365-ledige-arealer_ledige-arealer-forvalter_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-bygg-avdeling" target="d365-ledige-arealer-grouped" id="d365-bygg-avdeling_d365-ledige-arealer-grouped_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-bygg-avdeling" target="d365-utleide-areal-grouped" id="d365-bygg-avdeling_d365-utleide-areal-grouped_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-bygg-avdeling" target="d365-total-arealer-grouped" id="d365-bygg-avdeling_d365-total-arealer-grouped_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-bygg-avdeling" target="global-property" id="d365-bygg-avdeling_global-property_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-utleide-areal-grouped" target="global-property" id="d365-utleide-areal-grouped_global-property_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-utleide-areal" target="d365-utleide-areal-grouped" id="d365-utleide-areal_d365-utleide-areal-grouped_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-total-arealer-grouped" target="global-property" id="d365-total-arealer-grouped_global-property_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-areas" target="d365-total-arealer-grouped" id="d365-areas_d365-total-arealer-grouped_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-areas" target="d365-ledige-arealer" id="d365-areas_d365-ledige-arealer_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-areas" target="d365-utleide-areal" id="d365-areas_d365-utleide-areal_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="ledige-arealer-forvalter-endpoint" target="forvalter (target)" id="ledige-arealer-forvalter-endpoint_forvalter (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="ledige-arealer-forvalter" target="ledige-arealer-forvalter-endpoint" id="ledige-arealer-forvalter_ledige-arealer-forvalter-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="user-forvalter-endpoint" target="forvalter (target)" id="user-forvalter-endpoint_forvalter (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="user-forvalter" target="user-forvalter-endpoint" id="user-forvalter_user-forvalter-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="superoffice-ticketstatus" target="global-ticketstatus" id="superoffice-ticketstatus_global-ticketstatus_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="contract-details-forvalter-endpoint" target="forvalter (target)" id="contract-details-forvalter-endpoint_forvalter (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="contract-details-forvalter" target="contract-details-forvalter-endpoint" id="contract-details-forvalter_contract-details-forvalter-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="faktura-forvalter-endpoint" target="forvalter (target)" id="faktura-forvalter-endpoint_forvalter (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="faktura-forvalter" target="faktura-forvalter-endpoint" id="faktura-forvalter_faktura-forvalter-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-faktura-detaljer-with-commonid" target="global-invoice" id="d365-faktura-detaljer-with-commonid_global-invoice_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-faktura-detaljer" target="d365-faktura-detaljer-with-commonid" id="d365-faktura-detaljer_d365-faktura-detaljer-with-commonid_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="energyconsumption-kundeportal" target="energyconsumption-kundeportal-endpoint" id="energyconsumption-kundeportal_energyconsumption-kundeportal-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="energinet-energyconsumption" target="energyconsumption-kundeportal" id="energinet-energyconsumption_energyconsumption-kundeportal_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-user" target="personinterest-kundeportal" id="global-user_personinterest-kundeportal_hops">
+      <data key="d3">hops</data>
+    </edge>
+    <edge source="global-user" target="ticketmessage-kundeportal" id="global-user_ticketmessage-kundeportal_hops">
+      <data key="d3">hops</data>
+    </edge>
+    <edge source="global-user" target="user-person-forvalter" id="global-user_user-person-forvalter_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-user" target="user-leko" id="global-user_user-leko_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-user" target="usercustomer-kundeportal" id="global-user_usercustomer-kundeportal_hops">
+      <data key="d3">hops</data>
+    </edge>
+    <edge source="global-user" target="usercustomer-kundeportal" id="global-user_usercustomer-kundeportal_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-user" target="user-kundeportal" id="global-user_user-kundeportal_hops">
+      <data key="d3">hops</data>
+    </edge>
+    <edge source="global-user" target="user-kundeportal" id="global-user_user-kundeportal_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-user" target="usercustomer-bq" id="global-user_usercustomer-bq_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-user" target="dokument-forvalter" id="global-user_dokument-forvalter_hops">
+      <data key="d3">hops</data>
+    </edge>
+    <edge source="global-user" target="ticket-kundeportal" id="global-user_ticket-kundeportal_hops">
+      <data key="d3">hops</data>
+    </edge>
+    <edge source="usercustomer-kundeportal-endpoint" target="kundeportal (target)" id="usercustomer-kundeportal-endpoint_kundeportal (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="usercustomer-kundeportal" target="usercustomer-kundeportal-endpoint" id="usercustomer-kundeportal_usercustomer-kundeportal-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="ticketcategory-kundeportal-endpoint" target="kundeportal (target)" id="ticketcategory-kundeportal-endpoint_kundeportal (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="personkonvolutt-forvalter-endpoint" target="forvalter (target)" id="personkonvolutt-forvalter-endpoint_forvalter (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="personkonvolutt-forvalter" target="personkonvolutt-forvalter-endpoint" id="personkonvolutt-forvalter_personkonvolutt-forvalter-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="dokument-forvalter-endpoint" target="forvalter (target)" id="dokument-forvalter-endpoint_forvalter (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="dokument-forvalter" target="dokument-forvalter-endpoint" id="dokument-forvalter_dokument-forvalter-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="konvolutt-forvalter-endpoint" target="forvalter (target)" id="konvolutt-forvalter-endpoint_forvalter (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="konvolutt-forvalter" target="konvolutt-forvalter-endpoint" id="konvolutt-forvalter_konvolutt-forvalter-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="ticket-kundeportal-endpoint" target="kundeportalCharsetUtf8mb4 (target)" id="ticket-kundeportal-endpoint_kundeportalCharsetUtf8mb4 (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="ticket-kundeportal" target="ticket-kundeportal-endpoint" id="ticket-kundeportal_ticket-kundeportal-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-ticketmessage" target="ticketmessage-kundeportal" id="global-ticketmessage_ticketmessage-kundeportal_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="user-person-forvalter" target="user-person-forvalter-endpoint" id="user-person-forvalter_user-person-forvalter-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="kunde-leie-superoffice-rest-endpoint" target="superoffice-rest-api (target)" id="kunde-leie-superoffice-rest-endpoint_superoffice-rest-api (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="kunde-leie-superoffice-rest" target="kunde-leie-superoffice-rest-endpoint" id="kunde-leie-superoffice-rest_kunde-leie-superoffice-rest-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="user-person-forvalter-endpoint" target="forvalter (target)" id="user-person-forvalter-endpoint_forvalter (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="user-kundeportal-endpoint" target="kundeportal (target)" id="user-kundeportal-endpoint_kundeportal (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="user-kundeportal" target="user-kundeportal-endpoint" id="user-kundeportal_user-kundeportal-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="verified-envelope" target="konvolutt-forvalter" id="verified-envelope_konvolutt-forvalter_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="verified-envelope" target="verified-personkonvolutt" id="verified-envelope_verified-personkonvolutt_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="verified-envelope" target="verified-document" id="verified-envelope_verified-document_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-contract-line-area-countable" target="d365-kunde-kontrakt-leie-grouped" id="d365-contract-line-area-countable_d365-kunde-kontrakt-leie-grouped_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-kunde-kontrakt-leie-grouped" target="kunde-leie-superoffice-endpoint" id="d365-kunde-kontrakt-leie-grouped_kunde-leie-superoffice-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-kunde-kontrakt-leie-grouped" target="kunde-leie-superoffice-rest" id="d365-kunde-kontrakt-leie-grouped_kunde-leie-superoffice-rest_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="verified-personkonvolutt" target="personkonvolutt-forvalter" id="verified-personkonvolutt_personkonvolutt-forvalter_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-kunde" target="d365-kunde-kontrakt-leie-grouped" id="d365-kunde_d365-kunde-kontrakt-leie-grouped_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-kunde" target="global-customer" id="d365-kunde_global-customer_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="superoffice-contactsimple" target="d365-kunde-kontrakt-leie-grouped" id="superoffice-contactsimple_d365-kunde-kontrakt-leie-grouped_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="superoffice-contactsimple" target="global-customer" id="superoffice-contactsimple_global-customer_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="superoffice-contactsimple" target="superoffice-contactsimple-leverandor" id="superoffice-contactsimple_superoffice-contactsimple-leverandor_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="superoffice-contactsimple" target="superoffice-contactsimple-cleanorgnummer" id="superoffice-contactsimple_superoffice-contactsimple-cleanorgnummer_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-invoice" target="faktura-kundeportal" id="global-invoice_faktura-kundeportal_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-invoice" target="faktura-forvalter" id="global-invoice_faktura-forvalter_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="waterconsumption-kundeportal" target="waterconsumption-kundeportal-endpoint" id="waterconsumption-kundeportal_waterconsumption-kundeportal-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="energinet-waterconsumption" target="waterconsumption-kundeportal" id="energinet-waterconsumption_waterconsumption-kundeportal_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="energinet-api (source)" target="energinet-waterconsumption" id="energinet-api (source)_energinet-waterconsumption_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="energinet-api (source)" target="energinet-wasteconsumption" id="energinet-api (source)_energinet-wasteconsumption_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="energinet-api (source)" target="energinet-energyconsumption" id="energinet-api (source)_energinet-energyconsumption_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="energinet-api (source)" target="energinet-adjustedenergyconsumption" id="energinet-api (source)_energinet-adjustedenergyconsumption_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="energinet-api (source)" target="energinet-maaltall" id="energinet-api (source)_energinet-maaltall_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="energinet-api (source)" target="energinet-energycustomerconsumption" id="energinet-api (source)_energinet-energycustomerconsumption_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="dokumentkontraktslinjeavsjekk-kundeportal" target="dokumentkontraktslinjeavsjekk-kundeportal-endpoint" id="dokumentkontraktslinjeavsjekk-kundeportal_dokumentkontraktslinjeavsjekk-kundeportal-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-dokumentkontraktslinjeavsjekk" target="dokumentkontraktslinjeavsjekk-kundeportal" id="global-dokumentkontraktslinjeavsjekk_dokumentkontraktslinjeavsjekk-kundeportal_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="dokumentkontraktslinjeavsjekk-kundeportal-endpoint" target="kundeportal (target)" id="dokumentkontraktslinjeavsjekk-kundeportal-endpoint_kundeportal (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="bygg-bqeos-rest-endpoint" target="bigquery-api (target)" id="bygg-bqeos-rest-endpoint_bigquery-api (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="bygg-bqeos-rest" target="bygg-bqeos-rest-endpoint" id="bygg-bqeos-rest_bygg-bqeos-rest-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="bygg-bqeos" target="bygg-bqeos-rest" id="bygg-bqeos_bygg-bqeos-rest_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="forvalter-dokumentkontraktslinjeavsjekk" target="global-dokumentkontraktslinjeavsjekk" id="forvalter-dokumentkontraktslinjeavsjekk_global-dokumentkontraktslinjeavsjekk_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="forvalter (source)" target="forvalter-dokumentkontraktslinjeavsjekk" id="forvalter (source)_forvalter-dokumentkontraktslinjeavsjekk_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="forvalter (source)" target="forvalter-prosjektprosess" id="forvalter (source)_forvalter-prosjektprosess_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="forvalter (source)" target="forvalter-brukerrolle" id="forvalter (source)_forvalter-brukerrolle_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-property" target="bygg-forvalter" id="global-property_bygg-forvalter_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-property" target="prosjekt-juridiskselskap-superoffice" id="global-property_prosjekt-juridiskselskap-superoffice_hops">
+      <data key="d3">hops</data>
+    </edge>
+    <edge source="global-property" target="energiattest-bqeos" id="global-property_energiattest-bqeos_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-property" target="bygg-kundeportal" id="global-property_bygg-kundeportal_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-property" target="bygg-leko" id="global-property_bygg-leko_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-property" target="bygg-bqeos" id="global-property_bygg-bqeos_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-property" target="byggtegning-leko" id="global-property_byggtegning-leko_hops">
+      <data key="d3">hops</data>
+    </edge>
+    <edge source="superoffice-contact" target="global-customer" id="superoffice-contact_global-customer_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="superoffice-contact" target="ticket-kundeportal" id="superoffice-contact_ticket-kundeportal_hops">
+      <data key="d3">hops</data>
+    </edge>
+    <edge source="kundeportal-customer" target="global-customer" id="kundeportal-customer_global-customer_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="prosjekt-juridiskselskap-superoffice-rest-endpoint" target="superoffice-rest-api (target)" id="prosjekt-juridiskselskap-superoffice-rest-endpoint_superoffice-rest-api (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="prosjekt-juridiskselskap-superoffice-rest" target="prosjekt-juridiskselskap-superoffice-rest-endpoint" id="prosjekt-juridiskselskap-superoffice-rest_prosjekt-juridiskselskap-superoffice-rest-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="prosjekt-juridiskselskap-superoffice" target="prosjekt-juridiskselskap-superoffice-rest" id="prosjekt-juridiskselskap-superoffice_prosjekt-juridiskselskap-superoffice-rest_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="eiendom-api (source)" target="vault-secrets" id="eiendom-api (source)_vault-secrets_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="kontrakt-leko-kdi" target="kontrakt-leko-kdi-endpoint" id="kontrakt-leko-kdi_kontrakt-leko-kdi-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="leko-kontrakt" target="kontrakt-leko-kdi" id="leko-kontrakt_kontrakt-leko-kdi_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="leko-kontrakt" target="leko-dokument" id="leko-kontrakt_leko-dokument_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="kontrakt-leko-kdi-endpoint" target="leko-kdipubsub (target)" id="kontrakt-leko-kdi-endpoint_leko-kdipubsub (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="directlink-forvalter-endpoint" target="forvalter (target)" id="directlink-forvalter-endpoint_forvalter (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="directlink-forvalter" target="directlink-forvalter-endpoint" id="directlink-forvalter_directlink-forvalter-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="lekoworker-directlink" target="directlink-forvalter" id="lekoworker-directlink_directlink-forvalter_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="fdvweb-helper-energy" target="fdvweb-energy-categorization" id="fdvweb-helper-energy_fdvweb-energy-categorization_hops">
+      <data key="d3">hops</data>
+    </edge>
+    <edge source="fdvweb-building" target="fdvweb-energy-categorization" id="fdvweb-building_fdvweb-energy-categorization_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="fdvweb-building" target="global-property" id="fdvweb-building_global-property_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="fdvweb (source)" target="fdvweb-building" id="fdvweb (source)_fdvweb-building_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="fdvweb (source)" target="fdvweb-building-image" id="fdvweb (source)_fdvweb-building-image_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="fdvweb-building-image" target="global-property" id="fdvweb-building-image_global-property_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="fdvweb-energy-categorization" target="global-property" id="fdvweb-energy-categorization_global-property_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="kundeportal-building" target="global-property" id="kundeportal-building_global-property_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="kundeportal (source)" target="kundeportal-building" id="kundeportal (source)_kundeportal-building_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="kundeportal (source)" target="kundeportal-byggtegning" id="kundeportal (source)_kundeportal-byggtegning_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="kundeportal (source)" target="kundeportal-customer" id="kundeportal (source)_kundeportal-customer_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="kundeportal (source)" target="kundeportal-ticketcategory" id="kundeportal (source)_kundeportal-ticketcategory_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="superoffice (source)" target="superoffice-personinterest" id="superoffice (source)_superoffice-personinterest_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="superoffice (source)" target="superoffice-supportcategory" id="superoffice (source)_superoffice-supportcategory_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="superoffice (source)" target="superoffice-csuser" id="superoffice (source)_superoffice-csuser_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="superoffice-api (source)" target="superoffice-ticketcategory" id="superoffice-api (source)_superoffice-ticketcategory_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="superoffice-api (source)" target="superoffice-sale" id="superoffice-api (source)_superoffice-sale_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="superoffice-api (source)" target="superoffice-ticketstatus" id="superoffice-api (source)_superoffice-ticketstatus_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="superoffice-api (source)" target="superoffice-contact" id="superoffice-api (source)_superoffice-contact_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="superoffice-api (source)" target="superoffice-project" id="superoffice-api (source)_superoffice-project_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-grunneiendom" target="global-property" id="d365-grunneiendom_global-property_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-api (source)" target="d365-grunneiendom" id="d365-api (source)_d365-grunneiendom_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-api (source)" target="d365-bygg-avdeling" id="d365-api (source)_d365-bygg-avdeling_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-api (source)" target="d365-areas" id="d365-api (source)_d365-areas_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-api (source)" target="d365-leieobjekt" id="d365-api (source)_d365-leieobjekt_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-api (source)" target="d365-map" id="d365-api (source)_d365-map_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-api (source)" target="d365-faktura-detaljer" id="d365-api (source)_d365-faktura-detaljer_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-api (source)" target="d365-kunde" id="d365-api (source)_d365-kunde_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-api (source)" target="d365-leverandoromsetning" id="d365-api (source)_d365-leverandoromsetning_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-api (source)" target="d365-building" id="d365-api (source)_d365-building_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-api (source)" target="d365-ansatt" id="d365-api (source)_d365-ansatt_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-api (source)" target="influx-portalusage-sistaktiv" id="d365-api (source)_influx-portalusage-sistaktiv_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-api (source)" target="d365-leverandor" id="d365-api (source)_d365-leverandor_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-api (source)" target="d365-bygg-firma" id="d365-api (source)_d365-bygg-firma_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-api (source)" target="d365-firma" id="d365-api (source)_d365-firma_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-api (source)" target="d365-kostkategori" id="d365-api (source)_d365-kostkategori_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-api (source)" target="d365-garanti" id="d365-api (source)_d365-garanti_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-api (source)" target="d365-contract-line" id="d365-api (source)_d365-contract-line_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-api (source)" target="d365-kontrakt" id="d365-api (source)_d365-kontrakt_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-api (source)" target="d365-prosjekt" id="d365-api (source)_d365-prosjekt_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-api (source)" target="d365-prosjektbudsjett" id="d365-api (source)_d365-prosjektbudsjett_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-api (source)" target="d365-purring-detaljer" id="d365-api (source)_d365-purring-detaljer_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-api (source)" target="d365-prosjektbilag" id="d365-api (source)_d365-prosjektbilag_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="axapta (source)" target="axapta-contract-line" id="axapta (source)_axapta-contract-line_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="axapta (source)" target="axapta-object" id="axapta (source)_axapta-object_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="axapta (source)" target="axapta-building" id="axapta (source)_axapta-building_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="axapta (source)" target="axapta-contract-line-price" id="axapta (source)_axapta-contract-line-price_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="axapta (source)" target="axapta-contract" id="axapta (source)_axapta-contract_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="axapta (source)" target="axapta-geography" id="axapta (source)_axapta-geography_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="axapta (source)" target="axapta-customer" id="axapta (source)_axapta-customer_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="energinet-wasteconsumption" target="wasteconsumption-kundeportal" id="energinet-wasteconsumption_wasteconsumption-kundeportal_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="superoffice-csuser" target="global-user" id="superoffice-csuser_global-user_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-leverandoromsetning" target="d365-leverandor-omsetning-grouped" id="d365-leverandoromsetning_d365-leverandor-omsetning-grouped_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="leverandor-omsetning-superoffice-rest-endpoint" target="superoffice-rest-api (target)" id="leverandor-omsetning-superoffice-rest-endpoint_superoffice-rest-api (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="leverandor-omsetning-superoffice-rest" target="leverandor-omsetning-superoffice-rest-endpoint" id="leverandor-omsetning-superoffice-rest_leverandor-omsetning-superoffice-rest-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-leverandor" target="leverandorvurdering-bq" id="global-leverandor_leverandorvurdering-bq_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-leverandor" target="leverandorvurdering-forvalter" id="global-leverandor_leverandorvurdering-forvalter_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-leverandor" target="global-leverandor" id="d365-leverandor_global-leverandor_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-leverandor" target="d365-leverandor-omsetning-grouped" id="d365-leverandor_d365-leverandor-omsetning-grouped_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-leverandor" target="global-leverandorvurdering" id="d365-leverandor_global-leverandorvurdering_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="superoffice-contactsimple-leverandor" target="global-leverandor" id="superoffice-contactsimple-leverandor_global-leverandor_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="superoffice-contactsimple-leverandor" target="d365-leverandor-omsetning-grouped" id="superoffice-contactsimple-leverandor_d365-leverandor-omsetning-grouped_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="superoffice-contactsimple-leverandor" target="global-leverandorvurdering" id="superoffice-contactsimple-leverandor_global-leverandorvurdering_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="leko-dokument" target="global-document" id="leko-dokument_global-document_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="energiattest-bqeos-rest" target="energiattest-bqeos-rest-endpoint" id="energiattest-bqeos-rest_energiattest-bqeos-rest-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="energiattest-bqeos" target="energiattest-bqeos-rest" id="energiattest-bqeos_energiattest-bqeos-rest_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="energiattest-bqeos-rest-endpoint" target="bigquery-api (target)" id="energiattest-bqeos-rest-endpoint_bigquery-api (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-building" target="global-property" id="d365-building_global-property_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="fdvweb-helper-energy-categorization" target="global-property" id="fdvweb-helper-energy-categorization_global-property_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-bygg-firma" target="global-property" id="d365-bygg-firma_global-property_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="kunde-orgnummer-kundeportal" target="kunde-orgnummer-kundeportal-endpoint" id="kunde-orgnummer-kundeportal_kunde-orgnummer-kundeportal-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="kunde-orgnummer-kundeportal-endpoint" target="kundeportal (target)" id="kunde-orgnummer-kundeportal-endpoint_kundeportal (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="superoffice-migrateduser" target="global-user" id="superoffice-migrateduser_global-user_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="superoffice-migrateduser" target="global-internaluser" id="superoffice-migrateduser_global-internaluser_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-internaluser" target="user-kundeportal" id="global-internaluser_user-kundeportal_hops">
+      <data key="d3">hops</data>
+    </edge>
+    <edge source="global-internaluser" target="user-powerapp" id="global-internaluser_user-powerapp_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-internaluser" target="user-forvalter" id="global-internaluser_user-forvalter_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-ansatt" target="global-internaluser" id="d365-ansatt_global-internaluser_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-ansatt" target="bygg-kundeportal" id="d365-ansatt_bygg-kundeportal_hops">
+      <data key="d3">hops</data>
+    </edge>
+    <edge source="superoffice-user" target="superoffice-migrateduser" id="superoffice-user_superoffice-migrateduser_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="usercustomer-bq-rest-endpoint" target="bigquery-api (target)" id="usercustomer-bq-rest-endpoint_bigquery-api (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="usercustomer-bq-rest" target="usercustomer-bq-rest-endpoint" id="usercustomer-bq-rest_usercustomer-bq-rest-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="usercustomer-bq" target="usercustomer-bq-rest" id="usercustomer-bq_usercustomer-bq-rest_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="customer-bq-rest-endpoint" target="bigquery-api (target)" id="customer-bq-rest-endpoint_bigquery-api (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="customer-bq-rest" target="customer-bq-rest-endpoint" id="customer-bq-rest_customer-bq-rest-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="customer-bq" target="customer-bq-rest" id="customer-bq_customer-bq-rest_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="leverandorvurdering-superoffice-rest-endpoint" target="superoffice-rest-api (target)" id="leverandorvurdering-superoffice-rest-endpoint_superoffice-rest-api (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="leverandorvurdering-superoffice-rest" target="leverandorvurdering-superoffice-rest-endpoint" id="leverandorvurdering-superoffice-rest_leverandorvurdering-superoffice-rest-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="portalusage-sistaktiv-kundeportal-endpoint" target="kundeportal (target)" id="portalusage-sistaktiv-kundeportal-endpoint_kundeportal (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="portalusage-sistaktiv-kundeportal" target="portalusage-sistaktiv-kundeportal-endpoint" id="portalusage-sistaktiv-kundeportal_portalusage-sistaktiv-kundeportal-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="influx-portalusage-sistaktiv" target="portalusage-sistaktiv-kundeportal" id="influx-portalusage-sistaktiv_portalusage-sistaktiv-kundeportal_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="prosjekt-forvalter-endpoint" target="forvalter (target)" id="prosjekt-forvalter-endpoint_forvalter (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="prosjekt-forvalter" target="prosjekt-forvalter-endpoint" id="prosjekt-forvalter_prosjekt-forvalter-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="sale-forvalter-endpoint" target="forvalter (target)" id="sale-forvalter-endpoint_forvalter (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="sale-forvalter" target="sale-forvalter-endpoint" id="sale-forvalter_sale-forvalter-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-document" target="dokument-forvalter" id="global-document_dokument-forvalter_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-document" target="dokument-bq" id="global-document_dokument-bq_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="superoffice-document" target="global-document" id="superoffice-document_global-document_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="verified-document" target="global-document" id="verified-document_global-document_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="dokument-bq-rest" target="dokument-bq-rest-endpoint" id="dokument-bq-rest_dokument-bq-rest-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="dokument-bq" target="dokument-bq-rest" id="dokument-bq_dokument-bq-rest_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="dokument-bq" target="dokument-vertex-rest" id="dokument-bq_dokument-vertex-rest_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-leverandor-omsetning-grouped" target="leverandor-omsetning-superoffice-rest" id="d365-leverandor-omsetning-grouped_leverandor-omsetning-superoffice-rest_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="dokument-bq-rest-endpoint" target="bigquery-api (target)" id="dokument-bq-rest-endpoint_bigquery-api (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-prosjekt" target="prosjekt-powerapp" id="global-prosjekt_prosjekt-powerapp_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-prosjekt" target="prosjektrapportering-powerapp" id="global-prosjekt_prosjektrapportering-powerapp_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-prosjekt" target="global-prosjekt" id="d365-prosjekt_global-prosjekt_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="prosjekt-powerapp-endpoint" target="powerapp (target)" id="prosjekt-powerapp-endpoint_powerapp (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="prosjekt-powerapp" target="prosjekt-powerapp-endpoint" id="prosjekt-powerapp_prosjekt-powerapp-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="leverandorvurdering-bq" target="leverandorvurdering-superoffice-rest" id="leverandorvurdering-bq_leverandorvurdering-superoffice-rest_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="leverandorvurdering-bq" target="leverandorvurdering-bigquery-endpoint" id="leverandorvurdering-bq_leverandorvurdering-bigquery-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="bisnode-sanksjoner" target="global-leverandorvurdering" id="bisnode-sanksjoner_global-leverandorvurdering_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="bisnode-sanksjoner" target="leverandorvurdering-bq" id="bisnode-sanksjoner_leverandorvurdering-bq_hops">
+      <data key="d3">hops</data>
+    </edge>
+    <edge source="bisnode-sanksjoner" target="global-kredittvurdering" id="bisnode-sanksjoner_global-kredittvurdering_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="bisnode-sanksjoner" target="kredittvurdering-superoffice" id="bisnode-sanksjoner_kredittvurdering-superoffice_hops">
+      <data key="d3">hops</data>
+    </edge>
+    <edge source="bisnode-leverandor" target="global-leverandorvurdering" id="bisnode-leverandor_global-leverandorvurdering_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="bisnode-leverandor" target="leverandorvurdering-bq" id="bisnode-leverandor_leverandorvurdering-bq_hops">
+      <data key="d3">hops</data>
+    </edge>
+    <edge source="bisnode-leverandor" target="global-kredittvurdering" id="bisnode-leverandor_global-kredittvurdering_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="prosjektrapportering-powerapp-endpoint" target="powerapp (target)" id="prosjektrapportering-powerapp-endpoint_powerapp (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="prosjektrapportering-powerapp" target="prosjektrapportering-powerapp-endpoint" id="prosjektrapportering-powerapp_prosjektrapportering-powerapp-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-serviceavtale" target="serviceavtale-bq" id="global-serviceavtale_serviceavtale-bq_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="fdvweb-serviceavtale" target="global-serviceavtale" id="fdvweb-serviceavtale_global-serviceavtale_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="fdvweb-api (source)" target="fdvweb-serviceavtale" id="fdvweb-api (source)_fdvweb-serviceavtale_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="serviceavtale-bq" target="serviceavtale-bq-rest" id="serviceavtale-bq_serviceavtale-bq-rest_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="serviceavtale-bq" target="serviceavtale-bigquery-endpoint" id="serviceavtale-bq_serviceavtale-bigquery-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="serviceavtale-bq-rest" target="serviceavtale-bq-rest-endpoint" id="serviceavtale-bq-rest_serviceavtale-bq-rest-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="serviceavtale-bigquery-endpoint" target="bigquery-kdi-ms (target)" id="serviceavtale-bigquery-endpoint_bigquery-kdi-ms (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="serviceavtale-bq-rest-endpoint" target="bigquery-api (target)" id="serviceavtale-bq-rest-endpoint_bigquery-api (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="leverandorvurdering-bigquery-endpoint" target="bigquery-kdi-ms (target)" id="leverandorvurdering-bigquery-endpoint_bigquery-kdi-ms (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="byggtegning-leko" target="byggtegning-leko-endpoint" id="byggtegning-leko_byggtegning-leko-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-kostkategori" target="kostkategori-forvalter" id="global-kostkategori_kostkategori-forvalter_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-kostkategori" target="global-kostkategori" id="d365-kostkategori_global-kostkategori_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="kostkategori-forvalter" target="kostkategori-forvalter-endpoint" id="kostkategori-forvalter_kostkategori-forvalter-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="kostkategori-forvalter-endpoint" target="forvalter (target)" id="kostkategori-forvalter-endpoint_forvalter (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="wasteconsumption-kundeportal-endpoint" target="kundeportal (target)" id="wasteconsumption-kundeportal-endpoint_kundeportal (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="wasteconsumption-kundeportal" target="wasteconsumption-kundeportal-endpoint" id="wasteconsumption-kundeportal_wasteconsumption-kundeportal-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="waterconsumption-kundeportal-endpoint" target="kundeportal (target)" id="waterconsumption-kundeportal-endpoint_kundeportal (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="energyconsumption-kundeportal-endpoint" target="kundeportal (target)" id="energyconsumption-kundeportal-endpoint_kundeportal (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="superoffice-ticketmessageattachment-update" target="global-ticketmessageattachment" id="superoffice-ticketmessageattachment-update_global-ticketmessageattachment_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="superoffice-ticketmessage-update" target="superoffice-ticketmessageattachment-update" id="superoffice-ticketmessage-update_superoffice-ticketmessageattachment-update_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="superoffice-ticketmessage-update" target="global-ticketmessage" id="superoffice-ticketmessage-update_global-ticketmessage_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="energinet-adjustedenergyconsumption" target="adjustedenergyconsumption-kundeportal" id="energinet-adjustedenergyconsumption_adjustedenergyconsumption-kundeportal_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="maaltall-kundeportal-endpoint" target="kundeportal (target)" id="maaltall-kundeportal-endpoint_kundeportal (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="maaltall-kundeportal" target="maaltall-kundeportal-endpoint" id="maaltall-kundeportal_maaltall-kundeportal-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="adjustedenergyconsumption-kundeportal-endpoint" target="kundeportal (target)" id="adjustedenergyconsumption-kundeportal-endpoint_kundeportal (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="adjustedenergyconsumption-kundeportal" target="adjustedenergyconsumption-kundeportal-endpoint" id="adjustedenergyconsumption-kundeportal_adjustedenergyconsumption-kundeportal-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="energinet-maaltall" target="maaltall-kundeportal" id="energinet-maaltall_maaltall-kundeportal_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="contract-garanti-kundeportal-endpoint" target="kundeportal (target)" id="contract-garanti-kundeportal-endpoint_kundeportal (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="contract-garanti-kundeportal" target="contract-garanti-kundeportal-endpoint" id="contract-garanti-kundeportal_contract-garanti-kundeportal-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-garanti" target="contract-garanti-kundeportal" id="d365-garanti_contract-garanti-kundeportal_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="kredittvurdering-superoffice-rest-endpoint" target="superoffice-rest-api (target)" id="kredittvurdering-superoffice-rest-endpoint_superoffice-rest-api (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="kredittvurdering-superoffice-rest" target="kredittvurdering-superoffice-rest-endpoint" id="kredittvurdering-superoffice-rest_kredittvurdering-superoffice-rest-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="superoffice-contactsimple-cleanorgnummer" target="global-kredittvurdering" id="superoffice-contactsimple-cleanorgnummer_global-kredittvurdering_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-kredittvurdering" target="kredittvurdering-superoffice" id="global-kredittvurdering_kredittvurdering-superoffice_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="kredittvurdering-superoffice" target="kredittvurdering-superoffice-rest" id="kredittvurdering-superoffice_kredittvurdering-superoffice-rest_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="leverandorvurdering-forvalter-endpoint" target="forvalter (target)" id="leverandorvurdering-forvalter-endpoint_forvalter (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="leverandorvurdering-forvalter" target="leverandorvurdering-forvalter-endpoint" id="leverandorvurdering-forvalter_leverandorvurdering-forvalter-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="bigquery-proptechos-ms (source)" target="eos-energinet-energyconsumption" id="bigquery-proptechos-ms (source)_eos-energinet-energyconsumption_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-prosjektprosess" target="prosjektprosess-powerapp" id="global-prosjektprosess_prosjektprosess-powerapp_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="forvalter-prosjektprosess" target="global-prosjektprosess" id="forvalter-prosjektprosess_global-prosjektprosess_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="prosjektprosess-powerapp" target="prosjektprosess-powerapp-endpoint" id="prosjektprosess-powerapp_prosjektprosess-powerapp-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="prosjektprosess-powerapp-endpoint" target="powerapp (target)" id="prosjektprosess-powerapp-endpoint_powerapp (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-budget" target="prosjektbudsjett-forvalter" id="global-budget_prosjektbudsjett-forvalter_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-prosjektbudsjett" target="global-budget" id="d365-prosjektbudsjett_global-budget_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="prosjektbudsjett-forvalter-endpoint" target="forvalter (target)" id="prosjektbudsjett-forvalter-endpoint_forvalter (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="prosjektbudsjett-forvalter" target="prosjektbudsjett-forvalter-endpoint" id="prosjektbudsjett-forvalter_prosjektbudsjett-forvalter-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="dokument-vertex-rest-endpoint" target="document-api (target)" id="dokument-vertex-rest-endpoint_document-api (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="dokument-vertex-rest" target="dokument-vertex-rest-endpoint" id="dokument-vertex-rest_dokument-vertex-rest-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="user-powerapp" target="user-powerapp-endpoint" id="user-powerapp_user-powerapp-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="user-powerapp-endpoint" target="powerapp (target)" id="user-powerapp-endpoint_powerapp (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="forvalter-brukerrolle-powerapp-endpoint" target="powerapp (target)" id="forvalter-brukerrolle-powerapp-endpoint_powerapp (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="forvalter-brukerrolle-powerapp" target="forvalter-brukerrolle-powerapp-endpoint" id="forvalter-brukerrolle-powerapp_forvalter-brukerrolle-powerapp-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-brukerrolle" target="forvalter-brukerrolle-powerapp" id="global-brukerrolle_forvalter-brukerrolle-powerapp_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="forvalter-brukerrolle" target="global-brukerrolle" id="forvalter-brukerrolle_global-brukerrolle_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-purring-detaljer" target="global-purring" id="d365-purring-detaljer_global-purring_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="purring-kundeportal" target="purring-kundeportal-endpoint" id="purring-kundeportal_purring-kundeportal-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-purring" target="purring-kundeportal" id="global-purring_purring-kundeportal_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="purring-kundeportal-endpoint" target="kundeportal (target)" id="purring-kundeportal-endpoint_kundeportal (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="d365-prosjektbilag" target="global-prosjektbilag" id="d365-prosjektbilag_global-prosjektbilag_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="prosjektbilag-forvalter" target="prosjektbilag-forvalter-endpoint" id="prosjektbilag-forvalter_prosjektbilag-forvalter-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="global-prosjektbilag" target="prosjektbilag-forvalter" id="global-prosjektbilag_prosjektbilag-forvalter_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="prosjektbilag-forvalter-endpoint" target="forvalter (target)" id="prosjektbilag-forvalter-endpoint_forvalter (target)_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="energycustomerconsumption-kundeportal" target="energycustomerconsumption-kundeportal-endpoint" id="energycustomerconsumption-kundeportal_energycustomerconsumption-kundeportal-endpoint_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="energinet-energycustomerconsumption" target="energycustomerconsumption-kundeportal" id="energinet-energycustomerconsumption_energycustomerconsumption-kundeportal_main">
+      <data key="d3">main</data>
+    </edge>
+    <edge source="energycustomerconsumption-kundeportal-endpoint" target="kundeportal (target)" id="energycustomerconsumption-kundeportal-endpoint_kundeportal (target)_main">
+      <data key="d3">main</data>
+    </edge>
   </graph>
 </graphml>

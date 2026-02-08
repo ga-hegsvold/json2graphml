@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<styles>
+  <style name="Sesam_config2GraphML" scope="node" selectionOnly="false">
+    <mapping>
+      <source name="icon" origin="customProperty" type="string"/>
+      <target name="template" type="nodeTemplate">
+        <hints/>
+      </target>
+      <conversion type="discrete">
+        <discrete>
+          <value>pipe</value>
+          <result>
+            <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:java="http://www.yworks.com/xml/yfiles-common/1.0/java" xmlns:sys="http://www.yworks.com/xml/yfiles-common/markup/primitives/2.0" xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
+                
+              <!--Created by yEd 3.24-->
+                
+              <key for="port" id="d0" yfiles.type="portgraphics"/>
+                
+              <key for="port" id="d1" yfiles.type="portgeometry"/>
+                
+              <key for="port" id="d2" yfiles.type="portuserdata"/>
+                
+              <key for="node" id="d3" yfiles.type="nodegraphics"/>
+                
+              <key for="graphml" id="d4" yfiles.type="resources"/>
+                
+              <key for="edge" id="d5" yfiles.type="edgegraphics"/>
+                
+              <graph edgedefault="directed" id="G">
+                    
+                <node id="n0">
+                        
+                  <data key="d3">
+                            
+                    <y:SVGNode>
+                                
+                      <y:Geometry height="54.0" width="90.0" x="-45.0" y="-27.0"/>
+                                
+                      <y:Fill color="#CCCCFF" transparent="false"/>
+                                
+                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                                
+                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="43.0" y="58.0"/>
+                                
+                      <y:SVGNodeProperties usingVisualBounds="true"/>
+                                
+                      <y:SVGModel svgBoundsPolicy="0">
+                                    
+                        <y:SVGContent refid="1"/>
+                                  
+                      </y:SVGModel>
+                              
+                    </y:SVGNode>
+                          
+                  </data>
+                      
+                </node>
+                  
+              </graph>
+                
+              <data key="d4">
+                    
+                <y:Resources>
+                        
+                  <y:Resource id="1" xml:space="preserve">&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
+&lt;svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg14"
+   version="1.1"
+   viewBox="0 0 96 96"
+   height="96px"
+   width="96px"&gt;
+  &lt;metadata
+     id="metadata18"&gt;
+    &lt;rdf:RDF&gt;
+      &lt;cc:Work
+         rdf:about=""&gt;
+        &lt;dc:format&gt;image/svg+xml&lt;/dc:format&gt;
+        &lt;dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /&gt;
+        &lt;dc:title&gt;Pipe&lt;/dc:title&gt;
+      &lt;/cc:Work&gt;
+    &lt;/rdf:RDF&gt;
+  &lt;/metadata&gt;
+  &lt;!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch --&gt;
+  &lt;title
+     id="title2"&gt;Pipe&lt;/title&gt;
+  &lt;desc
+     id="desc4"&gt;Created with Sketch.&lt;/desc&gt;
+  &lt;defs
+     id="defs6" /&gt;
+  &lt;path
+     style="fill:#000000;fill-rule:nonzero;stroke:none;stroke-width:1;fill-opacity:1;stroke-opacity:1"
+     id="Rectangle-6-Copy-4"
+     d="M 16.37696,27 18,29.531541 V 66.472129 L 16.35266,69 H 10.634859 L 9,66.485642 V 29.57191 L 10.69509,27 Z M 8.6642009,21 C 7.9111895,21 7.204463,21.329809 6.7663814,21.885657 L 3.4355139,26.111941 C 3.1522811,26.471314 3,26.90209 3,27.343931 v 41.367064 c 0,0.437217 0.1491135,0.863717 0.4268697,1.220948 l 3.243339,4.171358 C 7.1074015,74.665587 7.8183925,75 8.5766724,75 h 9.8289106 c 0.757408,0 1.467694,-0.333648 1.905039,-0.894869 l 3.261084,-4.184774 C 23.850365,69.562769 24,69.135562 24,68.69758 V 27.315329 c 0,-0.43244 -0.145876,-0.854514 -0.418018,-1.209483 L 20.363765,21.908164 C 19.927565,21.339207 19.212179,21 18.44845,21 Z" /&gt;
+  &lt;path
+     style="fill:#000000;fill-rule:nonzero;stroke:none;stroke-width:1;fill-opacity:1;stroke-opacity:1"
+     id="Rectangle-6-Copy-5"
+     d="M 85.37696,27 87,29.531541 V 66.472129 L 85.35266,69 H 79.634859 L 78,66.485642 V 29.57191 L 79.69509,27 Z m -7.712759,-6 c -0.753011,0 -1.459738,0.329809 -1.89782,0.885657 l -3.330867,4.226284 C 72.152281,26.471314 72,26.90209 72,27.343931 v 41.367064 c 0,0.437217 0.149113,0.863717 0.42687,1.220948 l 3.243339,4.171358 C 76.107401,74.665587 76.818393,75 77.576672,75 h 9.828911 c 0.757408,0 1.467694,-0.333648 1.905039,-0.894869 l 3.261084,-4.184774 C 92.850365,69.562769 93,69.135562 93,68.69758 V 27.315329 c 0,-0.43244 -0.145876,-0.854514 -0.418018,-1.209483 L 89.363765,21.908164 C 88.927565,21.339207 88.212179,21 87.44845,21 Z" /&gt;
+  &lt;path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:6;stroke-linecap:square;fill-opacity:1;stroke-opacity:1"
+     id="Line"
+     d="m 22.5,30 h 51" /&gt;
+  &lt;path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:6;stroke-linecap:square;fill-opacity:1;stroke-opacity:1"
+     id="Line-Copy"
+     d="m 22.5,66 h 51" /&gt;
+&lt;/svg&gt;
+</y:Resource>
+                      
+                </y:Resources>
+                  
+              </data>
+              
+            </graphml>
+          </result>
+        </discrete>
+        <discrete>
+          <value>system</value>
+          <result>
+            <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:java="http://www.yworks.com/xml/yfiles-common/1.0/java" xmlns:sys="http://www.yworks.com/xml/yfiles-common/markup/primitives/2.0" xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
+                
+              <!--Created by yEd 3.24-->
+                
+              <key for="port" id="d0" yfiles.type="portgraphics"/>
+                
+              <key for="port" id="d1" yfiles.type="portgeometry"/>
+                
+              <key for="port" id="d2" yfiles.type="portuserdata"/>
+                
+              <key for="node" id="d3" yfiles.type="nodegraphics"/>
+                
+              <key for="graphml" id="d4" yfiles.type="resources"/>
+                
+              <key for="edge" id="d5" yfiles.type="edgegraphics"/>
+                
+              <graph edgedefault="directed" id="G">
+                    
+                <node id="n0">
+                        
+                  <data key="d3">
+                            
+                    <y:SVGNode>
+                                
+                      <y:Geometry height="87.0" width="90.0" x="-45.0" y="-43.5"/>
+                                
+                      <y:Fill color="#CCCCFF" transparent="false"/>
+                                
+                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                                
+                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="43.0" y="91.0"/>
+                                
+                      <y:SVGNodeProperties usingVisualBounds="true"/>
+                                
+                      <y:SVGModel svgBoundsPolicy="0">
+                                    
+                        <y:SVGContent refid="1"/>
+                                  
+                      </y:SVGModel>
+                              
+                    </y:SVGNode>
+                          
+                  </data>
+                      
+                </node>
+                  
+              </graph>
+                
+              <data key="d4">
+                    
+                <y:Resources>
+                        
+                  <y:Resource id="1" xml:space="preserve">&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
+&lt;svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg18"
+   version="1.1"
+   viewBox="0 0 96 96"
+   height="96px"
+   width="96px"&gt;
+  &lt;metadata
+     id="metadata22"&gt;
+    &lt;rdf:RDF&gt;
+      &lt;cc:Work
+         rdf:about=""&gt;
+        &lt;dc:format&gt;image/svg+xml&lt;/dc:format&gt;
+        &lt;dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /&gt;
+        &lt;dc:title&gt;System&lt;/dc:title&gt;
+      &lt;/cc:Work&gt;
+    &lt;/rdf:RDF&gt;
+  &lt;/metadata&gt;
+  &lt;!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch --&gt;
+  &lt;title
+     id="title2"&gt;System&lt;/title&gt;
+  &lt;desc
+     id="desc4"&gt;Created with Sketch.&lt;/desc&gt;
+  &lt;path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+     id="Line-Copy-3"
+     d="M 48,30.890369 V 44.560324" /&gt;
+  &lt;defs
+     id="defs6" /&gt;
+  &lt;path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+     id="Line"
+     d="m 24.5,45 h 47" /&gt;
+  &lt;path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+     id="Combined-Shape"
+     d="M 62.514719,6 H 33.455844 L 30,9.4558441 V 26.514719 L 33.485281,30 h 29 L 66,26.485281 V 9.4852814 Z" /&gt;
+  &lt;path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+     id="Combined-Shape-Copy"
+     d="M 86.514719,63 H 57.455844 L 54,66.455844 V 83.514719 L 57.485281,87 h 29 L 90,83.485281 v -17 z" /&gt;
+  &lt;path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+     id="Combined-Shape-Copy-2"
+     d="M 38.514719,63 H 9.4558441 L 6,66.455844 V 83.514719 L 9.4852814,87 H 38.485281 L 42,83.485281 v -17 z" /&gt;
+  &lt;path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+     id="path13"
+     d="m 24,45.5 v 15" /&gt;
+  &lt;path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+     id="Line-Copy"
+     d="m 72,45.5 v 15" /&gt;
+&lt;/svg&gt;
+</y:Resource>
+                      
+                </y:Resources>
+                  
+              </data>
+              
+            </graphml>
+          </result>
+        </discrete>
+        <discrete>
+          <value>global</value>
+          <result>
+            <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:java="http://www.yworks.com/xml/yfiles-common/1.0/java" xmlns:sys="http://www.yworks.com/xml/yfiles-common/markup/primitives/2.0" xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
+                
+              <!--Created by yEd 3.24-->
+                
+              <key for="port" id="d0" yfiles.type="portgraphics"/>
+                
+              <key for="port" id="d1" yfiles.type="portgeometry"/>
+                
+              <key for="port" id="d2" yfiles.type="portuserdata"/>
+                
+              <key for="node" id="d3" yfiles.type="nodegraphics"/>
+                
+              <key for="graphml" id="d4" yfiles.type="resources"/>
+                
+              <key for="edge" id="d5" yfiles.type="edgegraphics"/>
+                
+              <graph edgedefault="directed" id="G">
+                    
+                <node id="n0">
+                        
+                  <data key="d3">
+                            
+                    <y:SVGNode>
+                                
+                      <y:Geometry height="103.35467529296875" width="103.35468292236328" x="-51.67734146118164" y="-51.677337646484375"/>
+                                
+                      <y:Fill color="#CCCCFF" transparent="false"/>
+                                
+                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                                
+                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="49.67734146118164" y="107.35467529296875"/>
+                                
+                      <y:SVGNodeProperties usingVisualBounds="true"/>
+                                
+                      <y:SVGModel svgBoundsPolicy="0">
+                                    
+                        <y:SVGContent refid="1"/>
+                                  
+                      </y:SVGModel>
+                              
+                    </y:SVGNode>
+                          
+                  </data>
+                      
+                </node>
+                  
+              </graph>
+                
+              <data key="d4">
+                    
+                <y:Resources>
+                        
+                  <y:Resource id="1" xml:space="preserve">&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
+&lt;svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg20"
+   version="1.1"
+   fill="none"
+   viewBox="0 0 104 104"
+   height="104"
+   width="104"&gt;
+  &lt;metadata
+     id="metadata26"&gt;
+    &lt;rdf:RDF&gt;
+      &lt;cc:Work
+         rdf:about=""&gt;
+        &lt;dc:format&gt;image/svg+xml&lt;/dc:format&gt;
+        &lt;dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /&gt;
+        &lt;dc:title&gt;&lt;/dc:title&gt;
+      &lt;/cc:Work&gt;
+    &lt;/rdf:RDF&gt;
+  &lt;/metadata&gt;
+  &lt;defs
+     id="defs24" /&gt;
+  &lt;path
+     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1"
+     id="path2"
+     fill="#FF00FF"
+     d="M48.9042 29.6499V37.1883C42.5158 38.8267 37.7954 44.6053 37.7954 51.4824C37.7954 54.0538 38.4553 56.4715 39.6155 58.5767L34.2361 63.937C31.8087 60.3887 30.3895 56.1007 30.3895 51.4824C30.3895 40.5769 38.3029 31.5131 48.72 29.6815C48.7813 29.6707 48.8427 29.6601 48.9042 29.6499V29.6499ZM56.3101 29.6499C65.6137 31.2052 72.9567 38.5221 74.5175 47.7927H66.9522C65.6126 42.6063 61.5149 38.5232 56.3101 37.1883V29.6499ZM39.366 69.2616L44.6888 63.9577C46.9791 65.4041 49.6949 66.2415 52.6071 66.2415C59.5088 66.2415 65.308 61.5379 66.9522 55.1722H74.5175C72.7546 65.6427 63.6159 73.6211 52.6071 73.6211C47.6455 73.6211 43.0638 72.0005 39.366 69.2616Z" /&gt;
+  &lt;path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-opacity:1"
+     id="path4"
+     stroke-linejoin="round"
+     stroke-linecap="round"
+     stroke-width="7.35467"
+     stroke="#FF00FF"
+     d="M52.4535 4V18.6571" /&gt;
+  &lt;path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-opacity:1"
+     id="path6"
+     stroke-linejoin="round"
+     stroke-linecap="round"
+     stroke-width="7.35467"
+     stroke="#FF00FF"
+     d="M100 51.5779L85.2907 51.5779" /&gt;
+  &lt;path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-opacity:1"
+     id="path8"
+     stroke-linejoin="round"
+     stroke-linecap="round"
+     stroke-width="7.35467"
+     stroke="#FF00FF"
+     d="M18.7093 51.5779L3.99999 51.5779" /&gt;
+  &lt;path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-opacity:1"
+     id="path10"
+     stroke-linejoin="round"
+     stroke-linecap="round"
+     stroke-width="7.35467"
+     stroke="#FF00FF"
+     d="M52.4535 85.3429V100" /&gt;
+  &lt;path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-opacity:1"
+     id="path12"
+     stroke-linejoin="round"
+     stroke-linecap="round"
+     stroke-width="7.35467"
+     stroke="#FF00FF"
+     d="M18.65 17.9521L29.0511 28.3162" /&gt;
+  &lt;path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-opacity:1"
+     id="path14"
+     stroke-linejoin="round"
+     stroke-linecap="round"
+     stroke-width="7.35467"
+     stroke="#FF00FF"
+     d="M75.8559 74.9547L86.257 85.3188" /&gt;
+  &lt;path
+     style="stroke-width:7.355;stroke-miterlimit:4;stroke-dasharray:none;fill:none;fill-opacity:1;stroke:#000000;stroke-opacity:1"
+     id="path16"
+     stroke-linejoin="round"
+     stroke-linecap="round"
+     stroke-width="7.35467"
+     stroke="#FF00FF"
+     d="M75.8559 28.3162L86.257 17.9521" /&gt;
+  &lt;path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-opacity:1"
+     id="path18"
+     stroke-linejoin="round"
+     stroke-linecap="round"
+     stroke-width="7.35467"
+     stroke="#FF00FF"
+     d="M18.7179 85.3047L29.119 74.9406" /&gt;
+&lt;/svg&gt;
+</y:Resource>
+                      
+                </y:Resources>
+                  
+              </data>
+              
+            </graphml>
+          </result>
+        </discrete>
+      </conversion>
+    </mapping>
+    <mapping>
+      <source name="label" origin="customProperty" type="string"/>
+      <target name="labelText" type="string">
+        <hints/>
+      </target>
+      <conversion type="asIs"/>
+    </mapping>
+  </style>
+  <style name="Sesam_config2GraphML" scope="edge" selectionOnly="false">
+    <mapping>
+      <source name="type" origin="customProperty" type="string"/>
+      <target name="template" type="edgeTemplate">
+        <hints/>
+      </target>
+      <conversion type="discrete">
+        <discrete>
+          <value>hops</value>
+          <result>
+            <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:java="http://www.yworks.com/xml/yfiles-common/1.0/java" xmlns:sys="http://www.yworks.com/xml/yfiles-common/markup/primitives/2.0" xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
+                
+              <!--Created by yEd 3.24-->
+                
+              <key for="port" id="d0" yfiles.type="portgraphics"/>
+                
+              <key for="port" id="d1" yfiles.type="portgeometry"/>
+                
+              <key for="port" id="d2" yfiles.type="portuserdata"/>
+                
+              <key for="node" id="d3" yfiles.type="nodegraphics"/>
+                
+              <key for="graphml" id="d4" yfiles.type="resources"/>
+                
+              <key for="edge" id="d5" yfiles.type="edgegraphics"/>
+                
+              <graph edgedefault="directed" id="G">
+                    
+                <node id="n0">
+                        
+                  <data key="d3">
+                            
+                    <y:ShapeNode>
+                                
+                      <y:Geometry height="30.0" width="30.0" x="-15.0" y="-15.0"/>
+                                
+                      <y:Fill color="#CCCCFF" transparent="false"/>
+                                
+                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                                
+                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="13.0" y="13.0"/>
+                                
+                      <y:Shape type="rectangle"/>
+                              
+                    </y:ShapeNode>
+                          
+                  </data>
+                      
+                </node>
+                    
+                <node id="n1">
+                        
+                  <data key="d3">
+                            
+                    <y:ShapeNode>
+                                
+                      <y:Geometry height="30.0" width="30.0" x="-15.0" y="-15.0"/>
+                                
+                      <y:Fill color="#CCCCFF" transparent="false"/>
+                                
+                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                                
+                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="13.0" y="13.0"/>
+                                
+                      <y:Shape type="rectangle"/>
+                              
+                    </y:ShapeNode>
+                          
+                  </data>
+                      
+                </node>
+                    
+                <edge id="e0" source="n0" target="n1">
+                        
+                  <data key="d5">
+                            
+                    <y:PolyLineEdge>
+                                
+                      <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+                                    
+                        <y:Point x="25.0" y="40.0"/>
+                                    
+                        <y:Point x="25.0" y="10.0"/>
+                                  
+                      </y:Path>
+                                
+                      <y:LineStyle color="#000000" type="dashed" width="2.0"/>
+                                
+                      <y:Arrows source="none" target="standard"/>
+                                
+                      <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.344114303588867" horizontalTextPosition="center" iconTextGap="4" modelName="side_slider" preferredPlacement="right" ratio="0.0" textColor="#000000" verticalTextPosition="bottom" visible="true" width="94.66062927246094" x="-92.35410249233246" xml:space="preserve" y="6.890442848205566">supporting data<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" placement="anywhere" side="right" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+                                
+                      <y:BendStyle smoothed="false"/>
+                              
+                    </y:PolyLineEdge>
+                          
+                  </data>
+                      
+                </edge>
+                  
+              </graph>
+                
+              <data key="d4">
+                    
+                <y:Resources/>
+                  
+              </data>
+              
+            </graphml>
+          </result>
+        </discrete>
+        <discrete>
+          <value>main</value>
+          <result>
+            <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:java="http://www.yworks.com/xml/yfiles-common/1.0/java" xmlns:sys="http://www.yworks.com/xml/yfiles-common/markup/primitives/2.0" xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
+                
+              <!--Created by yEd 3.24-->
+                
+              <key for="port" id="d0" yfiles.type="portgraphics"/>
+                
+              <key for="port" id="d1" yfiles.type="portgeometry"/>
+                
+              <key for="port" id="d2" yfiles.type="portuserdata"/>
+                
+              <key for="node" id="d3" yfiles.type="nodegraphics"/>
+                
+              <key for="graphml" id="d4" yfiles.type="resources"/>
+                
+              <key for="edge" id="d5" yfiles.type="edgegraphics"/>
+                
+              <graph edgedefault="directed" id="G">
+                    
+                <node id="n0">
+                        
+                  <data key="d3">
+                            
+                    <y:ShapeNode>
+                                
+                      <y:Geometry height="30.0" width="30.0" x="-15.0" y="-15.0"/>
+                                
+                      <y:Fill color="#CCCCFF" transparent="false"/>
+                                
+                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                                
+                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="13.0" y="13.0"/>
+                                
+                      <y:Shape type="rectangle"/>
+                              
+                    </y:ShapeNode>
+                          
+                  </data>
+                      
+                </node>
+                    
+                <node id="n1">
+                        
+                  <data key="d3">
+                            
+                    <y:ShapeNode>
+                                
+                      <y:Geometry height="30.0" width="30.0" x="-15.0" y="-15.0"/>
+                                
+                      <y:Fill color="#CCCCFF" transparent="false"/>
+                                
+                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                                
+                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="13.0" y="13.0"/>
+                                
+                      <y:Shape type="rectangle"/>
+                              
+                    </y:ShapeNode>
+                          
+                  </data>
+                      
+                </node>
+                    
+                <edge id="e0" source="n0" target="n1">
+                        
+                  <data key="d5">
+                            
+                    <y:PolyLineEdge>
+                                
+                      <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+                                    
+                        <y:Point x="25.0" y="40.0"/>
+                                    
+                        <y:Point x="25.0" y="10.0"/>
+                                  
+                      </y:Path>
+                                
+                      <y:LineStyle color="#000000" type="line" width="2.0"/>
+                                
+                      <y:Arrows source="none" target="standard"/>
+                                
+                      <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.344114303588867" horizontalTextPosition="center" iconTextGap="4" modelName="side_slider" preferredPlacement="right" ratio="0.0" textColor="#000000" verticalTextPosition="bottom" visible="true" width="29.176162719726562" x="-26.869635939598083" xml:space="preserve" y="6.890442848205566">data<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" placement="anywhere" side="right" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+                                
+                      <y:BendStyle smoothed="false"/>
+                              
+                    </y:PolyLineEdge>
+                          
+                  </data>
+                      
+                </edge>
+                  
+              </graph>
+                
+              <data key="d4">
+                    
+                <y:Resources/>
+                  
+              </data>
+              
+            </graphml>
+          </result>
+        </discrete>
+        <discrete>
+          <value>transform</value>
+          <result>
+            <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:java="http://www.yworks.com/xml/yfiles-common/1.0/java" xmlns:sys="http://www.yworks.com/xml/yfiles-common/markup/primitives/2.0" xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
+                
+              <!--Created by yEd 3.24-->
+                
+              <key for="port" id="d0" yfiles.type="portgraphics"/>
+                
+              <key for="port" id="d1" yfiles.type="portgeometry"/>
+                
+              <key for="port" id="d2" yfiles.type="portuserdata"/>
+                
+              <key for="node" id="d3" yfiles.type="nodegraphics"/>
+                
+              <key for="graphml" id="d4" yfiles.type="resources"/>
+                
+              <key for="edge" id="d5" yfiles.type="edgegraphics"/>
+                
+              <graph edgedefault="directed" id="G">
+                    
+                <node id="n0">
+                        
+                  <data key="d3">
+                            
+                    <y:ShapeNode>
+                                
+                      <y:Geometry height="30.0" width="30.0" x="-15.0" y="-15.0"/>
+                                
+                      <y:Fill color="#CCCCFF" transparent="false"/>
+                                
+                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                                
+                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="13.0" y="13.0"/>
+                                
+                      <y:Shape type="rectangle"/>
+                              
+                    </y:ShapeNode>
+                          
+                  </data>
+                      
+                </node>
+                    
+                <node id="n1">
+                        
+                  <data key="d3">
+                            
+                    <y:ShapeNode>
+                                
+                      <y:Geometry height="30.0" width="30.0" x="-15.0" y="-15.0"/>
+                                
+                      <y:Fill color="#CCCCFF" transparent="false"/>
+                                
+                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                                
+                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="13.0" y="13.0"/>
+                                
+                      <y:Shape type="rectangle"/>
+                              
+                    </y:ShapeNode>
+                          
+                  </data>
+                      
+                </node>
+                    
+                <edge id="e0" source="n0" target="n1">
+                        
+                  <data key="d5">
+                            
+                    <y:PolyLineEdge>
+                                
+                      <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+                                    
+                        <y:Point x="25.0" y="40.0"/>
+                                    
+                        <y:Point x="25.0" y="10.0"/>
+                                  
+                      </y:Path>
+                                
+                      <y:LineStyle color="#000000" type="dashed" width="2.0"/>
+                                
+                      <y:Arrows source="standard" target="standard"/>
+                                
+                      <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.344114303588867" horizontalTextPosition="center" iconTextGap="4" modelName="side_slider" preferredPlacement="right" ratio="0.0" textColor="#000000" verticalTextPosition="bottom" visible="true" width="60.7484130859375" x="-58.44188630580902" xml:space="preserve" y="6.890442848205566">transform<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" placement="anywhere" side="right" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+                                
+                      <y:BendStyle smoothed="false"/>
+                              
+                    </y:PolyLineEdge>
+                          
+                  </data>
+                      
+                </edge>
+                  
+              </graph>
+                
+              <data key="d4">
+                    
+                <y:Resources/>
+                  
+              </data>
+              
+            </graphml>
+          </result>
+        </discrete>
+      </conversion>
+    </mapping>
+    <mapping>
+      <source name="type" origin="customProperty" type="string"/>
+      <target name="labelText" type="string">
+        <hints/>
+      </target>
+      <conversion type="asIs"/>
+    </mapping>
+  </style>
+</styles>
